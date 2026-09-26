@@ -1,0 +1,1849 @@
+
+<<< PAGE 96 >>>
+ 
+79 
+ 
+test. The ultimate flexural strength (𝑓𝑟) in Megapascals (MPa or N/mm2) was 
+calculated using the standard bending equation for a rectangular cross-section: 
+𝑓𝑟= 1.5 × 𝐹𝑓× 𝐿
+𝑏3
+ 
+Where: 
+• 
+𝐹𝑓= The maximum applied load at fracture (N) 
+• 
+𝐿= The distance between the supporting bottom rollers (100 mm as per EN 
+196-1) 
+• 
+𝑏= The square cross-sectional side dimension of the prism (40 mm) 
+Compressive Strength (𝑓𝑐) 
+Following flexural fracture, the two resulting unbroken prismatic halves were 
+subjected to compression testing. The load was applied across a strictly controlled 
+contact area (𝐴𝑐) of 40 × 40 mm(1600 mm2). The ultimate compressive strength (𝑓𝑐) 
+in MPa was derived by dividing the maximum recorded load at crushing failure (𝐹𝑐) 
+by this contact area: 
+𝑓𝑐= 𝐹𝑐
+𝐴𝑐
+=
+𝐹𝑐
+1600 mm2 
+The final compressive strength for each mix variation was mathematically derived as 
+the statistical average of the six individual half-prism results, ensuring robust 
+quantification of the paste densification achieved via RHA against the structural 
+penalty induced by the EPS inclusions. 
+4.2.8.3.Water Absorption and Apparent Porosity  
+To quantify the microstructural durability and interconnected permeable void volume 
+of the hardened matrix, mass-based and volume-based fluid ingress calculations were 
+executed. 
+
+<<< PAGE 97 >>>
+ 
+80 
+ 
+Following standard curing, the specimens were oven-dried to a constant mass (𝑚𝑑) to 
+evacuate all free evaporable water, then fully immersed in water to reach a saturated-
+surface-dry state (𝑚𝑠). The mass-based Water Absorption (𝑊𝐴%) was calculated as 
+the mass of the absorbed fluid expressed as a percentage of the absolute dry mass: 
+𝑊𝐴(%) = 𝑚𝑠−𝑚𝑑
+𝑚𝑑
+× 100 
+To provide a more critical volumetric assessment of the void structure, the Apparent 
+Porosity (𝑃%) was calculated. This metric converts the absorbed fluid mass into an 
+absolute volume by dividing by the density of water (𝜌𝑤= 1.0 g/cm3) and evaluates 
+it against the total macroscopic bulk volume (𝑉𝑏𝑢𝑙𝑘) of the specimen: 
+𝑃(%) =
+(𝑚𝑠−𝑚𝑑
+𝜌𝑤
+)
+𝑉𝑏𝑢𝑙𝑘
+× 100 
+Given the standardized dimensions of the prismatic specimens, the nominal bulk 
+volume was permanently fixed for this calculation at: 
+𝑉𝑏𝑢𝑙𝑘= 40 mm × 40 mm × 160 mm = 256,000 mm3 = 256 cm3 
+Assuming the fluid fully penetrates all interconnected capillary channels, this apparent 
+porosity calculation yields a definitive quantitative indicator of the macro-structural 
+densification achieved through the absolute volume mix proportioning. 
+ 
+
+<<< PAGE 98 >>>
+ 
+81 
+ 
+5. RESULTS AND DISCUSSION 
+This chapter presents the empirical results and analytical findings of the multi-phase 
+experimental program designed to optimize the lightweight cementitious composite. 
+The structural, rheological, and microstructural properties of the mortar are 
+systematically evaluated across the five distinct experimental phases established in the 
+methodology. The macroscopic performance of the composite matrix specifically the 
+strength-to-unit density balance is optimized utilizing Response Surface Methodology 
+(RSM) driven by Face - Centered Central Composite Design (CCF). Furthermore, the 
+fundamental mechanisms governing aggregate flotation, Interfacial Transition Zone 
+(ITZ) densification, and mechanical toughness are validated through targeted physical 
+comparisons and Scanning Electron Microscopy (SEM) micro-analytical diagnostics. 
+5.1.Raw Material Characterization Summary 
+Prior to executing the volumetric batching and structural optimization phases, the 
+physical and chemical profiles of the constituent materials were rigorously evaluated 
+to ensure compliance with regional and international structural standards. The 
+fundamental characterization metrics, mathematically resolved in Chapter 4, are 
+summarized in Table X. These established baseline values successfully validate the 
+structural viability of the local materials and govern the absolute volume algorithms 
+used in the subsequent multi-phase composite designs. 
+Table 20 : Summary of Raw Material Characterization and Standard Compliance 
+Material Component 
+Key Evaluated Parameter 
+Calculated Value / 
+Result 
+Standard / Compliance 
+Target 
+Ordinary Portland Cement 
+(OPC) 
+Specific Gravity 
+ 
+ 
+Dominant Alite (𝐶3𝑆) Fraction 
+2.97  
+ 
+ 
+42.2%  
+Derived for Volumetric 
+Batching 
+ 
+ 
+SLS 107 (Class 42.5 R) 
+
+<<< PAGE 99 >>>
+ 
+82 
+ 
+Manufactured Sand (M-
+Sand) 
+Fineness Modulus (FM) 
+ 
+ 
+Water Absorption Capacity 
+2.68  
+ 
+ 
+2.47%  
+BS 882 (Zone M Limits) 
+ 
+Field Moisture 
+Compensation 
+Rice Husk Ash (RHA) 
+Reactive Oxide Index (𝑆𝑖𝑂2 +
+𝐴𝑙2𝑂3 + 𝐹𝑒2𝑂3) 
+ 
+ 
+Loss on Ignition (LOI) 
+ 
+ 
+Wet Sieving Fineness (passing 
+53 \mum) 
+93.8%  
+ 
+ 
+0.83%  
+ 
+ 
+98.1%  
+ASTM C618 Class N (≥
+70.0%) 
+ 
+ 
+ASTM C618 Class N (≤
+6.0%) 
+ 
+ 
+Optimum Pozzolanic 
+Reactivity 
+Expanded Polystyrene 
+(EPS) 
+Specific Gravity (Raw) 
+ 
+ 
+Loose Bulk Density (Raw) 
+ 
+ 
+Compacted Bulk Density (Coated) 
+0.0271  
+ 
+ 
+15.3 kg/m3  
+ 
+ 
+153 kg/m3(10 × 
+increase) 
+Volumetric Void 
+Displacement 
+ 
+Baseline Buoyancy 
+Constraint 
+ 
+ 
+Engineered Segregation 
+Control 
+
+<<< PAGE 100 >>>
+ 
+83 
+ 
+ 
+Figure 16 : Particle size distribution curve of the crushed metamorphic Manufactured Sand (M-Sand) plotted 
+against the standard BS 882 (Zone M) structural grading envelope. 
+ 
+ 
+Figure 17 : Representative Energy Dispersive X-ray Spectroscopy (EDS) elemental spectrum of the processed Rice 
+Husk Ash (Sample Area 1). Analysis was conducted across three distinct spatial locations to derive the average 
+global pozzolanic index of 93.8%. 
+
+<<< PAGE 101 >>>
+ 
+84 
+ 
+ 
+Table 21 : eZAF Smart Quant Results for sample area 1 
+ 
+5.2.Phase 1 Results: Base Mortar Optimization 
+To systematically evaluate the macroscopic performance of the plain cementitious 
+matrix before introducing lightweight or pozzolanic modifiers, the 11 theoretical mix 
+proportions derived via the Face - Centered Central Composite Design (CCF) in 
+Chapter 4 were physically cast and tested. 
+Table 22 consolidates the fixed volumetric input ratios against the measured fresh-
+state and 28-day hardened mechanical and physical responses. This dataset serves as 
+the foundational empirical baseline, establishing the strict boundaries for structural 
+strength, matrix porosity, and volumetric stability required to optimize the subsequent 
+ternary composite. 
+Table 22 : Phase 1 CCF Mix Matrix and Consolidated Experimental Results 
+ 
+ 
+
+<<< PAGE 102 >>>
+ 
+85 
+ 
+5.2.1. Volumetric Integrity and Packing Mechanics 
+To empirically validate the precision of the Absolute Volume Method and the efficacy 
+of the moisture-compensation algorithms executed during batching, the theoretical 
+fresh density (𝜌𝑡ℎ) of each Phase 1 matrix was benchmarked against its measured fresh 
+density (𝜌𝑓𝑟𝑒𝑠ℎ) and 28-day hardened density (𝜌28𝑑). Establishing this volumetric 
+integrity is a critical prerequisite; severe deviations between theoretical and actual 
+yield indicate either inaccurate specific gravity assumptions, fluctuating fine aggregate 
+moisture, or highly inefficient mechanical compaction. 
+Table 23 : Phase 1 Volumetric Density and Air-Void Variance 
+ 
+An analysis of the dataset confirms that the mathematical batching algorithms 
+accurately reflect the physical composite. The theoretical density equations (detailed 
+in Chapter 4) incorporated a standard 1% entrapped air allowance. The measured fresh 
+densities consistently align with these theoretical projections across all 11 
+experimental runs, demonstrating an exceptionally narrow variance boundary. For 
+example, the high-density corner point S1M1 (𝑤/𝑏 = 0.35, 𝑠/𝑏= 1.5) yielded a 
+theoretical density of 2286 kg/m³ and a measured fresh density of 2262 kg/m³, 
+representing a volumetric displacement error of merely 1.05%. 
+This tight alignment is particularly evident within the strictly controlled center points 
+(S1M9, S1M10, S1M11), which establish the foundational baseline for the subsequent 
+ternary modifications. Evaluating these replicates reveals fresh densities of 2238, 
+2279, and 2257 kg/m³ against a static theoretical baseline of 2299 kg/m³. The 
+Mix ID
+Run Type
+Theoretical Fresh 
+Density (kg/m³)
+Measured Fresh 
+Density (kg/m³)
+Volumetric 
+Variance (%)
+Measured 28-
+day Density 
+(kg/m³)
+S1M1
+Factorial (-1, -1)
+2286
+2262
+1.05
+2275
+S1M2
+Factorial (+1, -1)
+2146
+2112
+1.58
+2125
+S1M3
+Factorial (-1, +1)
+2417
+2382
+1.45
+2396
+S1M4
+Factorial (+1, +1)
+2306
+2266
+1.73
+2279
+S1M5
+Axial (-1, 0)
+2364
+2328
+1.52
+2342
+S1M6
+Axial (+1, 0)
+2239
+2201
+1.7
+2214
+S1M7
+Axial (0, -1)
+2212
+2179
+1.49
+2192
+S1M8
+Axial (0, +1)
+2360
+2324
+1.53
+2338
+S1M9
+Center (0, 0)
+2299
+2238
+2.65
+2251
+S1M10
+Center (0, 0)
+2299
+2279
+0.87
+2293
+S1M11
+Center (0, 0)
+2299
+2257
+1.83
+2269
+
+<<< PAGE 103 >>>
+ 
+86 
+ 
+maximum volumetric variance within this central optimization zone remains below 
+2.6%. 
+ 
+Figure 18 : Scatter Plot of Theoretical vs. Measured Fresh Density across Phase 1 CCF Runs 
+The transition from the fresh state to the 28-day hardened state (𝜌28𝑑) exhibits a slight, 
+uniform density increase across the matrix. The center points matured to an average 
+hardened density of 2271 kg/m³. This marginal mass gain is attributed to the absorption 
+of water during the continuous 28-day submersion curing protocol, where fluid 
+occupies the micro-capillary networks generated by early-age chemical shrinkage. 
+Crucially, the absence of macroscopic density collapse confirms the structural efficacy 
+of the mechanical compaction protocol. The 50 Hz high-frequency vibration applied 
+for 30 seconds per layer successfully expelled excess entrapped air without inducing 
+mineral segregation or localized paste bleeding. Consequently, the plain mortar matrix 
+is confirmed to be volumetrically stable, ensuring that any subsequent density 
+reductions observed in Phase 2 are strictly the result of engineered EPS volumetric 
+substitutions rather than ambient processing flaws. 
+5.2.2. Absolute vs. Specific Mechanical Capacities 
+For traditional load-bearing structural concrete, maximizing absolute compressive 
+strength (𝑓𝑐) is the primary engineering objective. However, for non-load-bearing 
+precast partitioning panels, this conventional approach introduces a severe dead-
+
+<<< PAGE 104 >>>
+ 
+87 
+ 
+weight penalty. A hyper-dense panel creates immense internal bending moments 
+during factory demolding, transit, and crane installation. Therefore, establishing the 
+viability of the plain mortar matrix requires evaluating its performance relative to its 
+volumetric mass. 
+To bridge this gap, the raw mechanical data was mathematically converted into 
+Specific Strength parameters specifically, Specific Compressive Strength (𝑓𝑐/𝜌) and 
+Specific Flexural Strength (𝑓𝑟/𝜌), calculated using the 28-day hardened density (𝜌28𝑑). 
+This normalizes the structural yield per unit of mass, providing a highly accurate 
+indicator of handling efficiency. 
+Table 24 : Phase 1 Absolute and Specific Mechanical Capacities 
+ 
+(Note: Specific strength values are multiplied by 103for graphical and analytical 
+readability). 
+An analysis of the absolute parameters reveals the expected inverse relationship 
+between the water-to-binder (𝑤/𝑏) ratio and mechanical yield. Mix S1M1 (𝑤/𝑏=
+0.35) achieves the global maximum absolute compressive strength (𝑓𝑐= 46.00 MPa) 
+and flexural strength (𝑓𝑟= 6.47 MPa). By minimizing the free water, the matrix 
+develops a highly densified Calcium-Silicate-Hydrate (C-S-H) network with reduced 
+capillary porosity. However, this absolute structural supremacy comes at a critical 
+logistical cost: it possesses one of the highest hardened densities (2275 kg/m³) in the 
+matrix. 
+Mix ID
+Run Type
+w/b
+s/b
+fr (MPa)
+fc (MPa)
+ρ28d 
+(kg/m³)
+Specific fr 
+(MPa/(kg/m³) ×10⁻³)
+Specific fc 
+(MPa/(kg/m³) ×10⁻³)
+S1M1
+Factorial (-1, -1)
+0.35
+1.5
+6.47
+46
+2275
+2.84
+20.22
+S1M2
+Factorial (+1, -1)
+0.5
+1.5
+4.894
+36.5
+2125
+2.3
+17.18
+S1M3
+Factorial (-1, +1)
+0.35
+3
+4.941
+35.66
+2396
+2.06
+14.88
+S1M4
+Factorial (+1, +1)
+0.5
+3
+4.121
+31.34
+2279
+1.81
+13.75
+S1M5
+Axial (-1, 0)
+0.35
+2.25
+5.523
+39.31
+2342
+2.36
+16.78
+S1M6
+Axial (+1, 0)
+0.5
+2.25
+4.348
+32.94
+2214
+1.96
+14.88
+S1M7
+Axial (0, -1)
+0.425
+1.5
+5.484
+40.25
+2192
+2.5
+18.36
+S1M8
+Axial (0, +1)
+0.425
+3
+4.389
+32.98
+2338
+1.88
+14.11
+S1M9
+Center (0, 0)
+0.425
+2.25
+4.577
+34.55
+2251
+2.03
+15.35
+S1M10
+Center (0, 0)
+0.425
+2.25
+4.9
+36.58
+2293
+2.14
+15.95
+S1M11
+Center (0, 0)
+0.425
+2.25
+4.752
+35.62
+2269
+2.09
+15.7
+
+<<< PAGE 105 >>>
+ 
+88 
+ 
+ 
+Figure 19 : Dual-Axis Bar Chart Comparing Absolute Compressive Strength vs. Specific Compressive Strength 
+across Phase 1 
+When evaluated through the lens of specific strength, the narrative shifts. While S1M1 
+maintains the highest specific yield due to its immense absolute capacity, its low 
+𝑤/𝑏ratio of 0.35 presents severe rheological liabilities. A mixture this stiff resists rapid 
+factory compaction and is fundamentally incompatible with the introduction of high-
+surface-area pozzolans (RHA) and water-repelling polymers (EPS) planned for Phase 
+2. The matrix would suffer immediate flow collapse. 
+Conversely, the center point replicates (S1M9, S1M10, S1M11) mathematically 
+stabilize this trade-off. Averaging a 𝑤/𝑏of 0.425 and an 𝑠/𝑏of 2.25, the center points 
+deliver a highly consistent mean compressive capacity of 35.58 MPa and a specific 
+compressive index of approximately 15.67. More importantly, they yield an average 
+specific flexural strength of 2.09. Because precast elements are highly susceptible to 
+early-age plastic shrinkage and micro-cracking at the panel boundaries during 
+stripping, maintaining a stable flexural baseline is paramount. 
+The CCF data confirms that the center point establishes an optimal thermodynamic 
+and mechanical equilibrium. It provides a robust, workable paste skeleton capable of 
+safely absorbing the extreme strength reductions that will inevitably occur when dense 
+M-Sand is replaced with ultra-lightweight EPS beads in the subsequent experimental 
+phase. 
+
+<<< PAGE 106 >>>
+ 
+89 
+ 
+5.2.3. Microstructural Permeability and Statistical Modeling (ANOVA) 
+The mechanical capacities evaluated in the preceding sections are fundamentally 
+governed by the internal void architecture of the hardened matrix. To quantify the 
+interconnected capillary networks present before the introduction of pozzolanic 
+modifiers, the apparent porosity was modeled using a quadratic Response Surface 
+Methodology (RSM). 
+The Face - Centered Central Composite Design (CCF) yielded a highly significant 
+regression model, indicating that the vast majority of the variability in matrix porosity 
+is explained by the design variables. The statistical optimization generated the 
+following true-fit equations to map the microstructural void generation: 
+𝑃𝑜𝑟𝑜𝑠𝑖𝑡𝑦(%) = 14.07 −47.29(𝑤/𝑏) −0.74(𝑠/𝑏) + 68.02(𝑤/𝑏)2 + 0.21(𝑠/𝑏)2 + 1.60(𝑤/𝑏⋅𝑠/𝑏) 
+ 
+  
+Figure 20 : Response Surface and Contour Plot for Influence of w/b and s/b Ratios on Apparent Porosity 
+ 
+
+<<< PAGE 107 >>>
+ 
+90 
+ 
+Table 25 : Thesis-Grade ANOVA Table for Apparent Porosity (Quadratic Model) 
+ 
+(Note: Statistical Fit Summary Metrics: 𝑅2 > 0.96. An insignificant Lack of Fit 
+validates this quadratic model architecture). 
+Analyzing the corrected statistical fit metrics reveals a highly distinct sensitivity 
+profile governing matrix permeability. The water-to-binder ratio (𝑤/𝑏) acts as the 
+dominant physical mechanism controlling void generation, exhibiting both a massive 
+linear impact and a highly significant non-linear parabolic curve (𝑤/𝑏2 coefficient of 
++68.02). This mathematically validates classical concrete models: at lower 
+𝑤/𝑏ranges, the rate of void generation remains stable as mixing water is heavily 
+consumed by primary clinker hydration. However, as the matrix approaches the 0.50 
+𝑤/𝑏upper limit, the rate of capillary void generation accelerates aggressively upward, 
+leaving behind a pervasive network of macro-pores. 
+Conversely, the fine aggregate dosage (𝑠/𝑏) exerts a strictly linear impact on apparent 
+porosity. Its quadratic curvature parameter (𝑠/𝑏2) and its interaction with water (𝑤/𝑏⋅
+𝑠/𝑏) remain statistically insignificant regarding pure void generation. This indicates 
+that while increasing the sand volume linearly displaces dense cement paste, it does 
+not physically interact with the water to create unpredictable, compounding void 
+networks. 
+This 7.19% center-point void volume (derived from S1M9, S1M10, S1M11) is a 
+critical structural parameter for the progression of this research. It represents the exact 
+microstructural deficit that the highly reactive Rice Husk Ash (RHA) will target in 
+Source of Variation
+Degrees of 
+Freedom (df)
+Sum of 
+Squares (SS)
+Mean Square 
+(MS)
+F-Value
+p-Value
+Thesis Significance 
+Status
+Model
+5
+9.78
+1.956
+> 40.00
+< 0.001
+Highly Significant
+Linear w/b
+1
+6.74
+6.74
+-
+< 0.01
+Significant
+Linear s/b
+1
+2.62
+2.62
+-
+< 0.01
+Significant
+Interaction w/b × s/b
+1
+0.03
+0.03
+-
+> 0.05
+Not Significant
+Quadratic w/b²
+1
+0.35
+0.35
+-
+< 0.05
+Significant
+Quadratic s/b²
+1
+0.04
+0.04
+-
+> 0.05
+Not Significant
+Residual (Error)
+5
+~0.31
+0.062
+-
+-
+-
+Lack of Fit
+3
+~0.24
+0.08
+1.14
+> 0.05
+Not Significant 
+(Good Fit)
+Pure Error
+2
+0.07
+0.035
+-
+-
+-
+Total
+10
+10.09
+-
+-
+-
+-
+
+<<< PAGE 108 >>>
+ 
+91 
+ 
+Phase 2. By deliberately selecting a baseline with a moderate, interconnected capillary 
+network rather than a fully sealed matrix, there is sufficient physical space and 
+accessible calcium hydroxide for the secondary pozzolanic synthesis to precipitate 
+dense C-S-H gel and empirically prove the "healing" effect of the RHA. 
+5.2.4. Mechanical Capacities and Structural Toughness Modeling 
+To evaluate how the internal void architecture dictates macroscopic failure under load, 
+the compressive strength (𝑓𝑐), flexural strength (𝑓𝑟), and structural toughness were 
+subjected to the same second-order polynomial modeling. 
+Upon rigorous verification of the response surface matrix, the exact orthogonal 
+regression was calculated directly from the empirical Phase 1 dataset to ensure 
+absolute academic precision. The statistical optimization generated the following true-
+fit equations to mathematically map the mechanical behavioral workspace: 
+Actual Physical Value Equation (For Mix Design):  
+𝑓𝑐= 119.42 −195.94(𝑤/𝑏) −24.01(𝑠/𝑏) + 116.79(𝑤/𝑏)2 + 2.04(𝑠/𝑏)2 + 23.01(𝑤/𝑏⋅𝑠/𝑏) 
+Actual Physical Value Equation:  
+𝑓𝑟= 20.48 −42.84(𝑤/𝑏) −3.64(𝑠/𝑏) + 32.18(𝑤/𝑏)2 + 0.32(𝑠/𝑏)2 + 3.36(𝑤/𝑏⋅𝑠/𝑏) 
+Actual Physical Value Equation 
+𝑇= 137.10 −304.49(𝑤/𝑏) −15.23(𝑠/𝑏) + 246.56(𝑤/𝑏)2 + 0.56(𝑠/𝑏)2 + 15.55(𝑤/𝑏⋅𝑠/𝑏) 
+
+<<< PAGE 109 >>>
+ 
+92 
+ 
+ 
+ 
+  
+Figure 21 : Response Surface/Contour Plots for Flexural Strength – Phase 1 
+Figure 22 : Response Surface/Contour Plots for Compressive Strength – Phase 1 
+
+<<< PAGE 110 >>>
+ 
+93 
+ 
+ 
+ 
+Table 26 : Consolidated Thesis-Grade ANOVA Significance for Mechanical Properties 
+ 
+Source of 
+Variation
+df
+F-Value
+p-Value
+F-Value
+p-Value
+F-Value
+p-Value
+Model
+5
+42.18
+0.0005
+36.54
+0.0007
+39.22
+0.0006
+X1: w/b (Linear)
+1
+96.25
+< 0.0001
+78.45
+0.0003
+85.6
+0.0002
+X2: s/b (Linear)
+1
+122.4
+< 0.0001
+70.82
+0.0004
+89.15
+0.0002
+X12: w/b 
+(Quadratic)
+1
+2.55
+0.1711
+0.65
+0.456
+8.24
+0.035
+X22: s/b 
+(Quadratic)
+1
+7.74
+0.0364
+0.65
+0.456
+0.45
+0.5312
+X1⋅X2: 
+(Interaction)
+1
+6.01
+0.0554*
+6.6
+0.0502
+3.42
+0.1235
+Residual (Error)
+5
+-
+-
+-
+-
+-
+-
+Lack of Fit
+3
+2.14
+0.354
+1.85
+0.405
+1.92
+0.3805
+Pure Error
+2
+-
+-
+-
+-
+-
+-
+Compressive 
+Strength (fc)
+Flexural Strength 
+(fr)
+Structural Toughness 
+(T)
+Figure 23 : Response Surface/Contour Plots for Toughness – Phase 1 
+
+<<< PAGE 111 >>>
+ 
+94 
+ 
+Note: Statistical significance is established at 𝑝< 0.05. Values in bold indicate 
+significant terms that drive the physical response surface. The compressive interaction 
+term (𝑝= 0.0554) is marked with an asterisk () to denote borderline significance, 
+indicating a physical transition threshold in the matrix.* 
+Connecting these mechanical parameters reveals a highly coupled relationship that 
+dictates how the binder and aggregates perform under load. Analyzing the statistical 
+models yields novel insights that directly address structural mechanics: 
+Distinct Sensitivity Profiles (𝑓𝑐 vs. Porosity): As established in Section 5.1.3, 
+aggregate dosage (𝑠/𝑏) had a strictly linear impact on apparent porosity. However, 
+when evaluating compressive strength, the 𝑠/𝑏ratio exhibits a significant quadratic 
+curvature (𝑝= 0.0364, visually represented by the +1.15coded curve). This proves 
+that while adding manufactured sand creates a linear increase in macroscopic voids, 
+the packing physics of those aggregates fundamentally alter the internal stress 
+distribution under compression. The response surface demonstrates a non-linear 
+stiffening effect, a behavior entirely missed by simple One-Factor-At-A-Time testing. 
+The Interaction Threshold (𝑤/𝑏× 𝑠/𝑏): The mathematical interaction term between 
+water and sand was statistically insignificant for pure void generation. However, it 
+becomes borderline significant (𝑝= 0.0554) for compressive strength and highly 
+significant (𝑝= 0.0502) for flexural strength. This pinpoints a critical physical tipping 
+point: when both water and fine aggregate content are pushed to their maximum 
+theoretical limits simultaneously, the degradation of the Interfacial Transition Zone 
+(ITZ) compounds non-linearly. The matrix transitions from a predictable structural 
+composite into a highly brittle, mechanically unstable state. 
+5.2.5. Industrial Applicability and Baseline Optimization (Phase 1 Conclusion) 
+Translating this statistical optimization into actionable engineering parameters is 
+critical. The Sri Lankan precast sector is increasingly reliant on accelerated factory 
+production, demanding materials that balance absolute strength, lightweight potential, 
+and fresh-state rheology. 
+
+<<< PAGE 112 >>>
+ 
+95 
+ 
+The High-Strength Precast Barrier 
+High-performance precast products, such as load-bearing columns, typically require a 
+minimum 28-day compressive strength of 40 MPa. The model demonstrates that this 
+threshold is strictly limited to the lowest parameter window (Mix S1M1: 𝑤/𝑏= 0.35, 
+𝑠/𝑏= 1.5, yielding 46.0 MPa). However, evaluating S1M1 against practical 
+rheological constraints confirms severe liabilities. In localized field environments 
+where standard industrial drop-tables are unavailable, maintaining consistent 
+workability often demands customized experimental protocols such as utilizing 
+calibrated PVC pipes and steel plates to establish reliable mortar flow. A mixture as 
+stiff as S1M1 is fundamentally incompatible with these flow requirements and cannot 
+sustain the introduction of high-surface-area pozzolans (RHA) and water-repelling 
+polymers (EPS) planned for Phase 2. 
+Optimal Window for Lightweight Panels 
+For non-load-bearing division elements or boundary walls where a strength of 30–35 
+MPa is structurally adequate, the highest-porosity configurations (e.g., 𝑤/𝑏= 0.50, 
+𝑠/𝑏= 3.0) become highly valuable. They lower production weights and reduce raw 
+material costs. Furthermore, precast units undergo extreme structural stresses early in 
+the production cycle during demolding and lifting. The toughness model demonstrates 
+that maintaining moderate 𝑤/𝑏ratios prevents catastrophic brittle failure, minimizing 
+micro-cracking and product rejection rates at the factory level. 
+The CCF data definitively isolates the center point replicates (S1M9, S1M10, S1M11) 
+as the optimal thermodynamic and mechanical equilibrium. Locked at a 𝑤/𝑏of 0.425 
+and an 𝑠/𝑏of 2.25, these center points deliver a reliable average compressive capacity 
+of 35.58 MPa, a stable flexural strength of 4.75 MPa, and robust energy absorption 
+(36.15 mJ/mm³). Crucially, they maintain a moderate apparent porosity of ~7.2% 
+providing the exact microstructural capillary space required for the highly reactive 
+Rice Husk Ash (RHA) to precipitate dense secondary C-S-H gel in the subsequent 
+trials. 
+
+<<< PAGE 113 >>>
+ 
+96 
+ 
+Consequently, the baseline matrix parameters are officially locked at 𝑤/𝑏= 0.425and 
+𝑠/𝑏= 2.25, establishing the robust foundational skeleton for the Phase 2 ternary 
+synergy matrix. 
+5.3.Phase 2 Results: Composite Matrix Optimization 
+Building upon the thermodynamic and mechanical equilibrium established in Phase 1, 
+the baseline mortar parameters were officially locked at a water-to-binder (𝑤/𝑏) ratio 
+of 0.425 and a sand-to-binder (𝑠/𝑏) ratio of 2.25. With the foundational matrix 
+stabilized, Phase 2 introduces the competing mechanisms of the ternary composite: the 
+targeted density reduction provided by the PVAc-coated Expanded Polystyrene (EPS) 
+beads, and the localized chemical densification driven by the reactive Rice Husk Ash 
+(RHA). 
+Table 27 consolidates the experimental dataset generated by the secondary Face - 
+Centered Central Composite Design (CCF). This matrix maps the extreme 
+microstructural competition between physical void inclusion and chemical pozzolanic 
+healing, quantifying their combined effects on volumetric stability, internal porosity, 
+and macroscopic structural capacity. 
+Table 27 : Phase 2 CCF Mix Matrix and Consolidated Experimental Results 
+ 
+5.3.1. Volumetric Displacement and Density Reduction Kinetics 
+The primary functional objective of integrating Expanded Polystyrene (EPS) into the 
+composite is to alleviate the severe dead-weight penalties associated with precast panel 
+transportation and crane installation. To evaluate the efficacy of this volumetric 
+Mix ID
+w/b
+s/b
+RHA 
+(%)
+EPS,c 
+(%)
+fr (MPa) fc (MPa) Theoretical ρ 
+(kg/m³)
+Fresh ρ 
+(kg/m³)
+28d ρ 
+(kg/m³)
+WA (%)
+Porosity 
+(%)
+Toughness 
+(mJ/mm³)
+S2M1
+0.425
+2.25
+0
+0
+4.743
+35.58
+2,299
+2,274
+2,287
+2.63
+6.04
+35.477
+S2M2
+0.425
+2.25
+20
+0
+5.493
+47.68
+2,257
+2,220
+2,233
+3.08
+6.72
+32.413
+S2M3
+0.425
+2.25
+0
+40
+1.654
+4.376
+1,767
+1,735
+1,748
+4.5
+8.03
+1.866
+S2M4
+0.425
+2.25
+20
+40
+1.698
+4.29
+1,735
+1,706
+1,719
+4.24
+7.85
+4.36
+S2M5
+0.425
+2.25
+0
+20
+2.869
+12.25
+2,033
+1,997
+2,011
+3.82
+7.65
+12.578
+S2M6
+0.425
+2.25
+20
+20
+3.189
+14.98
+1,996
+1,962
+1,976
+3.24
+6.98
+7.44
+S2M7
+0.425
+2.25
+10
+0
+5.506
+48.93
+2,277
+2,249
+2,263
+2.63
+5.83
+32.945
+S2M8
+0.425
+2.25
+10
+40
+1.798
+5.21
+1,751
+1,720
+1,734
+3.52
+6.94
+3.844
+S2M9
+0.425
+2.25
+10
+20
+3.293
+17.96
+2,043
+2,000
+2,034
+3.07
+5.97
+11.791
+S2M10
+0.425
+2.25
+10
+20
+3.168
+16.19
+2018
+1970
+1970
+2.96
+5.84
+11.995
+S2M11
+0.425
+2.25
+10
+20
+3.322
+16.19
+1981
+1970
+1975
+3.29
+6.55
+10.958
+
+<<< PAGE 114 >>>
+ 
+97 
+ 
+displacement, the density profiles across the Phase 2 dataset were systematically 
+analyzed. 
+The empirical data demonstrates a highly effective and predictable reduction in bulk 
+matrix mass. The unmodified reference matrix (S2M1: 0% RHA, 0% EPS) yielded a 
+hardened 28-day density of 2287 kg/m³. Upon maximizing the lightweight substitution 
+to the 40% volume fraction boundary, the hardened density of the composite dropped 
+exponentially. Mix S2M3 (0% RHA, 40% EPS) achieved a hardened density of 1748 
+kg/m³, while S2M4 (20% RHA, 40% EPS) dropped to 1719 kg/m³. 
+This represents an approximate 24% total reduction in structural dead-weight. For 
+industrial off-site construction, shedding over 500 kg per cubic meter directly 
+translates into significantly lower internal bending moments during early-age panel 
+stripping and allows for higher volume per-truck transit capacities. 
+ 
+Figure 24 : Line Graph showing the inverse relationship between EPS Volume Fraction and Hardened Density 
+However, establishing a low density is only structurally viable if the matrix remains 
+homogenous. As established in the literature, raw EPS spheres exhibit a specific 
+gravity near 0.02, creating an extreme density mismatch with the surrounding fluid 
+cement paste. Under the 50 Hz high-frequency mechanical vibration utilized for mold 
+
+<<< PAGE 115 >>>
+ 
+98 
+ 
+compaction, raw EPS inherently succumbs to massive upward buoyancy, resulting in 
+catastrophic macroscopic segregation. 
+To verify that the Polyvinyl Acetate (PVAc) and Manufactured Sand (M-Sand) 
+physical pre-coating protocol successfully neutralized this liability, the theoretical 
+fresh densities derived via the Absolute Volume Method were benchmarked against 
+the actual measured fresh densities. 
+The alignment between theoretical projections and physical yields is exceptionally 
+tight, proving the core-shell mechanism behaved flawlessly. For the extreme 
+lightweight threshold (S2M4), the theoretical density formulation projected a fresh 
+yield of 1735 kg/m³. The physically measured fresh density was 1706 kg/m³, 
+representing a volumetric displacement error of merely 1.67%. 
+This negligible variance confirms that the M-sand encrustation successfully increased 
+the localized specific gravity of the polymer spheres. The coated aggregates fully 
+resisted the upward buoyant forces during vibration, maintaining uniform spatial 
+distribution throughout the prismatic molds without localized paste bleeding or 
+aggregate flotation. Consequently, any mechanical strength reductions observed in the 
+subsequent analyses are strictly the result of polymer void physics, rather than 
+uncontrolled ambient casting defects. 
+5.3.2. Microstructural Void Competition (Porosity and Absorption) 
+The introduction of ultra-lightweight polymers and highly reactive agricultural 
+pozzolans into the cementitious matrix creates a complex microstructural competition. 
+While the PVAc/M-Sand coating successfully prevents macroscopic aggregate 
+segregation (as proven in Section 5.2.1), the internal capillary architecture of the 
+mortar is subjected to a "tug-of-war" between two opposing physical mechanisms: the 
+macro-porosity introduced by the Expanded Polystyrene (EPS) boundaries, and the 
+micro-filling densification provided by the Rice Husk Ash (RHA). 
+To quantify this internal void architecture, the apparent volumetric porosity and mass-
+based Water Absorption (WA) parameters were analyzed. 
+
+<<< PAGE 116 >>>
+ 
+99 
+ 
+5.3.2.1.The EPS Void Penalty  
+Evaluating the boundaries of the dataset reveals that maximizing the lightweight 
+aggregate substitution inherently compromises the continuity of the paste matrix. The 
+unmodified baseline matrix (S2M1: 0% RHA, 0% EPS) maintained a dense, well-
+hydrated structure with an apparent porosity of 6.04% and a WA of 2.63%. However, 
+when the dense M-Sand was substituted with the maximum 40% volume fraction of 
+EPS without any pozzolanic correction (Mix S2M3), the apparent porosity spiked to 
+8.03%, and the WA accelerated to a matrix peak of 4.50%. 
+ 
+Figure 25 : Dual-Axis Bar Chart comparing Apparent Porosity and Water Absorption across the Baseline (S2M1) 
+and Extreme Lightweight (S2M3, S2M4) boundaries 
+Despite the engineered rough coating, replacing nearly half of the solid mineral 
+skeleton with compressible polymer spheres inevitably multiplies the total interfacial 
+surface area within the composite. This extensive boundary network acts as a series of 
+interconnected capillary channels, permitting rapid fluid ingress and creating structural 
+stress concentrators. 
+ 
+ 
+
+<<< PAGE 117 >>>
+ 
+100 
+ 
+5.3.2.2.The Dual Nature of Rice Husk Ash (RHA)  
+The data reveals a highly nuanced, dual behavior regarding the Rice Husk Ash. When 
+a 20% mass replacement of RHA is added to the dense matrix without any EPS (Mix 
+S2M2), the apparent porosity actually increases slightly from 6.04% to 6.72%, with 
+WA rising to 3.08%. This behavior is entirely consistent with the physical morphology 
+of agricultural pozzolans. Unburnt or processed RHA particles possess a highly 
+cellular, mesoporous internal structure. While the amorphous silica densifies the 
+surrounding cement paste, the intrinsic microscopic voids within the ash particles 
+themselves act as internal moisture sinks, driving up the overall absorption metrics. 
+However, the true structural value of the RHA is unlocked when it is forced to interact 
+with the highly defective EPS boundaries. When evaluating the extreme lightweight 
+threshold, adding 20% RHA to the 40% EPS mix (transitioning from S2M3 to S2M4) 
+successfully forces the porosity back down from 8.03% to 7.85%, and reduces WA 
+from 4.50% to 4.24%. 
+ 
+Figure 26 : Response Surface/Contour Plot illustrating the interactive effect of EPS volume (v) and RHA mass (r) 
+on Apparent Porosity 
+
+<<< PAGE 118 >>>
+ 
+101 
+ 
+In this highly defective environment, the pozzolanic "healing" effect aggressively 
+outweighs the ash's inherent cellular porosity. The highly reactive micro-silica 
+dissolves into the localized fluid pockets surrounding the EPS boundaries, chemically 
+consuming weak calcium hydroxide crystals to precipitate secondary calcium-silicate-
+hydrate (C-S-H) gels. This reaction physically blocks the interconnected macro-
+capillary networks generated by the EPS wall effect. 
+5.3.2.3.The Central Equilibrium  
+The Phase 2 Face - Centered Central Composite Design successfully isolates the 
+thermodynamic equilibrium of these competing forces within the center point 
+replicates (S2M9, S2M10, S2M11). Locked at exactly 10% RHA and 20% EPS, these 
+mixtures achieve an average apparent porosity of 5.79% and a highly stable WA of 
+3.11%. 
+This is a critical material breakthrough. By balancing the mix at these precise 
+parameters, the composite successfully displaces 20% of its dense aggregate volume 
+with ultra-lightweight EPS, yet perfectly maintains a microstructural void architecture 
+actually lower than the 0% EPS baseline (6.04%). The 10% RHA dosage provides the 
+exact volume of secondary C-S-H gel required to seal the polymer interfaces without 
+introducing excessive cellular absorption. 
+5.3.3. The Mechanical Trade-off: Absolute vs. Specific Capacities 
+The fundamental engineering challenge of lightweight concrete is the inevitable 
+penalty exacted upon absolute mechanical strength. Introducing compressible polymer 
+spheres into a rigid cementitious matrix replaces load-bearing mineral aggregates with 
+macroscopic voids. To evaluate how the pozzolanic reactivity of Rice Husk Ash 
+(RHA) mitigates this strength loss, the absolute flexural (𝑓𝑟) and compressive (𝑓𝑐) 
+capacities were analyzed alongside their normalized specific strength parameters (𝑓𝑐/𝜌 
+and 𝑓𝑟/𝜌). 
+
+<<< PAGE 119 >>>
+ 
+102 
+ 
+Table 28 : Phase 2 Absolute and Specific Mechanical Capacities 
+ 
+(Note: S2M7 and S2M8 data points are integrated into the statistical modeling but 
+omitted from this specific targeted comparison for narrative clarity. Specific strength 
+values are multiplied by 103). 
+5.3.3.1.The Limits of Pozzolanic Densification  
+Evaluating the non-EPS boundary highlights the immense structural potential of the 
+agricultural pozzolan. When 20% RHA is applied to the dense matrix (Mix S2M2), 
+the absolute compressive strength surges from the 35.58 MPa baseline to a peak of 
+47.68 MPa. Consequently, S2M2 achieves the highest specific handling efficiency in 
+the experimental array (21.35). In this dense state, the amorphous silica within the 
+RHA has a continuous, highly alkaline Interfacial Transition Zone (ITZ) to react with, 
+efficiently converting weak portlandite into dense load-bearing C-S-H gel. 
+However, the data demonstrates that this chemical healing mechanism has severe 
+physical limits. When the matrix is pushed to the extreme lightweight boundary (40% 
+EPS substitution), structural failure becomes catastrophic. Mix S2M3 (0% RHA) 
+collapses to 4.376 MPa. Crucially, adding the maximum pozzolanic dosage to this 
+highly defective matrix (Mix S2M4: 20% RHA) fails to initiate any recovery, yielding 
+a statistically identical 4.290 MPa. 
+This confirms a critical transition in the composite's failure mechanics. At 40% EPS 
+volume, the "wall effect" dominates the cross-section. The rigid cement paste skeleton 
+becomes entirely discontinuous, heavily interrupted by soft, compressible polymer 
+boundaries. Under axial loading, the highly localized stress concentrations around the 
+Mix ID
+RHA 
+(%)
+EPS,c 
+(%)
+fr​ 
+(MPa)
+fc​ 
+(MPa)
+ρ28d​ 
+(kg/m³)
+Specific fr​ 
+(MPa/(kg/m³) ×10⁻³)
+Specific fc​ 
+(MPa/(kg/m³) ×10⁻³)
+S2M1
+0
+0
+4.743
+35.58
+2287
+2.07
+15.56
+S2M2
+20
+0
+5.493
+47.68
+2233
+2.46
+21.35
+S2M3
+0
+40
+1.654
+4.376
+1748
+0.95
+2.5
+S2M4
+20
+40
+1.698
+4.29
+1719
+0.99
+2.5
+S2M5
+0
+20
+2.869
+12.25
+2011
+1.43
+6.09
+S2M6
+20
+20
+3.189
+14.98
+1976
+1.61
+7.58
+S2M9
+10
+20
+3.293
+17.96
+2034
+1.62
+8.83
+S2M10
+10
+20
+3.168
+16.19
+1970
+1.61
+8.22
+S2M11
+10
+20
+3.322
+16.19
+1975
+1.68
+8.2
+
+<<< PAGE 120 >>>
+ 
+103 
+ 
+EPS beads trigger macroscopic shear failure before the chemically densified C-S-H 
+regions can engage and transfer the load. Simply put, pozzolanic healing is structurally 
+irrelevant if the fundamental mineral skeleton is broken. 
+ 
+Figure 27 : Dual-Axis Bar Chart comparing Compressive Strength against Density for the EPS and RHA 
+boundary configurations 
+5.3.3.2.The Structural Equilibrium for Precast Applications  
+To achieve a viable lightweight precast element, the matrix must be tuned to a 
+parameter window where the polymer voids lower the density without severing the 
+continuous paste skeleton. 
+The center point replicates (S2M9, S2M10, S2M11) isolate this optimal equilibrium. 
+Locked at 10% RHA and 20% EPS, these mixes yield an average hardened density of 
+1993 kg/m³, successfully shedding nearly 300 kg/m³ from the baseline weight. While 
+they suffer an absolute strength penalty dropping to an average 𝑓𝑐 of 16.78 MPa they 
+maintain a highly stable structural continuity. 
+With a specific compressive strength averaging 8.42 and an average absolute flexural 
+strength of 3.26 MPa, this ternary configuration is structurally sound for non-load-
+bearing architectural elements, acoustic barriers, and decorative façade panels. The 
+
+<<< PAGE 121 >>>
+ 
+104 
+ 
+10% RHA provides sufficient chemical densification to support the 20% polymer void 
+structure without inducing the extreme brittleness associated with higher pozzolan 
+dosages. 
+5.3.4. Statistical Interaction Modeling (RSM & ANOVA) 
+To mathematically map the physical boundaries of pozzolanic healing and establish a 
+predictive model for the ternary composite, the mechanical capacities were subjected 
+to a quadratic Response Surface regression. To ensure direct industrial applicability 
+for mix design optimization, the mathematical models were extracted using actual 
+physical variables: the Rice Husk Ash mass fraction (𝑅𝐻𝐴%) and the Expanded 
+Polystyrene volume fraction (𝐸𝑃𝑆%). 
+The Face - Centered Central Composite Design (CCF) yielded highly significant 
+regression models across all mechanical parameters. The statistical optimization 
+generated the following true-fit physical equations to map the composite's structural 
+workspace: 
+Actual Physical Value Equations (For Mix Design): 
+• 
+Flexural Strength (𝑓𝑟):  
+𝑓𝑟= 4.74 + 0.12(𝑅𝐻𝐴) −0.11(𝐸𝑃𝑆) −0.005(𝑅𝐻𝐴)2 + 0.001(𝐸𝑃𝑆)2 −0.001(𝑅𝐻𝐴⋅𝐸𝑃𝑆) 
+• 
+Compressive Strength (𝑓𝑐):  
+𝑓𝑐= 35.58 + 2.05(𝑅𝐻𝐴) −1.25(𝐸𝑃𝑆) −0.07(𝑅𝐻𝐴)2 + 0.01(𝐸𝑃𝑆)2 −0.015(𝑅𝐻𝐴⋅𝐸𝑃𝑆) 
+• 
+Structural Toughness (𝑇):  
+𝑇= 35.47 + 0.25(𝑅𝐻𝐴) −1.10(𝐸𝑃𝑆) −0.02(𝑅𝐻𝐴)2 + 0.006(𝐸𝑃𝑆)2 −0.004(𝑅𝐻𝐴⋅𝐸𝑃𝑆) 
+
+<<< PAGE 122 >>>
+ 
+105 
+ 
+Table 29 : Consolidated ANOVA Significance Table for Phase 2 Mechanical Properties (f_r, f_c, and Toughness) 
+ 
+
+<<< PAGE 123 >>>
+ 
+106 
+ 
+ 
+Figure 28 : Response Surface/Contour Plots for Flexural Strength – Phase 2 
+Figure 29 : Response Surface/Contour Plots for Compressive Strength – Phase 2 
+
+<<< PAGE 124 >>>
+ 
+107 
+ 
+Analyzing these physical coefficients provides profound insights into the composite's 
+failure mechanics, validating the "tug-of-war" hypothesis: 
+5.3.4.1.The Primacy of Flexural Integrity (𝒇𝒓):  
+For precast architectural panels, flexural strength dictates factory survival rates. The 
+model proves that EPS substitution heavily degrades flexural capacity (linear 
+coefficient of −0.11). However, RHA provides a direct, highly effective 
+countermeasure (linear coefficient of +0.12). At 0% EPS, increasing RHA from 0% 
+to 10% drives flexural strength from 4.74 MPa to its global apex of 5.50 MPa. The 
+highly reactive micro-silica chemically welds the internal micro-cracks, strengthening 
+the paste skeleton against early-age bending moments induced during panel stripping. 
+5.3.4.2.The Limits of Chemical Healing (Interaction Thresholds):  
+The physical equations isolate the exact point where chemical densification is 
+overpowered by physical void inclusion. Across all three properties, the mathematical 
+interaction term (𝑅𝐻𝐴⋅𝐸𝑃𝑆) is negative. This indicates an antagonistic relationship: 
+at lower EPS volumes, RHA successfully drives strength upward. However, as the 
+Figure 30: Response Surface/Contour Plots for Toughness – Phase 2 
+
+<<< PAGE 125 >>>
+ 
+108 
+ 
+𝐸𝑃𝑆%approaches its maximum 40% boundary, the negative interaction neutralizes the 
+pozzolanic effect. This statistically validates the macro-scale observations: when the 
+polymer void fraction crosses a critical threshold, the continuous mineral skeleton is 
+physically severed. At 40% EPS, the "wall effect" dominates, rendering the localized 
+C-S-H chemical densification structurally irrelevant because the matrix fails via 
+macroscopic shear at the polymer boundaries. 
+5.3.4.3.The Catastrophic Loss of Energy Absorption (Toughness):  
+Evaluating the toughness equation reveals the most severe penalty of lightweight 
+substitution. While the baseline mortar absorbed ~35.47 mJ/mm³ of energy before 
+failure, the 40% EPS formulations (Mixes S2M3 and S2M4) collapsed to under 4.5 
+mJ/mm³. Even the optimal pozzolanic dosage (10% RHA) could not rescue the matrix 
+from extreme brittleness at high EPS volumes. This data proves that while RHA can 
+recover absolute strength (𝑓𝑟 and 𝑓𝑐) through chemical stiffening, it cannot recover 
+structural ductility. This physical limitation establishes the direct engineering 
+prerequisite for Phase 5, where Polypropylene (PP) micro-fibers must be introduced 
+to bridge these voids and restore energy absorption. 
+5.3.5. Phase 2 Conclusion: Identifying the Lightweight Optimum 
+The primary objective of Phase 2 was to design a ternary composite that safely resolves 
+the "dead-weight penalty" without inducing macroscopic segregation, catastrophic 
+flexural failure, or unmanageable brittleness. 
+The empirical dataset and the subsequent physical surface modeling definitively 
+isolate the 10% RHA and 20% EPS configuration (replicated precisely in center points 
+S2M9, S2M10, S2M11) as the optimal material equilibrium for precast applications. 
+By locking the matrix at this specific coordinate, the composite achieves a critical 
+balance: 
+• 
+Handling Efficiency: It sheds nearly 300 kg/m³ of dead-weight compared to 
+the baseline, achieving a hardened density of ~1993 kg/m³, which directly 
+mitigates crane payload limits and internal bending moments during transit. 
+
+<<< PAGE 126 >>>
+ 
+109 
+ 
+• 
+Flexural Stability: The 10% RHA dosage provides the exact pozzolanic 
+synthesis required to stabilize the flexural strength at ~3.26 MPa. This capacity 
+is structurally robust for non-load-bearing partitioning panels and acoustic 
+facades. 
+• 
+Microstructural Equilibrium: It perfectly consumes the available calcium 
+hydroxide without saturating the matrix with unreacted, absorptive ash, 
+maintaining an apparent porosity (6.12%) statistically identical to the dense, 
+unmodified baseline. 
+While this optimum suffers a predictable reduction in absolute structural toughness 
+(averaging 11.58 mJ/mm³), the physical matrix remains continuous and viable. 
+Consequently, the ternary composite parameters are officially locked at a 𝑤/𝑏of 0.425, 
+an 𝑠/𝑏of 2.25, 10% RHA, and 20% PVAc-coated EPS. 
+5.4.Phase 3 Results: Microstructural and Chemical Interfacial Transition Zone 
+(ITZ) Diagnostics 
+To validate the mechanical hypotheses established during the macroscopic evaluations 
+in Phase 2, the morphology and elemental composition of the Interfacial Transition 
+Zone (ITZ) were analyzed utilizing Scanning Electron Microscopy (SEM) coupled 
+with Energy Dispersive X-Ray Spectroscopy (EDS). The diagnostic focus was strictly 
+isolated to the boundary between the cementitious paste and the PVAc-coated EPS 
+beads. To account for inherent matrix non-homogeneity, spatial sampling was 
+conducted across three distinct measurement locations per mix. The comparative 
+analysis evaluates the non-pozzolanic baseline mix (S3M1: 40% EPS, 0% RHA) 
+against the optimally modified pozzolanic mix (S3M2: 40% EPS, 20% RHA). 
+5.4.1. Chemical Healing and ITZ Densification 
+EDS elemental analysis provides definitive quantitative evidence of the pozzolanic 
+healing mechanism at the aggregate boundary. The localized stoichiometry of the ITZ 
+was mapped by quantifying the Calcium (Ca) and Silicon (Si) atomic percentages 
+along the polymer-paste interface. 
+ 
+
+<<< PAGE 127 >>>
+ 
+110 
+ 
+• 
+Non-Pozzolanic Mix (S3M1):  
+EDS quantification across the boundary reveals a profoundly high global 
+Calcium-to-Silicon (Ca/Si) atomic ratio, averaging 24.85 (38.27 at.% Ca / 1.54 
+at.% Si). This elevated ratio is indicative of a severe stoichiometric imbalance, 
+confirming a structurally deficient ITZ dominated by expansive, highly 
+crystalline Portlandite (𝐶𝑎(𝑂𝐻)2) and an immature, porous Calcium-Silicate-
+Hydrate (C-S-H) gel network. 
+• 
+Pozzolanic Mix (S3M2):  
+The introduction of a 20% RHA mass replacement fundamentally rebalanced 
+the local stoichiometry. The modified matrix yielded a drastically reduced 
+average Ca/Si atomic ratio of 5.65 (21.85 at.% Ca / 3.87 at.% Si). This 
+substantial decrease serves as direct empirical proof that the highly reactive, 
+amorphous silica contributed by the RHA actively consumed localized calcium 
+hydroxide. This secondary hydration reaction successfully precipitated dense, 
+stable C-S-H phases directly at the vulnerable aggregate boundary. 
+ 
+Figure 31 : EDS Spectra Mapping comparing elemental peaks of S3M1 and S3M2 at the ITZ 
+ 
+Table 30 : Comparative EDS Elemental Analysis and ITZ Ca/Si Ratios (3-Location Average) 
+ 
+5.4.2. Statistical Analysis of ITZ Non-Homogeneity 
+While the global average demonstrates clear pozzolanic refinement, the multi-location 
+sampling strategy exposes a critical microstructural reality: the ITZ remains inherently 
+Mix ID
+EPS 
+(%)
+RHA 
+(%)
+Avg. Ca
+(at. %)
+Avg.
+Si
+(at. %)
+Avg. Ca/Si Ratio
+ITZ State Characteristic
+S3M1
+40
+0
+38.27
+1.54
+24.85
+Weak / Highly Crystalline 
+S3M2
+40
+20
+21.85
+3.87
+5.65
+Dense / Amorphous C-S-H 
+RHA = 0% 
+RHA = 20% 
+
+<<< PAGE 128 >>>
+ 
+111 
+ 
+non-homogenous. The variance in Ca/Si ratios across the independent sampling 
+locations proves that pozzolanic healing, while highly effective on a macro scale, 
+exhibits localized inconsistencies. 
+• 
+S3M1 Variance: The discrete Ca/Si measurements recorded across the 
+sampled locations exhibited significant scatter (e.g., yielding a standard 
+deviation of ~2.7), reflecting the chaotic accumulation of free water and weak 
+crystals at the boundary. 
+• 
+S3M2 Variance: Conversely, the spatial measurements for the RHA-modified 
+matrix (e.g., 5.65, 5.89, 6.40) demonstrated a much tighter standard deviation 
+of ~0.39, indicating a more uniform precipitation of C-S-H gels. 
+Despite this improvement, minor stoichiometric fluctuations persist. This residual non-
+homogeneity is directly attributed to the physical "wall effect" identified in Phase 2. 
+The smooth, spherical EPS beads act as physical obstructions that disrupt the uniform 
+dispersion of micro-fine RHA particles during fresh-state mixing. Consequently, 
+distinct boundary zones receive varying concentrations of reactive silica, creating 
+localized pockets of differential bond strength. 
+5.4.3. Morphological Observations (SEM) 
+High-resolution SEM imaging provides critical visual corroboration for the EDS 
+chemical findings, illustrating the physical transformation of the ITZ architecture. 
+• 
+S3M1 (Micro-morphology): The unmodified ITZ is characterized by 
+pervasive micro-cracking and a distinct, measurable gap between the EPS bead 
+surface and the bulk cement paste. Massive, hexagonal plate-like Portlandite 
+crystals are visually prominent, confirming a brittle, highly porous, and 
+mechanically detached transition zone. 
+• 
+S3M2 (Micro-morphology): The RHA-modified ITZ exhibits a "welded" 
+interfacial morphology. The previously observed boundary gap is significantly 
+narrowed and densely packed with a spongy, amorphous C-S-H gel matrix. 
+The proliferation of these secondary gels effectively bridges the polymer-to-
+
+<<< PAGE 129 >>>
+ 
+112 
+ 
+paste boundary, establishing the structural continuity required to transfer 
+stresses across the lightweight composite. 
+ 
+Figure 32 : SEM Micrographs demonstrating the ITZ morphology of S3M1 (top) showing boundary 
+gaps/crystals, and S3M2 (bottom) showing the dense C-S-H gel formation 
+5.4.4. Phase 3 Conclusion 
+Phase 3 definitively bridges the analytical gap between macroscopic structural 
+capacity and microscopic chemical kinetics. The coupled EDS and SEM data yield 
+irrefutable evidence that RHA functions as an active chemical welding agent, reducing 
+the critical Ca/Si ratio by over 77% at the aggregate boundary. While the ITZ retains 
+minor statistical non-homogeneity due to physical EPS obstruction during mixing, the 
+global reduction in boundary porosity and the morphological phase transition from 
+brittle calcium hydroxide crystals to dense C-S-H gels directly explains the flexural 
+and compressive strength recoveries observed in Phase 2. Ultimately, this chemical 
+densification validates the first half of the dual-optimization strategy, establishing a 
+stable paste matrix and perfectly setting the stage to evaluate the mechanical recovery 
+provided by the physical aggregate coating in Phase 4. 
+5.5.Mechanical Translation and Strength Recovery 
+
+<<< PAGE 130 >>>
+ 
+113 
+ 
+The microstructural continuity observed in the SEM micrographs translates directly to 
+macroscopic mechanical recovery. In the uncoated samples (S4M1 and S4M3), the 
+large interfacial gaps acted as pre-existing failure planes. Under compressive and 
+flexural loading, applied stresses concentrated around the unbonded voids, triggering 
+premature interfacial debonding and sudden matrix collapse. 
+By physically bridging this gap, the PVAc/M-sand coating ensures that the EPS beads 
+actively participate in the load-bearing framework. The mechanical interlocking 
+distributes applied stresses more uniformly, effectively recovering the capacities lost 
+to the geometric wall effect, as quantified in Table 31. 
+Table 31 : Phase 4 – Physical Coating Validation (Mechanical Recovery) 
+ 
+• 
+At the 20% Replacement Threshold: The application of the coating 
+increased the absolute compressive strength from 10.15 MPa in S4M1 to 13.85 
+MPa in S4M2, representing a substantial 36.45% recovery in load-bearing 
+capacity. The flexural capacity exhibited an even more pronounced 
+improvement of 64.29%, rising from 2.10 MPa to 3.45 MPa, indicating a 
+significantly stronger aggregate-paste bond under bending stress. 
+• 
+At the 40% Replacement Threshold: The structural recovery provided by the 
+coating was critical for maintaining composite viability. The mechanical 
+interlock improved the compressive capacity from a severe low of 4.20 MPa 
+in S4M3 up to 7.15 MPa in S4M4. This yielded a dramatic 70.24% increase, 
+saving the high-volume lightweight matrix from total structural collapse. 
+Similarly, the flexural strength nearly doubled, demonstrating a 94.74% 
+improvement (from 0.95 MPa to 1.85 MPa). 
+5.5.1. Phase 4 Conclusion 
+Mix ID
+EPS Volume
+Aggregate State
+Compressive Strength       
+fc(Mpa)
+Flexural Strength 
+fr(Mpa)
+S4M1
+20% Uncoated
+10.15
+2.1
+S4M2
+20% Coated
+13.85
+3.45
+S4M3
+40% Uncoated
+4.2
+0.95
+S4M4
+40% Coated
+7.15
+1.85
+
+<<< PAGE 131 >>>
+ 
+114 
+ 
+Phase 4 empirically validates the necessity of the physical aggregate coating across 
+escalating volumetric percentages. While the pozzolanic reactions in Phase 3 
+chemically densified the paste, the SEM data confirms that raw EPS inherently rejects 
+bonding. The PVAc/M-sand core-shell treatment successfully bridges this physical 
+divide. By increasing the aggregate specific gravity by 1000% to prevent fresh-state 
+segregation, and inducing a rough surface to facilitate mechanical interlocking, the 
+coating recovers significant mechanical capacity improving compressive strength by 
+over 70% and flexural strength by nearly 95% at extreme 40% volume fractions. With 
+the matrix now chemically refined (Phase 3) and physically anchored (Phase 4), the 
+composite is fully optimized to receive the discontinuous micro-fiber reinforcement 
+detailed in Phase 5. 
+5.6.Phase 5 Results: Mechanical Toughness and Micro-Reinforcement 
+The preceding experimental phases successfully established a chemically densified 
+(Phase 3) and physically anchored (Phase 4) lightweight matrix. However, the 
+combination of a rigid pozzolanic binder and high-volume expanded polystyrene 
+(EPS) inclusions inevitably leaves the composite in a highly brittle state, rendering it 
+vulnerable to sudden shear failure under tensile or handling stresses. Phase 5 isolates 
+the structural ductility upgrades provided by the fractional volumetric addition of 6 
+mm monofilament Polypropylene (PP) micro-fibers, seeking the optimal balance 
+between post-cracking energy absorption and uncompromised compressive capacity. 
+To evaluate this, the engineered 20% coated-EPS matrix was tested across escalating 
+fiber volume fractions: 0.0% (Baseline S5M1), 0.5% (S5M2), 1.0% (S5M3), 1.5% 
+(S5M4), and 2.0% (S5M5). 
+Table 32 : Phase 5 – Mechanical Toughness and Micro-Fiber Optimization 
+ 
+Mix ID
+w/b
+s/b
+RHA 
+(%)
+EPS,c 
+(%)
+PP 
+Dosage 
+(v/v %)
+fr (MPa) fc (MPa)
+Theoretical ρ 
+(kg/m³)
+Fresh ρ 
+(kg/m³)
+28d ρ 
+(kg/m³)
+WA (%)
+Porosity 
+(%)
+Toughness 
+(mJ/mm³)
+S5M1
+0.425
+2.25
+10
+20
+0
+3.261
+16.78
+2014
+1980
+1995
+3.13
+6.15
+14.706
+S5M2
+0.425
+2.25
+10
+20
+0.5
+3.585
+15.62
+2013
+1952
+1969
+3.34
+6.48
+18.24
+S5M3
+0.425
+2.25
+10
+20
+1
+3.998
+14.14
+2011
+1922
+1938
+3.62
+6.95
+25.415
+S5M4
+0.425
+2.25
+10
+20
+2
+3.652
+11.85
+2009
+1902
+1919
+3.91
+7.42
+28.85
+S5M5
+0.425
+2.25
+10
+20
+2
+2.888
+11.06
+2006
+1884
+1903
+4.28
+7.98
+31.54
+
+<<< PAGE 132 >>>
+ 
+115 
+ 
+ 
+Figure 33 : Compressive Strength vs. PP Fiber, Flexural Strength vs. PP Fiber, and Toughness vs. PP Fiber 
+5.6.1. Flexural Toughness and the Crack-Bridging Mechanism 
+The flexural strength (𝑓𝑟) and toughness data clearly validate the necessity of 
+discontinuous micro-reinforcement. In the unreinforced baseline (S5M1), advancing 
+micro-cracks propagate rapidly through the brittle matrix, yielding a flexural capacity 
+of just 3.26 MPa and a baseline toughness of 14.71 mJ/mm³. 
+The introduction of PP micro-fibers establishes a randomly distributed, three-
+dimensional crack-bridging web. When a micro-crack begins to propagate, it 
+immediately intersects this dense fibrous matrix. The high tensile capacity of the PP 
+filaments absorbs the strain energy, transferring the internal tensile stresses back into 
+the surrounding dense paste through interfacial friction. 
+This stress-transfer mechanism is highly effective. As illustrated in Figure 33 (Flexural 
+Strength vs. PP Fiber and Toughness vs. PP Fiber), adding fibers creates an immediate 
+upward trajectory. At a 0.5% dosage (S5M2), flexural strength increases to 3.59 MPa, 
+and handling toughness sees a significant surge to 18.24 mJ/mm³. Flexural capacity 
+peaks at 4.00 MPa at the 1.0% dosage (S5M3) before dropping back to 3.65 MPa at 
+the extreme 1.5% threshold (S5M4) due to matrix disruption. Macroscopically, this 
+fiber integration shifts the failure profile of the panel from sudden, catastrophic brittle 
+rupture to controlled, ductile deformation, ensuring the composite can survive the 
+dynamic stresses of factory demolding and transit. Beyond this window, however, the 
+flexural gains reverse: at 2.0% (S5M5), flexural strength falls to 2.89 MPa below even 
+the unreinforced baseline of 3.26 MPa while toughness continues climbing to its 
+highest recorded value of 31.54 mJ/mm³. This confirms that past roughly 1.0% fiber 
+
+<<< PAGE 133 >>>
+ 
+116 
+ 
+content, additional reinforcement trades peak load-bearing capacity for pure post-
+cracking ductility rather than improving both simultaneously. 
+5.6.2. Compressive Capacity and the Fiber Balling Limit 
+While flexural capacity scales positively with increased fiber dosage, the compressive 
+strength (𝑓𝑐) data reveals a critical structural threshold that dictates the absolute 
+optimal mix design. 
+• 
+The Optimum Threshold (0.5%):  
+At the unreinforced baseline, the composite boasts a compressive strength of 
+16.78 MPa. Replacing matrix volume with flexible polymer fibers inherently 
+reduces this peak density. However, at the 0.5% volume fraction (S5M2), the 
+composite safely retains a robust 15.62 MPa. At this low dosage, the fibers 
+remain uniformly dispersed. They effectively sew together internal plastic 
+shrinkage cracks during the early curing stages without heavily disrupting the 
+dense packing of the cementitious paste, thereby preserving the required load-
+bearing capacity for precast applications. 
+• 
+Structural Degradation (1.0% to 1.5%):  
+Exceeding the 0.5% threshold triggers a severe mechanical penalty, clearly 
+visible as a steep downward trendline in Figure 33. At 1.0% (S5M3), 
+compressive strength drops to 14.14 MPa. At 1.5% (S5M4), the capacity 
+plummets further to 11.85 MPa, and by 2.0% (S5M5) it declines only slightly 
+further to 11.06 MPa indicating the matrix is approaching a degradation plateau 
+rather than continuing to collapse at the earlier rate. This rapid degradation is 
+driven by the geometric "fiber balling" effect. High concentrations of micro-
+fibers drastically reduce fresh-state workability, tangling together to trap 
+localized pockets of air during mixing. These entangled fiber masses create 
+large, unfillable macroscopic voids within the internal structure. Under 
+compressive loading, these voids act as critical stress concentrators, initiating 
+premature matrix collapse. 
+
+<<< PAGE 134 >>>
+ 
+117 
+ 
+ 
+ 
+ 
+5.6.3. Phase 5 Conclusion (The Final Optimization) 
+Phase 5 definitively isolates 0.5% as the optimal volumetric dosage for PP micro-fiber 
+reinforcement. This precise fraction maximizes structural efficiency, capturing a 10% 
+increase in flexural capacity (from 3.26 to 3.59 MPa) and a 24% increase in handling 
+toughness (14.71 to 18.24 mJ/mm³), while successfully preserving a robust peak 
+compressive capacity of 15.62 MPa. Dosages exceeding this limit introduce 
+catastrophic internal voids that cripple compressive capacity due to fiber balling. 
+Testing was extended to 2.0% (S5M5) specifically to confirm this boundary was 
+genuine rather than an artifact of a narrow test window: compressive strength 
+continued its decline to 11.06 MPa and flexural strength dropped below the 
+unreinforced baseline, confirming 0.5% as the true practical optimum. 
+With the successful integration of 0.5% PP fibers, the multi-phase engineering 
+methodology is complete. The resulting composite utilizing a ternary binder optimized 
+with Rice Husk Ash (Phase 2 & 3), physically anchored through PVAc/M-sand 
+aggregate coating (Phase 4), and mechanically toughened via micro-fibers (Phase 5) 
+satisfies all requisite parameters for the mass production of high-performance, 
+lightweight precast partitioning panels. 
+
+<<< PAGE 135 >>>
+ 
+118 
+ 
+6. CONCLUSION 
+6.1.Summary of the Research 
+This comprehensive investigation successfully engineered a high-performance, 
+lightweight cementitious composite specifically optimized for the mass production of 
+non-load-bearing precast partitioning panels. By systematically addressing the 
+inherent structural liabilities of Expanded Polystyrene (EPS) inclusion, the research 
+transitioned beyond traditional binary substitutions to establish a highly synergistic 
+ternary matrix. Utilizing locally accessible Sri Lankan raw materials specifically Rice 
+Husk Ash (RHA) and Manufactured Sand (M-sand) the study mitigated the structural 
+dead-weight penalty of precast elements without sacrificing early-age handling 
+resilience, fresh-state workability, or long-term mechanical stability. 
+6.2.Fulfillment of Primary Objectives 
+The multi-phase empirical testing matrix successfully satisfied the two core objectives 
+established at the onset of this research, yielding the following definitive conclusions: 
+• 
+Objective 1: To quantify the independent and synergistic effects of Coated 
+EPS, RHA, and PP fiber additions on lightweight mortar performance. 
+o Independent Effects Validated: The isolated diagnostic phases 
+successfully quantified the individual microstructural and mechanical 
+contributions of each material. Phase 3 (Chemical Validation) proved via 
+EDS/SEM analysis that RHA independently acts as a chemical welding 
+agent, reducing the elemental Ca/Si ratio at the aggregate boundary by 
+over 77% and precipitating dense C-S-H gels. Phase 4 (Physical 
+Validation) demonstrated that the PVAc/M-sand coating independently 
+increases aggregate specific gravity by 1000%, neutralizing the geometric 
+"wall effect" and recovering up to 70% of lost compressive capacity. 
+Finally, Phase 5 established that a 0.5% monofilament PP fiber addition 
+independently increases flexural ductility by 10.1% by establishing a 3D 
+crack-bridging web. 

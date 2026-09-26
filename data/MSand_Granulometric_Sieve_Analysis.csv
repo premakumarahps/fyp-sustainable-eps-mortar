@@ -1,0 +1,9 @@
+Sieve_Size,Aperture_mm,Mass_Retained_g,Individual_Retained_pct,Cumulative_Retained_pct,Cumulative_Passing_pct,BS882_ZoneM_Lower_pct,BS882_ZoneM_Upper_pct
+10.0 mm,10.0,0.0,0.0,0.0,100.0,100,100
+5.0 mm,5.0,17.5,3.5,3.5,96.5,89,100
+2.36 mm,2.36,76.5,15.3,18.8,81.2,60,100
+1.18 mm,1.18,132.0,26.4,45.2,54.8,30,90
+600 µm,0.6,103.0,20.6,65.8,34.2,15,54
+300 µm,0.3,88.5,17.7,83.5,16.5,5,40
+150 µm,0.15,58.5,11.7,95.2,4.8,0,15
+Pan,0.0,24.0,4.8,100.0,0.0,0,0

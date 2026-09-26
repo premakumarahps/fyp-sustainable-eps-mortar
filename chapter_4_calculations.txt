@@ -1,0 +1,1272 @@
+
+========================================
+<<< PDF PAGE 50 >>>
+========================================
+ 
+33 
+ 
+Table 7 : Chemical and Physical Properties of FAIRFLO S 
+Property 
+Value 
+Chemical Base 
+Modified sulphonated naphthalene polymer 
+Physical State 
+Brown liquid 
+pH 
+7.5 ± 0.5 
+Specific 
+Gravity 
+(experimental, 
+27∘𝐶) 
+1.180 ± 0.002 
+Chloride Content 
+Nil 
+Additional Air Entrainment 
+<1% 
+Standard Conformance 
+ASTM C-494 Type G, BS 5075 Part 4, IS 
+9103:1999, BS EN 934-2:1998 
+ 
+Table 8 : Application Parameters of FAIRFLO S 
+Parameter 
+Value 
+Primary Function 
+High-range water reduction and set retardation (ASTM C-
+494 Type G) 
+Dosage Range 
+0.6% - 1.5% by weight of cement 
+Cement Compatibility 
+All Portland cement types 
+Shelf Life 
+12 months (unopened, 5∘𝐶−45∘𝐶) 
+Handling Note 
+Shake well before use; high-solids liquid requires proper 
+stirring 
+ 
+Laboratory Methodology  
+To facilitate precise liquid volume accounting during mix formulation, the specific 
+gravity of the admixture was measured using the density bottle method.  
+ 
+3.1.1.7.Polypropylene (PP) Fibers 
+Virgin monofilament Polypropylene (PP) micro-fibers were integrated into the matrix 
+to control plastic shrinkage and impart mechanical post-crack toughness. Sourced 
+directly from manufacturer specifications, the structural, dimensional, and application 
+parameters of these micro-fibers are outlined in Tables 9, 10, and 11. 
+
+========================================
+<<< PDF PAGE 51 >>>
+========================================
+ 
+34 
+ 
+Table 9 : Physical and Dimensional Properties of PP Fibers 
+Property 
+Value 
+Material Base 
+100% Polypropylene 
+Appearance 
+White, round monofilament 
+Length 
+6 mm 
+Diameter 
+25 𝜇m(±10%) 
+Density 
+0.91 g/cm3 
+Linear Density 
+6.7 dtex (±10%) 
+ 
+Table 10 : Mechanical and Chemical Properties of PP Fibers 
+Property 
+Value 
+Tensile Strength 
+560 MPa 
+Modulus of Elasticity 
+3.5 GPa 
+Elongation at Break 
+25%(±10%) 
+Alkali Resistance 
+Exceptional 
+ 
+Table 11 : Application Parameters of PP Fibers 
+Parameter 
+Value 
+Dosage (mortar) 
+Minimum 600 g/m3 
+Admixture 
+Compatibility 
+Fully compatible with superplasticizers and mortar 
+admixtures 
+Primary Functions 
+Shrinkage and crack resistance, impact strength, splitting 
+resistance, fire resistance 
+Because of their exceptional alkali resistance, these fibers remain chemically inert 
+within the highly alkaline pore environment of the hydrating paste. In the laboratory 
+framework, they serve as a fixed background matrix component during the early binary 
+tests, before being treated as an optimizable volumetric parameter during the final 
+mechanical toughness upgrades. 
+3.1.2. Apparatus 
+
+========================================
+<<< PDF PAGE 52 >>>
+========================================
+ 
+35 
+ 
+The successful execution of this investigation required specific processing, mixing, 
+physical measurement, and diagnostic instruments. To ensure experimental 
+repeatability, the key laboratory and field-adapted equipment utilized throughout the 
+study is categorized below based on operational function: 
+ 
+Material Processing and Mixing Equipment 
+• 
+Laboratory Jar Ball Mill:  
+A roller-driven mill assembly used to mechanically grind the raw Rice Husk 
+Ash (RHA). The mill was operated at an optimized speed utilizing grinding 
+media to achieve the required structural fineness. 
+• 
+Mechanical Pan Mixer:  
+A motorized pan mixer utilized for fresh mortar batching, specifically required 
+to handle the high-shear demands introduced by the cohesive PVAc-coated 
+EPS, water-absorbing RHA, and PP micro-
+fibers. 
+• 
+Standard Prismatic Molds & Vibrating Table:  
+High-rigidity steel three-gang molds utilized to 
+cast 
+standard 
+40 × 40 × 160 mm 
+mortar 
+prisms. Compaction was achieved using a  
+high-frequency 
+laboratory 
+electromagnetic 
+vibrating table to standardize consolidation 
+without 
+inducing 
+lightweight 
+aggregate 
+segregation. 
+ 
+Physical and Volumetric Characterization Tools 
+• 
+Pycnometers (Density Bottles):  
+Calibrated 50 mL glass density bottles equipped with capillary stoppers, used 
+in conjunction with laboratory-grade kerosene or distilled water to accurately 
+determine the specific gravity of the cement, RHA, M-sand, and liquid 
+superplasticizer. 
+• 
+Precision Volumetric Cylinders & Submerging Nets:  
+Figure 11 : Standard Prismatic 
+Molds 
+
+========================================
+<<< PDF PAGE 53 >>>
+========================================
+ 
+36 
+ 
+Calibrated heavy-walled 100 mL and 1000 mL graduated cylinders utilized for 
+compacted and loose bulk density tests. A specialized weighted submerging 
+net was employed in conjunction with the larger cylinders to conduct 
+hydrostatic volume displacement testing for the highly buoyant EPS beads. 
+• 
+Standard Sieve Stack & Mechanical Shaker:  
+A vertical arrangement of standard stainless-steel wire cloth sieves mounted 
+on a motorized shaker frame. This setup executed dry particle size analyses for 
+the M-sand and EPS. Additionally, a specialized 53 𝜇mwire cloth testing frame 
+was utilized for the wet-sieving protocol to verify terminal RHA fineness. 
+• 
+High-Precision Digital Balances:  
+Top-loading digital laboratory scales utilized for all mass proportioning, 
+moisture evaluations, and specific gravity tests. 
+ 
+Thermal and Rheological Measurement Instruments 
+• 
+Standard Mortar Flow Table:  
+A calibrated manual drop-table apparatus utilized to measure the dynamic 
+spread diameter of the fresh mortar, ensuring the workability remained strictly 
+controlled at the target flow across all experimental phases. 
+• 
+Forced-Air Laboratory Drying Oven:  
+A digitally controlled oven capable of maintaining a stable 120∘Cthermal field, 
+utilized for aggregate moisture content evaluations, saturated surface-dry 
+(SSD) preparations, and specimen dehydration. 
+• 
+High-Temperature Muffle Furnace:  
+A microprocessor-controlled electric muffle furnace utilized for the Loss on 
+Ignition (LOI) diagnostic testing. The furnace subjected raw RHA samples 
+housed in ceramic crucibles to continuous 750∘Cthermal regimes to quantify 
+residual unburnt carbon. 
+ 
+Mechanical and Microstructural Testing Frameworks 
+• 
+Universal Testing Machine (UTM):  
+
+========================================
+<<< PDF PAGE 54 >>>
+========================================
+ 
+37 
+ 
+A computer-controlled mechanical loading frame 
+utilized for destructive testing. The machine was 
+equipped with a three-point flexural  
+loading jig to test the intact prisms, alongside a high-
+hardness compression platen assembly designed to 
+crush the subsequent prism half-beams to establish 
+axial compressive strength. 
+• 
+Scanning Electron Microscope (SEM) & EDS 
+Detector:  
+A high-resolution electron microscope coupled with an EDAX TEAM Energy 
+Dispersive X-ray Spectroscopy system. This advanced micro-analytical setup 
+was used to visually map the aggregate-to-paste interfacial topography and 
+execute quantitative atomic line-scans for elemental composition tracking. 
+3.2.Experimental Procedure 
+3.2.1. Raw Material Characterization Protocols 
+Prior to establishing the volumetric mixture proportions and executing the 
+experimental batching phases, a comprehensive laboratory characterization program 
+was conducted. This phase was critical to establish the precise physical, volumetric, 
+and chemical baselines required for the Absolute Volume Method. All characterization 
+procedures were executed in strict accordance with international standardization 
+frameworks (ASTM and BS) and local structural guidelines (SLS), with specific 
+methodological adaptations implemented for ultra-lightweight and pozzolanic 
+materials. 
+3.2.1.1.Hydraulic Binder (OPC) Pycnometry 
+The Ordinary Portland Cement (Tokyo Super OPC) was systematically benchmarked 
+against the regulatory limits mandated by SLS 107:2015 for Strength Class 42.5 R. 
+The laboratory protocols were designed to establish the absolute volumetric boundary 
+of the binder phase, the specific gravity was quantified using a 50 mL glass 
+pycnometer (density bottle) in accordance with the principles of ASTM D854. Because 
+Figure 12 : Universal testing Machine 
+
+========================================
+<<< PDF PAGE 55 >>>
+========================================
+ 
+38 
+ 
+Portland cement is highly reactive, the procedure was modified to utilize high-purity 
+kerosene as the displacement fluid instead of distilled water, eliminating the risk of 
+premature flash hydration. The test was executed at an ambient laboratory temperature 
+of 29∘𝐶. The pycnometer was calibrated to establish the specific gravity of the 
+kerosene carrier fluid, after which the dry cement powder was introduced. The mass 
+of the displaced kerosene was measured to derive the precise particle density, followed 
+by mathematical temperature corrections to a 27∘𝐶baseline. 
+3.2.1.2.Fine Aggregate (M-Sand) Grading Compliance and Moisture Kinetics  
+To ensure structural compatibility and optimal packing density within the cementitious 
+matrix, the Manufactured Sand (M-Sand) was subjected to granulometric and 
+volumetric profiling. The primary benchmarking protocol was the dry sieve analysis, 
+executed in accordance with ASTM C136. A representative quartered sample was 
+passed through a motorized vertical sieve shaker utilizing a nested standard wire-cloth 
+stack. The cumulative passing mass fractions were mapped directly against the strict 
+medium-sand grading envelope mandated by BS 882 (Zone M), as outlined in Table 
+12. 
+Table 12: Granulometric Compliance Envelope for M-Sand (BS 882: Zone M) 
+Standard Sieve 
+Size 
+BS 
+882 
+(Zone 
+M) 
+Passing Limits 
+Structural Function 
+5.00 mm 
+89% −100% 
+Defines 
+the 
+maximum 
+coarse 
+threshold 
+2.36 mm 
+65% −100% 
+Governs 
+macro-scale 
+skeletal 
+packing 
+1.18 mm 
+45% −100% 
+Facilitates 
+intermediate 
+matrix 
+density 
+600 μ𝑚 
+25% −80% 
+Primary fluid lubrication interface 
+300 μ𝑚 
+5% −48% 
+Controls bleeding and cohesion 
+150 μ𝑚 
+0% −15%∗ 
+Manages surface finish and micro-
+packing 
+
+========================================
+<<< PDF PAGE 56 >>>
+========================================
+ 
+39 
+ 
+75 μ𝑚 
+≤16% 
+Strict limit to prevent excessive 
+water demand 
+ 
+* (Note: BS 882 allows the 150 μ𝑚 limit to be increased to 20% specifically for 
+crushed rock sand). 
+ 
+Following the granulometric validation, the physical and engineering properties of the 
+manufactured sand (M-Sand) were systematically quantified to ensure precise concrete 
+mix proportioning. 
+ 
+Specific Gravity and Bulk Density 
+The specific gravity of the fine aggregate was evaluated using the saturated surface-
+dry (SSD) pycnometer method in strict accordance with ASTM C128. Distilled water 
+was utilized to eliminate potential chemical interference from impurities. 
+To evaluate particle packing characteristics, the compacted bulk density was 
+determined following ASTM C29 protocols. A calibrated graduated cylinder was filled 
+with M-Sand and subjected to controlled mechanical tapping cycles. This procedure 
+settled the material into its maximum dense configuration. Measuring this density is 
+critical for assessing the packing efficiency of these highly angular, rough-textured 
+metamorphic particles, which naturally exhibit higher particle-to-particle friction than 
+rounded river sand. 
+ 
+Moisture Content and Absorption Capacity 
+Accurate absolute volume batching requires strict control over the effective water-to-
+cement (w/c) ratio. Therefore, the internal and external moisture transport boundaries 
+of the aggregate were rigorously tracked. 
+• 
+Total Water Absorption Capacity (ASTM C128): Quantified by measuring the 
+mass differential between the aggregate in an SSD state and its completely dry 
+state. 
+• 
+Dynamic Field Moisture Content (ASTM C566): Measured to determine the 
+transient, real-time water present on the aggregate surface prior to batching. 
+
+========================================
+<<< PDF PAGE 57 >>>
+========================================
+ 
+40 
+ 
+Both parameters were verified using oven-dehydration cycles maintained at 
+110 ± 5 0𝐶  (Note: adjusted to standard ASTM temperature) until a constant mass was 
+achieved. Finally, these empirical values were integrated into a dynamic moisture-
+correction matrix. This step continuously adjusted the mixing water during batching, 
+preventing unintentional paste dilution or loss of workability. 
+ 
+3.2.1.3.Supplementary Cementitious Material (RHA) Pozzolanic Validation  
+To validate the chemical viability of the open-field burnt Rice Husk Ash (RHA) as an 
+active pozzolan, the processed powder was subjected to rigorous thermal and micro-
+analytical diagnostics, benchmarking it against the international requirements for 
+natural pozzolans (ASTM C618 Class N), as detailed in Table 13. 
+ 
+Table 13: Pozzolanic Compliance Criteria for RHA (ASTM C618 Class N) 
+Diagnostic Parameter 
+Standard 
+Requirement 
+Validation Methodology 
+Reactive 
+Oxides 
+(𝑆𝑖𝑂2 +
+𝐴𝑙2𝑂3 + 𝐹𝑒2𝑂3) 
+≥70.0% 
+SEM-EDS 
+(eZAF 
+Smart 
+Quant Matrix) 
+Loss on Ignition (LOI) 
+≤6.0% 
+Muffle Furnace Incineration 
+(750∘𝐶) 
+Fineness (Wet Sieving) 
+≥66%passing 
+45 μ𝑚 
+53 μ𝑚 
+wire-cloth 
+mechanical washing 
+ 
+• 
+Milling and Sizing:  
+The as-received RHA was first dry-sieved through a 600 µm mesh to eliminate 
+large agglomerates. The material was then loaded into the laboratory jar ball 
+mill and processed. The roller drive was calibrated to run the jar at an optimal 
+operational speed of approximately 96 rpm. Following the milling trials, the 
+optimized terminal fineness was mechanically verified by wet-sieving the 
+powder through a 53 µm wire cloth. 
+• 
+Specific Gravity and Bulk Density Evaluation:  
+
+========================================
+<<< PDF PAGE 58 >>>
+========================================
+ 
+41 
+ 
+Specific gravity was evaluated using kerosene pycnometry to prevent moisture-
+induced leaching of the cellular silica. The compacted bulk density was 
+subsequently measured by compacting the processed ash into a 100 mL 
+cylinder. 
+• 
+Loss on Ignition (LOI) Analysis:  
+To quantify the residual unburnt carbonaceous mass fraction (ASTM C311), 
+RHA samples were placed inside ceramic crucibles and subjected to a 
+continuous thermal regime inside a microprocessor-controlled muffle furnace 
+at 750°C for 2 hours. 
+• 
+SEM-EDS Micro-Analysis:  
+The elemental composition was characterized using a Scanning Electron 
+Microscope (SEM) coupled with the EDS EDAX TEAM system. Operating at 
+an accelerating voltage of 20 kV, analyses were executed across multiple 
+spatially separated locations (101×91 µm grids) to account for the spatial 
+heterogeneity inherent in open-field combustion. The non-oxygen elemental 
+mass percentages were extracted and converted into oxide equivalents using 
+stoichiometric factors to verify compliance with the ASTM C618 reactive oxide 
+threshold. 
+ 
+3.2.1.4.Ultra-Lightweight Aggregate (EPS) Hydrostatic Profiling  
+Particle Size Distribution (ASTM C136) 
+The particle size distribution of the Expanded Polystyrene (EPS) beads was 
+determined via sieve analysis in general accordance with ASTM C136. Due to the 
+extremely low density and high surface resistivity of the polymer, conventional 
+mechanical sieving protocols were modified. Standard aggressive shaking was 
+replaced with gentle, controlled mechanical agitation to prevent particle degradation. 
+Furthermore, to mitigate severe electrostatic adhesion between the lightweight beads 
+and the metallic sieve meshes, the equipment was treated with an anti-static agent prior 
+to testing. This controlled for erratic particle clustering and ensured accurate, 
+reproducible gradation data. 
+
+========================================
+<<< PDF PAGE 59 >>>
+========================================
+ 
+42 
+ 
+ 
+Hydrostatic Profiling and Specific Gravity 
+Conventional liquid pycnometry is unviable for raw EPS beads due to their extreme 
+buoyancy and a specific gravity well below unity. Consequently, a specialized 
+hydrostatic displacement methodology was deployed to isolate the true volume of the 
+aggregate. 
+A precisely weighed mass of raw EPS beads was placed inside a 1000 mL graduated 
+cylinder filled with a known volume of distilled water. To counter buoyancy, the beads 
+were forcefully but carefully submerged below the water line using a custom-
+weighted, calibrated stainless-steel submerging net. The specific gravity was then 
+isolated by recording the final combined volumetric rise of the fluid. The true 
+displacement of the aggregate was determined by mathematically subtracting both the 
+initial water volume and the independently calibrated displacement volume of the 
+anchor net from this total fluid level. 
+ 
+Loose Bulk Density Optimization (Adapted ASTM C29) 
+The highly compressible nature of the cellular polymer required adaptations to 
+standard ASTM C29 bulk density protocols. The uncoated bulk density was evaluated 
+strictly in a loose, untamped state using a 1000 mL graduated cylinder. Rapping or 
+heavy mechanical compaction was omitted to prevent elastic deformation or structural 
+crushing of the cellular beads. Instead, the cylinder was subjected only to minimal, 
+gentle tapping to establish a stable volume fraction without artificial compression. 
+ 
+Laboratory Coating Methodology and Shell Evaluation 
+The core-shell aggregate was manufactured through a multi-stage physical 
+encrustation process. Raw EPS beads were placed inside a mixing container and 
+manually agitated with a high-viscosity Polyvinyl Acetate (PVAc) emulsion until all 
+particle surfaces were uniformly wetted. Fine M-sand was then progressively 
+introduced into the container using a tumbling technique. This motion stripped away 
+any excess, unbonded sand, leaving behind a consistent, dry-tumble-applied encrusted 
+shell around each polymer core. Following encrustation, the treated beads were spread 
+
+========================================
+<<< PDF PAGE 60 >>>
+========================================
+ 
+43 
+ 
+in a single, un-clumped layer and allowed to dehydrate for 24 hours under ambient 
+laboratory conditions to facilitate full polymer cross-linking. 
+The structural effectiveness and structural mass-gain of this artificial mineral jacket 
+were subsequently evaluated using two distinct validation methods: 
+• 
+Compacted Bulk Density (Adapted ASTM C29):  
+The coated bulk density was re-evaluated using a specialized 250 mL 
+calibration cup. Comparing this value against the raw state allowed for the 
+precise verification of the volumetric yield and mass-gain efficiency imparted 
+by the shell. 
+• 
+Microstructural Analysis:  
+Optical microscopy was conducted at 100× magnification. This allowed for the 
+direct visual verification of the shell uniformity and the successful creation of 
+an artificially roughened aggregate interface. 
+ 
+3.2.1.5.Chemical Admixture (Superplasticizer) Standardization  
+The fluidizing admixture, FAIRFLO S (MODIFIED), was benchmarked against the 
+parameters of ASTM C-494 Type G (High-Range Water-Reducing and Retarding 
+Admixtures). To ensure the liquid dosage could be accurately converted into absolute 
+volume space within the mix design, its specific gravity was measured via liquid 
+pycnometry. The specific gravity of the admixture was measured at 29∘𝐶 via the 
+density bottle method. The mass of the liquid was compared directly against an 
+identical volume of distilled water using a precision capillary stopper. During batching 
+operations, the admixture dosage acts as a variable input, titrated to maintain a constant 
+fresh flow diameter of 110 ± 5 mm across all experimental mixes. 
+3.2.2. Design of Experiments (DoE) & Factorial Mix Apportionment 
+The multi-variable optimization matrix of this research was configured via Response 
+Surface Methodology (RSM) driven by a Face - Centered Central Composite Design 
+(CCF) framework. Traditional one-factor-at-a-time (OFAT) experimental approaches 
+rely on an inefficient trial-and-error methodology that alters a single variable while 
+holding others constant. This OFAT approach is fundamentally incapable of detecting 
+
+========================================
+<<< PDF PAGE 61 >>>
+========================================
+ 
+44 
+ 
+non-linear interactions between conflicting variables such as the simultaneous 
+workability loss caused by combining highly porous Rice Husk Ash (RHA) with high-
+aspect-ratio Polypropylene (PP) micro-fibers. RSM circumvents this limitation by 
+deploying a quadratic regression matrix that maps interactive contour gradients, 
+accurately identifying the synergistic or antagonistic relationships between materials 
+while drastically reducing the number of required experimental runs compared to full 
+factorial designs. 
+The optimization routine was executed across a sequential five-phase timeline. For 
+each separate phase involving multiple variables, the CCF framework dictates exactly 
+11 distinct mix configurations. This mathematical matrix comprises four factorial 
+design points to map linear trends, four axial star points to detect curvature boundaries, 
+and three identical center points to isolate experimental error variance and guarantee 
+statistical repeatability. Critically, a Face - Centered Central Composite Design (CCF) 
+was adopted, setting the axial star point distance to 𝛼= ±1. Extending the axial 
+bounds to the traditional rotatable geometry (𝛼= ±1.414) was physically unviable; 
+preliminary mixing indicated that exceeding the 𝛼= ±1boundary generated extreme 
+factorial limits that yielded entirely unworkable matrices either inducing extreme 
+stiffness that prevented compaction, or excessive fluidity that triggered immediate 
+lightweight aggregate segregation. 
+To maintain strict volumetric accounting across all replacement loops, the mix designs 
+were proportioned using the Absolute Volume Method. When introducing ultra-low-
+density inclusions like Expanded Polystyrene (EPS) beads, conventional mass-based 
+batching fails because the massive density mismatch destroys the volumetric yield of 
+the fresh mixture. The Absolute Volume Method ensures that the total combination of 
+all constituent volumes equals exactly 1.0 m3of green mortar: 
+∑(
+Mass𝑖
+Specific Gravity𝑖× 𝜌𝑤
+) + 𝑉𝑤𝑎𝑡𝑒𝑟+ 𝑉air = 1.0 m3 
+Under this framework, the calculation process is mathematically anchored by first 
+calculating the mass of the cementitious binder required to satisfy the 1.0 m3yield. 
+
+========================================
+<<< PDF PAGE 62 >>>
+========================================
+ 
+45 
+ 
+Once the binder mass is anchored, the exact required masses of the remaining 
+components (water, M-sand, EPS, and RHA) are derived algebraically using their 
+experimentally determined specific gravities and the target matrix ratios dictated by 
+the specific CCF run (e.g., water-to-binder [𝑤/𝑏], sand-to-binder [𝑠/𝑏], and specific 
+percentage volume replacements). 
+In Phase 1, the 𝑤/𝑏and 𝑠/𝑏ratios were systematically varied to establish the optimal, 
+high-strength baseline center point for the plain mortar matrix. For all subsequent 
+experimental stages (Phase 2 through Phase 5), these global matrix configurations 
+were locked at this established center point baseline (𝑤/𝑏= 0.425 and 𝑠/𝑏= 2.25). 
+To ensure statistical confidence, each batch provided an identical specimen allocation 
+matrix: three sample prisms (40 × 40 × 160 mm) were cast per mix to evaluate 
+mechanical capacities at 28 days, while a separate set of pristine specimens was 
+reserved exclusively for fluid transport testing and apparent volumetric porosity 
+calculations. 
+3.2.3. Processing and Optimization of Raw Components 
+Before laboratory batching, the raw material components underwent precise 
+processing and pre-treatment sequences to ensure compositional uniformity and 
+targeted chemical reactivity: 
+3.2.3.1.Rice Husk Ash (RHA) Processing Protocol  
+The raw, coarse grey ash procured from the open-field clay brick kilns contains large 
+carbonaceous fragments and unground cellular structures that destabilize the mortar's 
+water demand. The raw material was first passed through a 600 𝜇mdry sieve to 
+eliminate large foreign matter. The pre-sieved ash was then transferred into the heavy-
+duty laboratory jar ball mill, loaded with high-density alumina grinding balls while 
+maintaining a strict ball-to-powder mass charging ratio. 
+The roller drive was calibrated to rotate the cylindrical drum at its optimal critical 
+speed boundary (𝑁𝑐= 96 rpm), ensuring that the internal grinding media cascaded 
+
+========================================
+<<< PDF PAGE 63 >>>
+========================================
+ 
+46 
+ 
+continuously to deliver maximum impact forces. Based 
+on the optimization trials, the selected terminal milling 
+duration was exactly 2 hours.  
+Following milling, the fineness of the ash was verified 
+by running an oven-dried wet-sieving refinement test 
+through a fine 53 𝜇mwire cloth to ensure the micro-
+fines fraction was maximized, exposing the reactive 
+amorphous silica surface area. 
+3.2.3.2.EPS Core-Shell Structural Pre-Treatment  
+To alter the smooth, hydrophobic boundary layer of the raw EPS beads, an engineered 
+core-shell mineral jacket was applied prior to mixing. A precise mass-proportioned 
+batching ratio of 100 g of raw EPS spheres was placed inside a mechanical tumbling 
+drum. Exactly 250 g of high-viscosity cross-linking polyvinyl acetate (PVAc) 
+emulsion (Fevicol Marine) was introduced. The container was sealed and rotated 
+dynamically for 5 minutes to achieve uniform surface wetting. 
+Once the wet slurry displayed uniform coating coverage, fine Manufactured Sand (M-
+sand) grains were progressively introduced. The container was agitated for an 
+additional 5 minutes, allowing the angular mineral grains to bond to the adhesive layer, 
+forming an encrusted outer jacket. The sand-coated EPS beads were discharged onto 
+flat drying trays and spread in a single layer to dehydrate under ambient laboratory 
+conditions for 24 hours. This allowed for full polymer cross-linking consolidation, 
+producing stable, non-segregating core-shell aggregate units ready for absolute 
+volume batching. 
+3.2.4. Batching, Charging Sequence, and Site-Mixing Adjustments 
+Because a portion of this investigation was executed under non-ideal construction 
+field-site conditions, the standard mixing procedures were systematically adapted to 
+preserve uniform particle dispersion and eliminate ambient processing errors. Active 
+Figure 13 : Ball Milling Process 
+
+========================================
+<<< PDF PAGE 64 >>>
+========================================
+ 
+47 
+ 
+batch weights were dynamically adjusted by checking point-in-time fine aggregate 
+moisture content values (via oven-drying) to correct the mixing water additions. 
+The site-adapted mechanical pan mixer required a highly specific, chronological 
+charging sequence to combat the intense upward buoyancy of the lightweight 
+aggregates and prevent the clumping of high-aspect-ratio PP micro-fibers: 
+1. Dry Binder Blending 
+The Ordinary Portland Cement (OPC) and processed RHA micro-fines were 
+charged into the pan mixer first and blended dry for 2 minutes to create a 
+homogeneous, pozzolanically active binder phase. 
+2. Fine Aggregate Infiltration 
+The dense M-sand grains were introduced into the dry binder and mixed for an 
+additional 2 minutes to build a uniform mineral skeletal matrix. 
+3. Fluidization Step 
+Approximately 80% of the total calculated mixing water was pre-blended with 
+the required dosage of FAIRFLO S (MODIFIED) sulfonated naphthalene 
+superplasticizer. This chemical fluidizing solution was poured progressively 
+into the rotating pan mixer over 1.5 minutes, initiating electrostatic repulsion to 
+deflocculate clustered binder grains. 
+4. Lightweight Aggregate Introduction 
+The texturized, sand-precoated EPS beads were added to the wet mortar slurry 
+alongside the remaining 20% of the mixing water. The pan was mixed 
+continuously for 3 minutes. The rough aggregate coating prevented aggregate 
+flotation, locking the lightweight inclusions uniformly within the wet matrix 
+paste. 
+5. Fiber Dispersal Web 
+
+========================================
+<<< PDF PAGE 65 >>>
+========================================
+ 
+48 
+ 
+For the fiber-evaluation phases, discrete 6 mm monofilament PP micro-fibers 
+were hand-fed into the moving mixer blades over 2 minutes to prevent fiber 
+balling. The entire composite was subjected to a final, continuous high-shear 
+mixing cycle for 2 minutes to achieve complete three-dimensional 
+reinforcement dispersion. 
+To ensure uniform placement across all 11 configurations of a given CCF phase, the 
+superplasticizer dosage was adjusted point-by-point to maintain a strict, target fresh 
+mortar flow diameter of 110 ± 5 mm, verified using a standard drop flow table 
+apparatus immediately after mixing. 
+3.2.5. Specimen Casting, Consolidation, and Environmental Curing Controls 
+Immediately following fresh flow verification, the green mortar was cast into standard 
+three-gang steel 40 × 40 × 160 mmprismatic molds. To limit air entrapment while 
+managing the high internal shear resistance caused by fiber meshes, a layered molding 
+protocol was enforced. Each mold compartment was filled in two distinct, equal layers. 
+After placing each layer, the mold assembly was securely clamped onto the high-
+frequency laboratory vibrating table. Mechanical consolidation was delivered at a 
+standardized frequency of 50 Hz for exactly 30 seconds per layer. This compaction 
+window was strictly managed: insufficient vibration leaves internal honeycomb 
+defects, while excessive vibration induces aggregate segregation by forcing even the 
+sand-coated EPS beads to migrate upward. 
+Once compaction was complete, the top surfaces were finished flush with a flat trowel. 
+The filled molds were transferred to a draft-free storage area and covered with an 
+impermeable plastic sheet to prevent water evaporation and control early-age plastic 
+shrinkage cracking. The specimens cured inside the molds for 12 to 24 hours to 
+develop sufficient early-age handling strength. Following stripping, the mortar prisms 
+were carefully demolded and fully submerged in a water storage tank. The specimens 
+remained submerged under continuous ambient tropical curing conditions until they 
+reached the 28-day maturity mark for destructive testing. 
+
+========================================
+<<< PDF PAGE 66 >>>
+========================================
+ 
+49 
+ 
+3.2.6. Macro-Physical and Destructive Performance Testing 
+At exactly 28 days of hydration, the cured 40 × 40 × 160 mmmortar prisms were 
+removed from the water tanks, wiped to a saturated surface-dry state, and subjected to 
+standardized mechanical and physical testing workflows strictly conforming to EN 
+196-1 protocols: 
+3.2.6.1.Tri-Axial Flexural Strength Characterization  
+The prisms were tested for three-point flexural strength (𝑓𝑟) using an automated 
+hydraulic testing machine. In accordance with EN 196-1, the prism was centered 
+horizontally on two steel bearing rollers spaced exactly 100 mm apart. A continuous 
+vertical load was applied through a central loading platen at a standardized load rate 
+of 50 ± 10 N/suntil the beam underwent flexural cracking failure. The peak failure 
+load (𝐹𝑓) was recorded to compute the flexural capacity. 
+3.2.6.2.Axial Compressive Strength Crushing  
+Following flexural splitting, the two resulting prism half-beams were immediately 
+recovered to determine their compressive strength (𝑓𝑐) per EN 196-1. The half-prism 
+was positioned between high-hardness steel compression platens utilizing standard 
+40 × 40 mmsquare bearing plates, ensuring an exact cross-sectional loading area of 
+1600 mm2. A continuous hydraulic load was applied at a standardized rate of 2400 ±
+200 N/suntil the specimen underwent ultimate structural crushing. The maximum load 
+at failure (𝐹𝑐) was logged to calculate the compressive capacity. 
+3.2.6.3.Fluid Transport and Buoyancy-Assisted Volumetric Testing  
+To evaluate moisture transport and apparent porosity, pristine companion prisms were 
+subjected to an immersion water absorption test. The specimens were placed inside a 
+precision forced-air ventilated drying oven at 105 ± 5∘Cfor 24 hours to achieve full 
+dehydration, allowing the Oven-Dry weight (𝑊𝑑) to be logged. The dry specimens 
+were then fully submerged in an ambient-temperature water tank until mass saturation 
+was achieved. 
+
+========================================
+<<< PDF PAGE 67 >>>
+========================================
+ 
+50 
+ 
+The fully saturated specimens were weighed while completely submerged using a 
+hydrostatic balance network to capture the submerged buoyant weight (𝑊𝑤). Finally, 
+they were removed and weighed in air to record their Saturated Surface-Dry weight 
+(𝑊𝑠). These three physical indicators (𝑊𝑑, 𝑊𝑠, 𝑊𝑤) were compiled systematically to 
+isolate the open capillary paths and mathematically derive the apparent volumetric 
+porosity of the composite. 
+3.2.7. Interfacial Microstructural and Analytical Diagnostics 
+To examine the aggregate boundaries and validate mineral phase changes at the 
+microscopic level, representative fragments were extracted from the crushed 28-day 
+specimens and prepared for high-resolution imaging and elemental analysis: 
+3.2.7.1.Micro-Specimen Extraction and Hydration Arrest  
+Small core fragments containing the aggregate-to-paste boundary layer were carefully 
+cut from the center of the crushed prisms using a low-speed diamond saw. To prevent 
+ongoing cement hydration from altering the microstructural chemistry, the extracted 
+fragments were immediately submerged in a high-purity isopropyl alcohol (IPA) bath 
+for 7 days. This solvent-exchange protocol replaced internal pore water with alcohol, 
+freezing mineral growth without damaging fragile calcium-silicate-hydrate (C-S-H) 
+gels. Following hydration arrest, the specimens were vacuum-dried, mounted inside 
+low-viscosity epoxy resin blocks, and mechanically polished using progressive silicon 
+carbide abrasive papers and diamond paste compounds. 
+3.2.7.2.Conductive Surface Preparation  
+Because cement and polymer aggregates are non-conductive, the polished epoxy 
+blocks were mounted onto aluminum stubs using conductive carbon tape and placed 
+inside a vacuum sputtering chamber. The assemblies were coated with a thin layer of 
+high-purity gold to ensure stable electron beam interaction and prevent thermal 
+distortion during high-resolution imaging. 
+3.2.7.3.SEM Boundary Scans & EDS Chemical Profiles  
+
+========================================
+<<< PDF PAGE 68 >>>
+========================================
+ 
+51 
+ 
+The gold-sputtered blocks were loaded into the vacuum chamber of the Scanning 
+Electron Microscope (SEM), with the electron gun configured to an accelerating 
+voltage of 15 kV. The operator scanned the polished field to visually identify and map 
+the precise boundary zone where the hydrated cement matrix interlocks with the sand-
+coated EPS aggregate perimeter. 
+Once the interface was isolated, the coupled Energy Dispersive X-ray Spectroscopy 
+(EDS) micro-analytical detector was activated. Automated point-by-point line-scans 
+were programmed to run along a straight path crossing from the bulk cement paste, 
+directly through the Interfacial Transition Zone (ITZ), and onto the aggregate border. 
+The detector recorded element-specific X-ray energy counts at regular micro-spatial 
+intervals, allowing the reduction in the Calcium-to-Silicon (Ca/Si) atomic ratio to be 
+quantitatively tracked, providing empirical proof of secondary pozzolanic 
+densification. 
+
+========================================
+<<< PDF PAGE 69 >>>
+========================================
+ 
+52 
+ 
+4. CALCULATIONS 
+4.1.Raw Material Characterization Calculation 
+4.1.1. Binder Pycnometry and Thermal Correction Matrix  
+To execute accurate absolute volume mix design calculations, the true density of the 
+hydraulic binder phase must be established by eliminating the volumetric errors 
+introduced by pre-hydration reactions. The specific gravity of the Ordinary Portland 
+Cement (OPC) was determined experimentally using a 50 mL glass density bottle with 
+high-purity kerosene as the inert displacement medium. The physical testing was 
+executed at an ambient laboratory temperature of 29∘𝐶. 
+First, the specific gravity of the kerosene carrier fluid (𝐺𝑘) was established by 
+comparing its mass to an equal volume of distilled water using the same density bottle, 
+yielding a stable baseline of 0.7835. The specific gravity of the cement at the localized 
+test temperature of 29∘𝐶(𝐺29) was then calculated from the precise mass of the dry 
+cement (𝑀𝑐= 19.92 g) and the mass of the kerosene displaced by that sample 
+(𝑀𝑑𝑖𝑠𝑝𝑙𝑎𝑐𝑒𝑑= 5.25 g): 
+𝐺29 =
+Mass of cement
+Mass of displaced kerosene × 𝐺𝑘= 19.92
+5.25 × 0.7835 = 2.9728 
+Because the volumetric tracking limits of material matrices shift due to thermal 
+expansion, a temperature correction equation was applied to standardize this raw 
+laboratory reading down to the study's reference baseline temperature of 27∘𝐶. The 
+normalization routine utilizes the known densities of water at 29∘𝐶(0.9959 g/mL) and 
+27∘𝐶(0.9965 g/mL): 
+𝐺27 = 𝐺29 × 𝜌𝑤,29
+𝜌𝑤,27
+= 2.9728 × 0.9959
+0.9965 = 2.97 
+The experimentally determined specific gravity of 2.97 is marginally below the 
+theoretical range for standard OPC (3.10–3.15). This minor deviation is attributed 
+primarily to microscopic entrapped air voids within the cement-kerosene mixture 
+
+========================================
+<<< PDF PAGE 70 >>>
+========================================
+ 
+53 
+ 
+resisting full displacement, coupled with laboratory balance fluctuations (±0.05 g). 
+Nevertheless, the corrected value of 2.97 is highly consistent with values derived via 
+density bottle methods and was directly integrated into the absolute volume mix design 
+balances. 
+4.1.2. Bogue Stoichiometric Clinker Phase Conversions  
+To correlate the rapid early-age compressive capacity development (2-day strength of 
+25.0 N/mm2) and hydration kinetics of the Tokyo Super OPC, the prospective 
+mineralogical clinker phase distributions were evaluated using standard Bogue 
+equations. This stoichiometric reduction methodology converts the bulk chemical 
+oxide mass fractions into potential mineral percentages. The equations are valid 
+because the aluminum oxide content strictly exceeds the ferric oxide content (6.0% >
+3.0%): 
+Alite (𝐶3𝑆 – Tricalcium Silicate Phase): 
+𝐶3𝑆= 4.071(62.0) −7.600(21.0) −6.718(6.0) −1.430(3.0) −2.852(2.1)
+= 42.2% 
+Belite (𝐶2𝑆 – Dicalcium Silicate Phase): 
+𝐶2𝑆= 2.867(21.0) −0.7544(42.2) = 28.4% 
+Aluminate (𝐶3𝐴 – Tricalcium Aluminate Phase): 
+𝐶3𝐴= 2.650(6.0) −1.692(3.0) = 10.8% 
+Ferrite (𝐶4𝐴𝐹 – Tetracalcium Aluminate Ferrite Phase): 
+𝐶4𝐴𝐹= 3.043(3.0) = 9.1% 
+The dominant Alite fraction (42.2%) mathematically confirms the rapid early 
+hydration kinetics required by the cement's 42.5 R classification. Concurrently, the 
+relatively high Aluminate level (10.8%) validates the requisite 2.1% SO3(gypsum) 
+addition to retard flash setting, maintaining the initial setting window at 160 minutes. 
+
+========================================
+<<< PDF PAGE 71 >>>
+========================================
+ 
+54 
+ 
+These relationships successfully establish the processing-microstructure-properties 
+linkage inherent in the binder phase. 
+4.1.3. Fine Aggregate Particle Size and Volumetric Mechanics 
+The raw sieve grading dataset for the Manufactured Sand (M-Sand) derived from high-
+grade crushed metamorphic rock was processed to determine its structural 
+compatibility. Using an initial total sample dry mass (𝑀𝑡) of 884.2 g, the individual 
+percentage mass retained on each standard sieve layer (𝑃𝑖) was calculated by dividing 
+the individual retained mass (𝑚𝑖) by the total sample weight: 
+𝑃𝑖= (𝑚𝑖
+𝑀𝑡
+) × 100 
+The cumulative percentage retained on any given sieve (𝐶𝑖) was computed by 
+summing the individual mass retention percentages of all preceding larger sieve 
+frames. The cumulative passing percentage (𝐹𝑖), which maps the aggregate particle 
+envelope against standard compliance bands, was derived using a linear volumetric 
+balance (𝐹𝑖= 100 −𝐶𝑖). The complete mass balance from the laboratory sieve 
+analysis is presented in Table 14. 
+Table 14: Sieve Analysis Results and Mass Balance for M-Sand 
+Sieve 
+Size 
+Passing 
+Mass (g) 
+Retained 
+Mass (g) 
+% 
+Retained 
+Cumulative 
+% 
+Retained 
+% 
+Passing 
+5.00 mm 881.20 
+3.00 
+0.34 
+0.34 
+99.66 
+2.36 mm 688.00 
+193.20 
+21.85 
+22.19 
+77.81 
+1.18 mm 534.10 
+153.90 
+17.41 
+39.60 
+60.40 
+600 μ𝑚 
+398.40 
+135.70 
+15.35 
+54.95 
+45.05 
+
+========================================
+<<< PDF PAGE 72 >>>
+========================================
+ 
+55 
+ 
+300 μ𝑚 
+297.60 
+100.80 
+11.40 
+66.35 
+33.65 
+150 μ𝑚 
+139.70 
+157.90 
+17.86 
+84.21 
+15.79 
+75 μ𝑚 
+64.40 
+75.30 
+8.52 
+92.73 
+7.27 
+Pan 
+- 
+64.40 
+7.28 
+100.00 
+- 
+The Fineness Modulus (FM), serving as an empirical index of the average aggregate 
+grain size, was calculated by summing the cumulative percentage mass fractions 
+retained on the designated standard sieve series (5.00 mm, 2.36 mm, 1.18 mm, 
+600 μ𝑚, 300 μ𝑚, 150 μ𝑚) and dividing by an absolute factor of 100: 
+𝐹𝑀= 0.34 + 22.19 + 39.60 + 54.95 + 66.35 + 84.21
+100
+= 267.64
+100
+= 2.68 
+An FM calculation of 2.68 establishes that the M-Sand fits within the standard 
+boundaries of a Medium Sand. The compliance of this measured gradation against the 
+strict structural grading bands of BS 882 (Zone M) is summarized in Table 14. 
+To process absolute volumetric calculations, the specific gravity of the M-Sand (𝐺𝑠) 
+was quantified using water pycnometry. It was calculated using the mass of the empty 
+bottle (𝑊1 = 16.46 g), the bottle with sand (𝑊2 = 54.21 g), the bottle with sand and 
+water (𝑊3 = 97.92 g), and the bottle with water only (𝑊4 = 73.96 g): 
+𝐺29 =
+𝑊2 −𝑊1
+(𝑊4 −𝑊1) −(𝑊3 −𝑊2) =
+37.75
+57.50 −43.71 = 37.75
+13.79 = 2.74 
+After applying the negligible thermal correction to the 27∘𝐶baseline, the specific 
+gravity resolved to 2.74 ± 0.02, confirming the material is free of lightweight mineral 
+inclusions. The compacted bulk density (𝜌𝑏𝑢𝑙𝑘) of the fine aggregate was evaluated to 
+quantify the dense packing efficiency of the angular metamorphic particles utilizing a 
+100 mL graduated cylinder (empty mass 138.27 g, compacted mass 315.09 g): 
+
+========================================
+<<< PDF PAGE 73 >>>
+========================================
+ 
+56 
+ 
+𝜌𝑏𝑢𝑙𝑘= 315.09 −138.27
+100 cm3
+= 1.768 g/cm3 = 1768 ± 18 kg/m3 
+To ensure that the water-to-binder ratio stays locked at its target center point across all 
+mix designs, the physical moisture transport boundaries of the metamorphic sand must 
+be continually balanced. The total water absorption capacity (𝑊𝐴) was calculated 
+using the saturated surface-dry (𝑚𝑆𝑆𝐷= 200.26 g) and oven-dry (𝑚𝑂𝐷= 198.06 g) 
+masses measured from an empty cup of 108.85 g: 
+𝑊𝐴= (200.26 −108.85) −(198.06 −108.85)
+198.06 −108.85
+× 100 = 91.41 −89.21
+89.21
+× 100
+= 2.47 ± 0.11% 
+Concurrently, the point-in-time total moisture content (𝑀𝐶) of the field aggregate was 
+measured via oven-drying (𝑚𝑤𝑒𝑡= 259.03 g, 𝑚𝑂𝐷= 251.49 g, empty plate 
+116.84 g) prior to mixing: 
+𝑀𝐶= (259.03 −116.84) −(251.49 −116.84)
+251.49 −116.84
+× 100 = 142.19 −134.65
+134.65
+× 100
+= 5.60 ± 0.07% 
+Because the field moisture (5.60%) exceeded the internal absorption capacity 
+(2.47%), the aggregate contained free surface water. This net free water contribution 
+fraction was mathematically subtracted from the batch water mass to prevent 
+unintentional dilution of the paste matrix. 
+4.1.4. Expanded Polystyrene (EPS) Volumetric Dynamics  
+Because EPS beads possess extreme buoyancy, their raw specific gravity (𝐺𝑠) was 
+isolated using a specialized hydrostatic displacement methodology. A known dry mass 
+of beads (8.36 g) was submerged using a weighted net. Subtracting the net's 
+independent displaced volume (10 mL) from the total submerged fluid volume rise 
+(1043.84 g final measurement yielding 318 mLdisplacement) isolated the net 
+polymer volume: 
+𝑉𝑏𝑒𝑎𝑑𝑠= 318 −10 = 308 cm3 
+
+========================================
+<<< PDF PAGE 74 >>>
+========================================
+ 
+57 
+ 
+𝐺𝑠=
+𝑚𝑏𝑒𝑎𝑑𝑠
+𝑉𝑏𝑒𝑎𝑑𝑠× 𝜌𝑤
+=
+8.36
+308 × 1.0 = 0.0271 ± 0.0007 
+The uncoated bulk density was evaluated using a 1000 mL graduated cylinder (empty 
+529.65 g, full 544.93 g): 
+𝜌𝑏𝑢𝑙𝑘, 𝑢𝑛𝑐𝑜𝑎𝑡𝑒𝑑= 544.93 −529.65
+1000 cm3
+= 15.3 ± 0.8 kg/m3 
+To quantify the structural transformations achieved by the PVAc physical pre-coating 
+treatment, the bulk density of the sand-encrusted core-shell aggregate was evaluated 
+in a 250 mL cup (mean filled mass 65.49 g, empty cup 27.24 g, mean aggregate mass 
+38.25 g): 
+𝜌𝑏𝑢𝑙𝑘, 𝑐𝑜𝑎𝑡𝑒𝑑=
+38.25
+250 cm3 = 0.1530 g/cm3 = 153 ± 3 kg/m3 
+This physical transition from a smooth polymer perimeter to a dense mineral jacket 
+increased the bulk density exactly tenfold (+10.0 ×), fulfilling the Processing 
+→Microstructure →Properties framework by drastically reducing buoyancy and 
+enabling mechanical interlock at the Interfacial Transition Zone (ITZ). 
+4.1.5. Rice Husk Ash (RHA) Chemical and Physical Processing  
+To execute absolute volumetric substitutions safely without inducing pre-hydration of 
+the amorphous silica, the specific gravity of the processed RHA was measured via 
+kerosene pycnometry (ASTM D854 adapted). The specific gravity of the kerosene 
+carrier (𝐺𝑘) was first verified against distilled water (𝑊4 = 59.80 g, 𝑊5 = 71.81 g, 
+empty bottle 𝑊1 = 16.35 g): 
+𝐺𝑘= 𝑊4 −𝑊1
+𝑊5 −𝑊1
+= 59.80 −16.35
+71.81 −16.35 = 43.45
+55.46 = 0.7835 
+The specific gravity of the RHA at the ambient 29∘𝐶test temperature was derived 
+using the dry ash mass (𝑊2 = 26.89 g) and the mass of the displaced kerosene (𝑊3 =
+66.35 g): 
+
+========================================
+<<< PDF PAGE 75 >>>
+========================================
+ 
+58 
+ 
+Mass of RHA = 26.89 −16.35 = 10.54 g 
+Mass of displaced kerosene = 43.45 −(66.35 −26.89) = 3.99 g 
+𝐺29 = 10.54
+3.99 × 0.7835 = 2.069 ≈2.07 ± 0.05 
+This low specific gravity verifies the highly porous, cellular micro-architecture 
+inherited from the agricultural husk. The compacted bulk density similarly reflected 
+this fine powder morphology (empty cylinder 138.27 g, compacted mass 203.51 g): 
+𝜌𝑏𝑢𝑙𝑘= 203.51 −138.27
+100 cm3
+= 0.6524 g/cm3 = 652 ± 7 kg/m3 
+To evaluate the combustion efficiency of the open-field burnt ash, the Loss on Ignition 
+(LOI) was determined (ASTM C311) by incinerating the sample inside a muffle 
+furnace at 750∘𝐶. Using the mass of the empty crucible (169.96 g), the mass before 
+ignition (202.48 g), and the mass after ignition (202.21 g), the mass loss was 
+evaluated: 
+Mass of RHA Sample = 202.48 −169.96 = 32.52 g 
+Mass Lost on Ignition = 202.48 −202.21 = 0.27 g 
+𝐿𝑂𝐼= 0.27
+32.52 × 100 = 0.83 ± 0.22% 
+This 0.83% LOI falls exceptionally below the 6.0% maximum limit specified by 
+ASTM C618, confirming near-complete combustion of residual carbonaceous 
+material. 
+To determine the material's viability as a Class N pozzolan, the elemental composition 
+was quantified using Energy Dispersive X-ray Spectroscopy (EDS). Because the eZAF 
+Smart Quant matrix explicitly quantifies all elements including oxygen, establishing 
+standard ASTM C618 pozzolanic classification required a rigorous mathematical 
+conversion from elemental weight percentages to oxide equivalents. To account for 
+the inherent spatial heterogeneity of the open-field burnt ash, EDS atomic 
+
+========================================
+<<< PDF PAGE 76 >>>
+========================================
+ 
+59 
+ 
+quantification was executed across three independent, spatially separated regions 
+(101 × 91 μm scanning grids) see Appendix A. 
+The raw atomic percentages from these three locations were mathematically averaged 
+to derive a globally representative elemental profile. This averaged profile yielded the 
+primary non-oxygen structural elements (Mean 𝑆𝑖= 47.05%, 𝐴𝑙= 2.76%, 𝐹𝑒=
+1.97%, 𝐾= 3.78%, 𝐶𝑎= 0.72%), normalizing their mass fractions, and applying 
+standardized stoichiometric oxide conversion factors: 
+• 
+Silicon Dioxide (𝑆𝑖𝑂2) Factor = 2.139 
+• 
+Aluminum Oxide (𝐴𝑙2𝑂3) Factor = 1.889 
+• 
+Ferric Oxide (𝐹𝑒2𝑂3) Factor = 1.430 
+Applying these stoichiometric limits to the normalized matrix yielded the final oxide 
+equivalent compositions: 𝑆𝑖𝑂2 = 86.9%, 𝐴𝑙2𝑂3 = 4.5%, and 𝐹𝑒2𝑂3 = 2.4%. The 
+sum of these primary reactive phases established the final pozzolanic index: 
+𝑆𝑖𝑂2 + 𝐴𝑙2𝑂3 + 𝐹𝑒2𝑂3 = 86.9% + 4.5% + 2.4% = 93.8 ± 0.4% 
+A combined reactive oxide index of 93.8% substantially exceeds the ≥
+70.0%threshold required for Class N pozzolanic classification. 
+To ensure the RHA possessed sufficient reactive surface area, the laboratory jar ball 
+mill was calibrated. The critical speed (𝑁𝑐) of the 10 cm diameter drum (𝑟= 0.05 m) 
+was computed mathematically: 
+𝑁𝑐= 1
+2𝜋√𝑔
+𝑟= 1
+2𝜋√9.81
+0.05 = 133.7 rpm 
+The roller drive was restricted to an optimal cascade fraction, yielding an operating jar 
+speed of approximately 96 rpm. Following Trial 2 (2.0 hours of continuous milling), 
+the structural fineness was verified via a wet-sieving protocol through a 53 μ𝑚 mesh 
+(initial sample 9.58 g, retained mass 0.18 g): 
+
+========================================
+<<< PDF PAGE 77 >>>
+========================================
+ 
+60 
+ 
+%𝑃𝑎𝑠𝑠𝑖𝑛𝑔= 9.58 −0.18
+9.58
+× 100 = 98.1% 
+Achieving 98.1% passing a 53 μ𝑚 mesh approaches standard reactive fineness 
+parameters, maximizing the available amorphous silica surface area for subsequent 
+rapid secondary pozzolanic synthesis. 
+4.1.6. Superplasticizer Specific Gravity Calibration  
+To ensure the dosage of the FAIRFLO S (MODIFIED) high-range water reducer could 
+be accurately converted from a mass fraction into an absolute volume, its specific 
+gravity was isolated experimentally. The density bottle method compared the net mass 
+of the superplasticizer (𝑚𝑆𝑃= 65.40 g) against the net mass of distilled water (𝑚𝑤=
+55.39 g) occupying the same volume: 
+𝐺29 = 𝑚𝑆𝑃
+𝑚𝑤
+= 65.40
+55.39 = 1.181 
+After minor thermal correction to the 27∘𝐶baseline, the stabilized specific gravity of 
+1.180 ± 0.002 provided the precise fluid density variable required for the absolute 
+volume mix apportionments. 
+4.2.Absolute Volumetric Apportionment and Multi-Phase Mix Design 
+Equations 
+4.2.1. The Fundamental Absolute Volume Framework (Phase 1: Base Matrix)  
+The quantitative mix proportioning for the entire experimental program was governed 
+by the Absolute Volume Method. This fundamental principle dictates that the total 
+macroscopic volume of a fully compacted cementitious matrix is exactly equal to the 
+sum of the absolute (solid) volumes of its individual constituents, plus the volume of 
+any unavoidable entrapped air. For a standard theoretical 1.0 m3batch of base mortar, 
+the overarching volumetric balance is defined as: 
+𝑉𝑡𝑜𝑡𝑎𝑙= 𝑉𝑏+ 𝑉𝑤+ 𝑉𝑠+ 𝑉𝑎𝑖𝑟= 1.0 m3 
+
+========================================
+<<< PDF PAGE 78 >>>
+========================================
+ 
+61 
+ 
+Assuming a standard 1%entrapped air allowance for mechanically compacted mortar 
+(𝑉𝑎𝑖𝑟= 0.01 m3), the cumulative absolute volume of the solid reactive ingredients and 
+mixing water must equal exactly 0.99 m3: 
+𝑉𝑏+ 𝑉𝑤+ 𝑉𝑠= 0.99 
+To transition from abstract volumetric space to measurable laboratory mass, the 
+absolute volume of any individual constituent (𝑉𝑖) is mathematically expressed as its 
+dry mass (𝑚𝑖) divided by its absolute density, which is the product of its Specific 
+Gravity (𝑆𝐺𝑖) and the reference density of water (𝜌𝑤= 1000 kg/m3): 
+𝑉𝑖=
+𝑚𝑖
+𝑆𝐺𝑖× 1000 
+Substituting this physical relationship into the consolidated solid volume equation 
+yields the primary mass-volume balance: 
+𝑚𝑏
+𝑆𝐺𝑏× 1000 + 𝑚𝑤
+1000 +
+𝑚𝑠
+𝑆𝐺𝑠× 1000 = 0.99 
+Within this experimental design framework, the water and fine aggregate quantities 
+are defined not as independent variables, but as strict mass ratios relative to the total 
+binder content specifically, the water-to-binder ratio (𝑤/𝑏) and the sand-to-binder 
+ratio (𝑠/𝑏). Expressing the constituent masses via these established ratios (𝑚𝑤=
+𝑚𝑏× (𝑤/𝑏) and 𝑚𝑠= 𝑚𝑏× (𝑠/𝑏)) allows the volumetric equation to be expanded: 
+𝑚𝑏
+𝑆𝐺𝑏× 1000 + 𝑚𝑏× (𝑤/𝑏)
+1000
++ 𝑚𝑏× (𝑠/𝑏)
+𝑆𝐺𝑠× 1000 = 0.99 
+To create a functional batching formula where the theoretical mass of the binder (𝑚𝑏) 
+is the solitary unknown variable, the equation is factored and algebraically rearranged: 
+𝑚𝑏( 1
+𝑆𝐺𝑏
++ (𝑤/𝑏) + (𝑠/𝑏)
+𝑆𝐺𝑠
+ ) = 990 
+This equation resolves the constituent masses required to yield exactly 1.0 m3of fresh 
+mortar. However, material quantities must be proportionately scaled down to the 
+
+========================================
+<<< PDF PAGE 79 >>>
+========================================
+ 
+62 
+ 
+specific laboratory batch sizes dictated by the specimen dimensions. The experimental 
+testing protocol required three 40 × 40 × 160 mmprismatic specimens per mix 
+variation. To account for inevitable material adherence to the mixing drum and minor 
+casting losses, a 25%volumetric waste factor was integrated. The final gross 
+laboratory batch volume (𝑉𝑏𝑎𝑡𝑐ℎ) was quantified as: 
+𝑉𝑏𝑎𝑡𝑐ℎ= 3 × (0.04 × 0.04 × 0.16) × 1.25 = 0.00096 m3 
+Consequently, the required batch mass of the binder (𝑚𝑏,𝑏𝑎𝑡𝑐ℎ) was determined by 
+multiplying the theoretical 1 m3mass by this exact scaling factor: 
+𝑚𝑏,𝑏𝑎𝑡𝑐ℎ= 𝑚𝑏× 0.00096 =
+0.9504
+1
+𝑆𝐺𝑏+ (𝑤/𝑏) + (𝑠/𝑏)
+𝑆𝐺𝑠
+ 
+With the definitive batch mass of the binder (𝑚𝑏,𝑏𝑎𝑡𝑐ℎ) mathematically established, 
+the theoretical Saturated-Surface-Dry (SSD) batch masses for the mixing water 
+(𝑚𝑤,𝑏𝑎𝑡𝑐ℎ) and the fine aggregate (𝑚𝑠,𝑏𝑎𝑡𝑐ℎ) are strictly dictated by the respective 
+predefined mix ratios: 
+𝑚𝑤,𝑏𝑎𝑡𝑐ℎ= 𝑚𝑏,𝑏𝑎𝑡𝑐ℎ× (𝑤/𝑏) 
+𝑚𝑠,𝑏𝑎𝑡𝑐ℎ= 𝑚𝑏,𝑏𝑎𝑡𝑐ℎ× (𝑠/𝑏) 
+This perfectly sets up the transition into the real-world field corrections. 
+4.2.2. Aggregate Moisture Kinetics and Water Compensation Algorithms  
+The theoretical mix proportions generated by the absolute volume equations assume 
+the fine aggregate is in a perfect Saturated-Surface-Dry (SSD) state,1 meaning the 
+internal aggregate pores are entirely filled with water, but the external surface is 
+completely dry. In laboratory reality, the M-Sand utilized in this study fluctuates in 
+moisture depending on ambient storage conditions. To strictly lock the experimental 
+water-to-binder (𝑤/𝑏) ratio and prevent unintended paste dilution, a mathematical 
+water compensation algorithm was applied prior to every batching session. 
+
+========================================
+<<< PDF PAGE 80 >>>
+========================================
+ 
+63 
+ 
+The point-in-time free moisture (𝐹𝑀%) of the fine aggregate representing either 
+excess surface water (positive value) or an absorption deficit (negative value) was 
+quantified by subtracting the internal Water Absorption capacity (𝐴𝑏%) from the 
+measured total Moisture Content (𝑀𝐶%): 
+𝐹𝑀% = 𝑀𝐶% −𝐴𝑏% 
+Because the theoretical sand mass (𝑚𝑠,𝑏𝑎𝑡𝑐ℎ) derived in Section 4.2.1 is in the SSD 
+state, it contains the absorbed water but no surface water. To adjust the aggregate mass 
+accurately, the absolute oven-dry mass of the sand (𝑚𝑑𝑟𝑦) must first be mathematically 
+isolated: 
+𝑚𝑑𝑟𝑦=
+𝑚𝑠,𝑏𝑎𝑡𝑐ℎ
+1 + (𝐴𝑏%
+100 )
+ 
+Once the true solid mass of the aggregate is isolated, the required physical "wet" mass 
+of the sand to be weighed on the laboratory scale (𝑚𝑠𝑎𝑛𝑑,𝑐𝑜𝑟𝑟𝑒𝑐𝑡𝑒𝑑) is scaled up using 
+the total measured moisture content: 
+𝑚𝑠𝑎𝑛𝑑,𝑐𝑜𝑟𝑟𝑒𝑐𝑡𝑒𝑑= 𝑚𝑑𝑟𝑦× (1+ 𝑀𝐶%
+100 ) 
+Finally, the mixing water must be precisely reduced to compensate for the free surface 
+water physically carried into the mixer by the wet sand. This free water contribution 
+is mathematically deducted from the theoretical batch water (𝑚𝑤,𝑏𝑎𝑡𝑐ℎ): 
+𝑚𝑤𝑎𝑡𝑒𝑟,𝑐𝑜𝑟𝑟𝑒𝑐𝑡𝑒𝑑= 𝑚𝑤,𝑏𝑎𝑡𝑐ℎ−(𝑚𝑑𝑟𝑦× 𝐹𝑀%
+100 ) 
+This algorithmic correction preserves the volumetric integrity of the absolute volume 
+method across all experimental phases, preventing fluctuating aggregate moisture 
+from altering the rheology and ultimate compressive capacity of the mortar. 
+4.2.3. Composite Binder and Core-Shell Aggregate Volumetrics (Phase 2)  

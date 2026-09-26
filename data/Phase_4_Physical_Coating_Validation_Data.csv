@@ -1,0 +1,5 @@
+Mix_ID,EPS_Vol_pct,Aggregate_State,Compressive_fc_MPa,Flexural_fr_MPa,Compressive_Recovery_pct,Flexural_Recovery_pct
+S4M1,20%,Uncoated Raw EPS,10.15,2.1,0.0%,0.0%
+S4M2,20%,PVAc/M-Sand Coated EPS,13.85,3.45,+36.45%,+64.29%
+S4M3,40%,Uncoated Raw EPS,4.2,0.95,0.0%,0.0%
+S4M4,40%,PVAc/M-Sand Coated EPS,7.15,1.85,+70.24%,+94.74%

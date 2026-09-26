@@ -1,0 +1,130 @@
+
+--- PAGE 1 ---
+Lightweight mortars for precast ferrocement construction face an inherent engineering trade-off: reducing density with Expanded Polystyrene
+(EPS) beads severely compromises compressive strength and toughness, driven by poor interfacial bonding and buoyancy-induced
+segregation. This research resolves that paradox through a ternary synergistic system surface-coated EPS for density reduction, ball-milled
+Rice Husk Ash (RHA) for pozzolanic matrix densification, and Polypropylene (PP) micro-fibers for crack-bridging toughness systematically
+optimized via Response Surface Methodology with a Face-Centered Central Composite Design (CCF). The resulting matrix achieves a
+density of 1993 kg/m³ (13% lighter than the plain control) while retaining a compressive strength of 15.62 MPa, flexural strength of 3.59
+MPa, and toughness of 18.24 mJ/mm³, with apparent porosity essentially unchanged from the dense baseline. These results confirm that a
+properly engineered ternary matrix can decouple density reduction from strength loss, offering a high-performance, viable lightweight
+solution for non-load-bearing and also load bearing precast partition panels.
+Synergistic Effects of Rice Husk Ash and 
+Polypropylene Fiber on the Performance of 
+Modified Expanded Polystyrene Cement Mortar
+Premakumara H.P.S. , Mayoorathan K. , Supervisor: Eng. S.P. Guluwita
+ Department of Materials Science and Engineering, University of Moratuwa
+Abstract
+Introduction
+Result and Discussion
+The Paradox
+Conventional cement mortar runs 2200–2400 kg/m³ heavy 
+enough to demand high-capacity lifting equipment, increase 
+handling stress during demolding, and risk early cracking before 
+precast panels reach full strength. EPS beads are the obvious fix 
+for weight, but raw EPS is a smooth, hydrophobic void that 
+wrecks the very strength and toughness the mortar needs to 
+survive that handling.
+Microstructural Failure
+Uncoated EPS creates a weak, calcium-rich Interfacial Transition 
+Zone (ITZ) around every bead essentially a network of pre-
+formed failure planes. Its low density also causes it to float and 
+segregate during casting, compounding the problem before the 
+mortar even sets.
+The Objective
+Engineer a ternary system that neutralizes all three failure modes 
+at once: heal the ITZ chemically, lock the EPS mechanically into 
+the paste, and arrest the resulting brittleness  without exceeding a 
+target density of 2000 kg/m³.
+Methodology
+References
+[1] W. Xu, T. Y. Lo, W. Wang, D. Ouyang, P. Wang, and F. 
+Xing, "Pozzolanic reactivity of silica fume and ground rice husk 
+ash as reactive silica in a cementitious system: A comparative 
+study," Materials, vol. 9, no. 3, Art. no. 146, Mar. 2016. 
+[2] Z. Mohamed and A. Al-Hadithi, "The effect of adding 
+expanded polystyrene beads (EPS) on polymer-modified mortar," 
+Engineering, Technology & Applied Science Research, vol. 12, 
+pp. 9426–9430, Dec. 2022.
+[3] M. Kurpinska, B. Grzyl, and A. Kristowski, "Cost analysis of 
+prefabricated elements of the ordinary and lightweight concrete 
+walls in residential construction," Materials, vol. 12, no. 21, Art. 
+no. 3629, Nov. 2019. 
+A. Interfacial Transition Zone (ITZ) Densification 
+SEM-EDS diagnostic mapping mathematically confirms the 
+successful pozzolanic reaction of RHA: the elemental Calcium-
+to-Silicon (Ca/Si) atomic ratio at the ITZ dropped from 24.85 to 
+5.65  a ~77% reduction confirming the transformation of a weak, 
+crystalline Portlandite-rich boundary into a dense, amorphous, 
+load-bearing C-S-H gel.
+Figure 4 : EDS Spectra comparing the Ca/Si ratio drop from 24.85 to 5.65]
+Figure 5 : SEM Micrographs (Without RHA clear ITZ vs. with RHA healed ITZ)
+B. Physical Coating & Compressive Recovery 
+Surface coating eliminated the classic EPS "wall effect." At 40% 
+EPS replacement, coating recovered compressive strength from 
+4.20 to 7.15 MPa a 70.24% recovery proof that mechanical 
+interlocking, not just chemistry, is essential to making EPS 
+mortar viable.
+Figure 6 : SEM Micrographs and strength comparison
+C. Fiber Optimization & The Degradation Plateau 
+On the optimized 10% RHA + 20% coated-EPS matrix, 0.5% PP 
+fiber emerged as the practical optimum lifting toughness from 
+14.71 to 18.24 mJ/mm³ (+24%) and flexural strength from 3.26 
+to 3.59 MPa, while sacrificing only ~7% compressive strength. 
+Pushing dosage to an extreme 2.0% confirmed this isn't a soft 
+ceiling: compressive strength continued declining to 11.06 MPa 
+and flexural strength fell below the unreinforced baseline, 
+mathematically confirming a genuine degradation plateau rather 
+than an artifact of a narrow test window.
+Figure 7 : The line graphs showing the steep downward trendline of strength vs. 
+fiber dosage
+Conclusions
+1.Optimized Output: 
+The finalized ternary composite 10% RHA, 20% coated EPS, 
+0.5% PP fiber achieves a lightweight density of 1993 kg/m³ (13% 
+lighter than the plain control) while retaining 15.62 MPa 
+compressive strength, 3.59 MPa flexural strength, and 18.24 
+mJ/mm³ toughness, with porosity essentially unchanged from the 
+dense baseline.
+2.Scientific Validation: 
+Macro-mechanical testing and micro-
+analytical SEM–EDS diagnostics tell the 
+same story from two independent directions 
+porosity refinement and ITZ densification 
+are the true strength-controlling 
+mechanisms, not incidental correlations.
+3.Real-World Viability: 
+This ternary design methodology is 
+generalizable and cost-effective, offering 
+a practical route to lighter, more 
+transportable precast ferrocement wall 
+panels without the strength penalty that 
+has historically limited EPS mortar adoption.
+Mix optimization was carried out using Response Surface 
+Methodology (RSM) with a Face-Centered Central Composite 
+Design (CCF), allowing each mechanism to be isolated and 
+statistically validated before combining them into the final 
+ternary formulation.
+Phase 1: Chemical Healing (Ball-Milled RHA) 
+Rice Husk Ash was ball-milled to a reactive pozzolanic fineness, 
+driving a secondary hydration reaction that consumes weak 
+Calcium Hydroxide and deposits dense Calcium Silicate Hydrate 
+(C-S-H) gel directly at the aggregate–paste boundary.
+Figure 1 : Processed RHA powder
+Phase 2: Physical Interlocking (Coated EPS) 
+EPS beads were surface-coated using a Polyvinyl Acetate 
+(PVAc) and M-sand matrix. This neutralized buoyancy 
+(preventing segregation) and provided a roughened surface for 
+mechanical interlocking with the cement paste.
+Figure 2 : Coated EPS beads vs RAW EPS beads
+Phase 3: Mechanical Toughening (PP Micro-Fibers) 
+Polypropylene micro-fibers were dosed incrementally (0–2.0% 
+by volume) into the optimized RHA–coated-EPS matrix to 
+bridge micro-cracks and extend post-peak ductility, up to the 
+threshold where geometric "fiber balling" begins to reverse the 
+gains.
+Figure 3 : Loose PP fibers
+Figure 8 : Flexural strength 
+variation
+Figure 9 : Compressive 
+strength variation

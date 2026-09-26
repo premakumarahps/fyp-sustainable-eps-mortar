@@ -1,0 +1,19 @@
+ 
+84 
+ 
+ 
+Table 21 : eZAF Smart Quant Results for sample area 1 
+ 
+5.2.Phase 1 Results: Base Mortar Optimization 
+To systematically evaluate the macroscopic performance of the plain cementitious 
+matrix before introducing lightweight or pozzolanic modifiers, the 11 theoretical mix 
+proportions derived via the Face - Centered Central Composite Design (CCF) in 
+Chapter 4 were physically cast and tested. 
+Table 22 consolidates the fixed volumetric input ratios against the measured fresh-
+state and 28-day hardened mechanical and physical responses. This dataset serves as 
+the foundational empirical baseline, establishing the strict boundaries for structural 
+strength, matrix porosity, and volumetric stability required to optimize the subsequent 
+ternary composite. 
+Table 22 : Phase 1 CCF Mix Matrix and Consolidated Experimental Results 
+ 
+ 

@@ -1,0 +1,618 @@
+
+==================================================
+Table 22 : Phase 1 CCF Mix Matrix
+==================================================
+Table 22 : Phase 1 CCF Mix Matrix and Consolidated Experimental Results 
+ 
+ 
+
+<<< PAGE 102 >>>
+ 
+85 
+ 
+5.2.1. Volumetric Integrity and Packing Mechanics 
+To empirically validate the precision of the Absolute Volume Method and the efficacy 
+of the moisture-compensation algorithms executed during batching, the theoretical 
+fresh density (𝜌𝑡ℎ) of each Phase 1 matrix was benchmarked against its measured fresh 
+density (𝜌𝑓𝑟𝑒𝑠ℎ) and 28-day hardened density (𝜌28𝑑). Establishing this volumetric 
+integrity is a critical prerequisite; severe deviations between theoretical and actual 
+yield indicate either inaccurate specific gravity assumptions, fluctuating fine aggregate 
+moisture, or highly inefficient mechanical compaction. 
+Table 23 : Phase 1 Volumetric Density and Air-Void Variance 
+ 
+An analysis of the dataset confirms that the mathematical batching algorithms 
+accurately reflect the physical composite. The theoretical density equations (detailed 
+in Chapter 4) incorporated a standard 1% entrapped air allowance. The measured fresh 
+densities consistently align with these theoretical projections across all 11 
+experimental runs, demonstrating an exceptionally narrow variance boundary. For 
+example, the high-density corner point S1M1 (𝑤/𝑏 = 0.35, 𝑠/𝑏= 1.5) yielded a 
+theoretical density of 2286 kg/m³ and a measured fresh density of 2262 kg/m³, 
+representing a volumetric displacement error of merely 1.05%. 
+This tight alignment is particularly evident within the strictly controlled center points 
+(S1M9, S1M10, S1M11), which establish the foundational baseline for the subsequent 
+ternary modifications. Evaluating these replicates reveals fresh densities of 2238, 
+2279, and 2257 kg/m³ against a static theoretical baseline of 2299 kg/m³. The 
+Mix ID
+Run Type
+Theoretical Fresh 
+Density (kg/m³)
+Measured Fresh 
+Density (kg/m³)
+Volumetric 
+Variance (%)
+Measured 28-
+day Density 
+(kg/m³)
+S1M1
+Factorial (-1, -1)
+2286
+2262
+1.05
+2275
+S1M2
+Factorial (+1, -1)
+2146
+2112
+1.58
+2125
+S1M3
+Factorial (-1, +1)
+2417
+2382
+1.45
+2396
+S1M4
+Factorial (+1, +1)
+2306
+2266
+1.73
+2279
+S1M5
+Axial (-1, 0)
+2364
+2328
+1.52
+2342
+S1M6
+Axial (+1, 0)
+2239
+2201
+1.7
+2214
+S1M7
+Axial (0, -1)
+2212
+2179
+1.49
+2192
+S1M8
+Axial (0, +1)
+2360
+2324
+1.53
+2338
+S1M9
+Center (0, 0)
+2299
+2238
+2.65
+2251
+S1M10
+Center (0, 0)
+2299
+2279
+0.87
+2293
+S1M11
+Center (0, 0)
+2299
+2257
+1.83
+2269
+
+<<< PAGE 103 >>>
+ 
+86 
+ 
+maximum volumetric variance within this central optimization zone remains below 
+2.6%. 
+ 
+Figure 18 : Scatter Plot of T
+
+==================================================
+Table 23 : Phase 1 Volumetric Density
+==================================================
+Table 23 : Phase 1 Volumetric Density and Air-Void Variance 
+ 
+An analysis of the dataset confirms that the mathematical batching algorithms 
+accurately reflect the physical composite. The theoretical density equations (detailed 
+in Chapter 4) incorporated a standard 1% entrapped air allowance. The measured fresh 
+densities consistently align with these theoretical projections across all 11 
+experimental runs, demonstrating an exceptionally narrow variance boundary. For 
+example, the high-density corner point S1M1 (𝑤/𝑏 = 0.35, 𝑠/𝑏= 1.5) yielded a 
+theoretical density of 2286 kg/m³ and a measured fresh density of 2262 kg/m³, 
+representing a volumetric displacement error of merely 1.05%. 
+This tight alignment is particularly evident within the strictly controlled center points 
+(S1M9, S1M10, S1M11), which establish the foundational baseline for the subsequent 
+ternary modifications. Evaluating these replicates reveals fresh densities of 2238, 
+2279, and 2257 kg/m³ against a static theoretical baseline of 2299 kg/m³. The 
+Mix ID
+Run Type
+Theoretical Fresh 
+Density (kg/m³)
+Measured Fresh 
+Density (kg/m³)
+Volumetric 
+Variance (%)
+Measured 28-
+day Density 
+(kg/m³)
+S1M1
+Factorial (-1, -1)
+2286
+2262
+1.05
+2275
+S1M2
+Factorial (+1, -1)
+2146
+2112
+1.58
+2125
+S1M3
+Factorial (-1, +1)
+2417
+2382
+1.45
+2396
+S1M4
+Factorial (+1, +1)
+2306
+2266
+1.73
+2279
+S1M5
+Axial (-1, 0)
+2364
+2328
+1.52
+2342
+S1M6
+Axial (+1, 0)
+2239
+2201
+1.7
+2214
+S1M7
+Axial (0, -1)
+2212
+2179
+1.49
+2192
+S1M8
+Axial (0, +1)
+2360
+2324
+1.53
+2338
+S1M9
+Center (0, 0)
+2299
+2238
+2.65
+2251
+S1M10
+Center (0, 0)
+2299
+2279
+0.87
+2293
+S1M11
+Center (0, 0)
+2299
+2257
+1.83
+2269
+
+<<< PAGE 103 >>>
+ 
+86 
+ 
+maximum volumetric variance within this central optimization zone remains below 
+2.6%. 
+ 
+Figure 18 : Scatter Plot of Theoretical vs. Measured Fresh Density across Phase 1 CCF Runs 
+The transition from the fresh state to the 28-day hardened state (𝜌28𝑑) exhibits a slight, 
+uniform density increase across the matrix. The center points matured to an average 
+hardened density of 2271 kg/m³. This marginal mass gain is attributed to the absorption 
+of water during the continuous 28-day submersion curing protocol, where fluid 
+occupies the micro-capillary networks generated by early-age chemical shrinkage. 
+Crucially, the absence of macroscopic density collapse confirms the structural efficacy 
+of the mechanical compaction protocol. The 50 Hz high-frequency vibration applied 
+for 30 seconds per layer successfully expelled excess entrapped ai
+
+==================================================
+Table 24 : Phase 1 Absolute and Specific
+==================================================
+Table 24 : Phase 1 Absolute and Specific Mechanical Capacities 
+ 
+(Note: Specific strength values are multiplied by 103for graphical and analytical 
+readability). 
+An analysis of the absolute parameters reveals the expected inverse relationship 
+between the water-to-binder (𝑤/𝑏) ratio and mechanical yield. Mix S1M1 (𝑤/𝑏=
+0.35) achieves the global maximum absolute compressive strength (𝑓𝑐= 46.00 MPa) 
+and flexural strength (𝑓𝑟= 6.47 MPa). By minimizing the free water, the matrix 
+develops a highly densified Calcium-Silicate-Hydrate (C-S-H) network with reduced 
+capillary porosity. However, this absolute structural supremacy comes at a critical 
+logistical cost: it possesses one of the highest hardened densities (2275 kg/m³) in the 
+matrix. 
+Mix ID
+Run Type
+w/b
+s/b
+fr (MPa)
+fc (MPa)
+ρ28d 
+(kg/m³)
+Specific fr 
+(MPa/(kg/m³) ×10⁻³)
+Specific fc 
+(MPa/(kg/m³) ×10⁻³)
+S1M1
+Factorial (-1, -1)
+0.35
+1.5
+6.47
+46
+2275
+2.84
+20.22
+S1M2
+Factorial (+1, -1)
+0.5
+1.5
+4.894
+36.5
+2125
+2.3
+17.18
+S1M3
+Factorial (-1, +1)
+0.35
+3
+4.941
+35.66
+2396
+2.06
+14.88
+S1M4
+Factorial (+1, +1)
+0.5
+3
+4.121
+31.34
+2279
+1.81
+13.75
+S1M5
+Axial (-1, 0)
+0.35
+2.25
+5.523
+39.31
+2342
+2.36
+16.78
+S1M6
+Axial (+1, 0)
+0.5
+2.25
+4.348
+32.94
+2214
+1.96
+14.88
+S1M7
+Axial (0, -1)
+0.425
+1.5
+5.484
+40.25
+2192
+2.5
+18.36
+S1M8
+Axial (0, +1)
+0.425
+3
+4.389
+32.98
+2338
+1.88
+14.11
+S1M9
+Center (0, 0)
+0.425
+2.25
+4.577
+34.55
+2251
+2.03
+15.35
+S1M10
+Center (0, 0)
+0.425
+2.25
+4.9
+36.58
+2293
+2.14
+15.95
+S1M11
+Center (0, 0)
+0.425
+2.25
+4.752
+35.62
+2269
+2.09
+15.7
+
+<<< PAGE 105 >>>
+ 
+88 
+ 
+ 
+Figure 19 : Dual-Axis Bar Chart Comparing Absolute Compressive Strength vs. Specific Compressive Strength 
+across Phase 1 
+When evaluated through the lens of specific strength, the narrative shifts. While S1M1 
+maintains the highest specific yield due to its immense absolute capacity, its low 
+𝑤/𝑏ratio of 0.35 presents severe rheological liabilities. A mixture this stiff resists rapid 
+factory compaction and is fundamentally incompatible with the introduction of high-
+surface-area pozzolans (RHA) and water-repelling polymers (EPS) planned for Phase 
+2. The matrix would suffer immediate flow collapse. 
+Conversely, the center point replicates (S1M9, S1M10, S1M11) mathematically 
+stabilize this trade-off. Averaging a 𝑤/𝑏of 0.425 and an 𝑠/𝑏of 2.25, the center points 
+deliver a highly consistent mean compressive capacity of 35.58 MPa and a specific 
+compressive index of approximately 15.67. More importantly, they yield an average 
+specific flexural strength of 2
+
+==================================================
+Table 25 : Thesis-Grade ANOVA Table for Apparent Porosity
+==================================================
+Table 25 : Thesis-Grade ANOVA Table for Apparent Porosity (Quadratic Model) 
+ 
+(Note: Statistical Fit Summary Metrics: 𝑅2 > 0.96. An insignificant Lack of Fit 
+validates this quadratic model architecture). 
+Analyzing the corrected statistical fit metrics reveals a highly distinct sensitivity 
+profile governing matrix permeability. The water-to-binder ratio (𝑤/𝑏) acts as the 
+dominant physical mechanism controlling void generation, exhibiting both a massive 
+linear impact and a highly significant non-linear parabolic curve (𝑤/𝑏2 coefficient of 
++68.02). This mathematically validates classical concrete models: at lower 
+𝑤/𝑏ranges, the rate of void generation remains stable as mixing water is heavily 
+consumed by primary clinker hydration. However, as the matrix approaches the 0.50 
+𝑤/𝑏upper limit, the rate of capillary void generation accelerates aggressively upward, 
+leaving behind a pervasive network of macro-pores. 
+Conversely, the fine aggregate dosage (𝑠/𝑏) exerts a strictly linear impact on apparent 
+porosity. Its quadratic curvature parameter (𝑠/𝑏2) and its interaction with water (𝑤/𝑏⋅
+𝑠/𝑏) remain statistically insignificant regarding pure void generation. This indicates 
+that while increasing the sand volume linearly displaces dense cement paste, it does 
+not physically interact with the water to create unpredictable, compounding void 
+networks. 
+This 7.19% center-point void volume (derived from S1M9, S1M10, S1M11) is a 
+critical structural parameter for the progression of this research. It represents the exact 
+microstructural deficit that the highly reactive Rice Husk Ash (RHA) will target in 
+Source of Variation
+Degrees of 
+Freedom (df)
+Sum of 
+Squares (SS)
+Mean Square 
+(MS)
+F-Value
+p-Value
+Thesis Significance 
+Status
+Model
+5
+9.78
+1.956
+> 40.00
+< 0.001
+Highly Significant
+Linear w/b
+1
+6.74
+6.74
+-
+< 0.01
+Significant
+Linear s/b
+1
+2.62
+2.62
+-
+< 0.01
+Significant
+Interaction w/b × s/b
+1
+0.03
+0.03
+-
+> 0.05
+Not Significant
+Quadratic w/b²
+1
+0.35
+0.35
+-
+< 0.05
+Significant
+Quadratic s/b²
+1
+0.04
+0.04
+-
+> 0.05
+Not Significant
+Residual (Error)
+5
+~0.31
+0.062
+-
+-
+-
+Lack of Fit
+3
+~0.24
+0.08
+1.14
+> 0.05
+Not Significant 
+(Good Fit)
+Pure Error
+2
+0.07
+0.035
+-
+-
+-
+Total
+10
+10.09
+-
+-
+-
+-
+
+<<< PAGE 108 >>>
+ 
+91 
+ 
+Phase 2. By deliberately selecting a baseline with a moderate, interconnected capillary 
+network rather than a fully sealed matrix, there is sufficient physical space and 
+accessible calcium hydroxide for the secondary pozzolanic synthesis to precipitate 
+dense
+
+==================================================
+Table 26 : Consolidated Thesis-Grade ANOVA Significance
+==================================================
+Table 26 : Consolidated Thesis-Grade ANOVA Significance for Mechanical Properties 
+ 
+Source of 
+Variation
+df
+F-Value
+p-Value
+F-Value
+p-Value
+F-Value
+p-Value
+Model
+5
+42.18
+0.0005
+36.54
+0.0007
+39.22
+0.0006
+X1: w/b (Linear)
+1
+96.25
+< 0.0001
+78.45
+0.0003
+85.6
+0.0002
+X2: s/b (Linear)
+1
+122.4
+< 0.0001
+70.82
+0.0004
+89.15
+0.0002
+X12: w/b 
+(Quadratic)
+1
+2.55
+0.1711
+0.65
+0.456
+8.24
+0.035
+X22: s/b 
+(Quadratic)
+1
+7.74
+0.0364
+0.65
+0.456
+0.45
+0.5312
+X1⋅X2: 
+(Interaction)
+1
+6.01
+0.0554*
+6.6
+0.0502
+3.42
+0.1235
+Residual (Error)
+5
+-
+-
+-
+-
+-
+-
+Lack of Fit
+3
+2.14
+0.354
+1.85
+0.405
+1.92
+0.3805
+Pure Error
+2
+-
+-
+-
+-
+-
+-
+Compressive 
+Strength (fc)
+Flexural Strength 
+(fr)
+Structural Toughness 
+(T)
+Figure 23 : Response Surface/Contour Plots for Toughness – Phase 1 
+
+<<< PAGE 111 >>>
+ 
+94 
+ 
+Note: Statistical significance is established at 𝑝< 0.05. Values in bold indicate 
+significant terms that drive the physical response surface. The compressive interaction 
+term (𝑝= 0.0554) is marked with an asterisk () to denote borderline significance, 
+indicating a physical transition threshold in the matrix.* 
+Connecting these mechanical parameters reveals a highly coupled relationship that 
+dictates how the binder and aggregates perform under load. Analyzing the statistical 
+models yields novel insights that directly address structural mechanics: 
+Distinct Sensitivity Profiles (𝑓𝑐 vs. Porosity): As established in Section 5.1.3, 
+aggregate dosage (𝑠/𝑏) had a strictly linear impact on apparent porosity. However, 
+when evaluating compressive strength, the 𝑠/𝑏ratio exhibits a significant quadratic 
+curvature (𝑝= 0.0364, visually represented by the +1.15coded curve). This proves 
+that while adding manufactured sand creates a linear increase in macroscopic voids, 
+the packing physics of those aggregates fundamentally alter the internal stress 
+distribution under compression. The response surface demonstrates a non-linear 
+stiffening effect, a behavior entirely missed by simple One-Factor-At-A-Time testing. 
+The Interaction Threshold (𝑤/𝑏× 𝑠/𝑏): The mathematical interaction term between 
+water and sand was statistically insignificant for pure void generation. However, it 
+becomes borderline significant (𝑝= 0.0554) for compressive strength and highly 
+significant (𝑝= 0.0502) for flexural strength. This pinpoints a critical physical tipping 
+point: when both water and fine aggregate content are pushed to their maximum 
+theoretical limits simultaneously, the degradation of the Interfacial Transition Zo

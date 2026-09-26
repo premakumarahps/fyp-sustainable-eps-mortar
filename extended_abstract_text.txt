@@ -1,0 +1,959 @@
+
+--- PAGE 1 ---
+Synergistic Effects of Rice Husk Ash and 
+Polypropylene Fiber on the Performance of 
+Modified Expanded Polystyrene Cement Mortar 
+ 
+ 
+H.P.S Premakumara 
+Department of Materials Science and 
+Engineering 
+University of Moratuwa 
+Moratuwa, Sri Lanka 
+  premakumarahpsandun@gmail.com  
+ 
+K Mayoorathan 
+Department of Materials Science and 
+Engineering 
+University of Moratuwa 
+Moratuwa, Sri Lanka 
+mayoo12355@gmail.com 
+Eng. S.P.Guluwita 
+Department of Materials Science and 
+Engineering 
+University of Moratuwa 
+Moratuwa, Sri Lanka  
+sudagulu@gmail.com 
+ 
+ABSTRACT 
+Lightweight cement mortar produced with Expanded 
+Polystyrene (EPS) is an effective approach for reducing the 
+self-weight of cement-based elements; however, EPS 
+inclusion commonly reduces strength and toughness due to 
+poor interfacial bonding, high buoyancy, and weak stress 
+transfer within the cement matrix. This study investigates 
+the synergistic effects of Rice Husk Ash (RHA) and 
+Polypropylene (PP) fiber on the performance of modified 
+EPS cement mortar. Surface-coated EPS beads were used as 
+lightweight aggregate, RHA was incorporated as a 
+pozzolanic cement replacement, and PP fibers were added as 
+micro-reinforcement to improve crack resistance. The mix 
+proportions were developed using Response Surface 
+Methodology (RSM) with a 
+Face-Centered 
+Central 
+Composite Design (CCF), while the Absolute Volume 
+Method was used for accurate batching of the lightweight 
+and pozzolanic constituents. The performance of the mortar 
+was evaluated through compressive strength, flexural 
+strength, 
+density, 
+water 
+absorption, 
+toughness, 
+and 
+microstructural observations.  
+The results showed that EPS replacement reduced mortar 
+density but caused a reduction in mechanical strength due to 
+its void-like behavior. The incorporation of RHA improved 
+the cementitious matrix through pozzolanic reaction and 
+pore refinement, with 10% RHA giving the most effective 
+strength recovery. Surface coating of EPS significantly 
+improved the interfacial transition zone by promoting 
+mechanical interlocking between the EPS particles and 
+cement paste. The addition of PP fibers further enhanced 
+flexural 
+performance 
+and 
+toughness 
+by 
+bridging 
+microcracks and controlling brittle failure, with an optimum 
+fiber dosage identified before the onset of fiber balling and 
+strength reduction. Overall, the combined use of modified 
+EPS, RHA, and PP fiber produced a lightweight cement 
+mortar with improved mechanical performance, reduced 
+water absorption tendency, and enhanced toughness. This 
+study confirms that a properly optimized ternary mortar 
+system can balance density reduction, strength development, 
+and 
+crack 
+resistance 
+for 
+lightweight 
+cement-based 
+construction applications. 
+Keywords— Modified EPS cement mortar, Rice Husk Ash, 
+Polypropylene fiber, lightweight mortar, Response Surface 
+Methodology, compressive strength, flexural strength, 
+density, water absorption, toughness. 
+ 
+ 
+ 
+I. INTRODUCTION  
+The construction industry is increasingly shifting from 
+traditional in-situ wet construction to factory-controlled off-
+site prefabrication because it improves quality, reduces 
+material waste, and shortens construction time [1]. In high-
+density residential and commercial projects, prefabricated 
+non-load-bearing wall panels are widely used as internal 
+partitions and façade cladding. These panels are attractive 
+because they provide good dimensional accuracy, smooth 
+finished surfaces, and faster installation, which is important in 
+urban areas facing labor shortages and rapid housing demand 
+[2, 3]. 
+However, conventional cement mortar and fine concrete have 
+high density, generally around 2200–2400 kg/m³, which 
+increases the dead weight of precast wall elements. Heavy 
+panels require high-capacity transport and lifting equipment, 
+increase handling stresses during demolding, stacking, and 
+installation, and may cause early cracking or mechanical 
+failure before the panel reaches full strength [4]. Therefore, 
+developing lightweight mortar with a proper balance between 
+strength, density, and toughness is essential for prefabricated 
+wall applications [5]. 
+Expanded Polystyrene (EPS) beads can reduce mortar density 
+because of their very low weight and high air content, but raw 
+EPS has a smooth, hydrophobic surface that weakens bonding 
+with cement paste [2, 3]. Surface coating with polymer binder 
+and fine M-sand improves mechanical interlocking and 
+reduces segregation [3]. Rice Husk Ash (RHA) is used as a 
+pozzolanic material that reacts with calcium hydroxide and 
+forms additional C-S-H gel, improving the cement matrix 
+around EPS particles [6]. Polypropylene (PP) fibers are added 
+to bridge cracks, control shrinkage, and improve post-
+cracking toughness [7]. Thus, the combined use of coated 
+EPS, RHA, and PP fiber can produce a lightweight, stronger, 
+and tougher cement mortar suitable for precast partition 
+panels [8]. This ternary approach addresses density reduction, 
+matrix refinement, and crack resistance in one optimized 
+mortar system. While EPS lightweight mortars, RHA-
+modified pastes, and PP-fiber-reinforced composites have 
+each been studied individually, their combined optimization 
+as a single ternary system — balancing density, strength, and 
+toughness together through Response Surface Methodology 
+— has not been reported, and is the specific contribution 
+addressed here. 
+ 
+
+--- PAGE 2 ---
+II. MATERIALS AND EXPERIMENTS PROCEDURE 
+A. Materials and Apparatus 
+ 
+The main materials used in this 
+study were Ordinary Portland 
+Cement, 
+manufactured 
+sand, 
+coated 
+Expanded 
+Polystyrene 
+beads, 
+Rice 
+Husk 
+Ash, 
+polypropylene 
+fibers, 
+and 
+superplasticizer. 
+Tokyo 
+Super 
+Ordinary Portland Cement of 
+strength class 42.5 R, conforming 
+to SLS 107:2015, was used as the 
+binder. The cement had a specific gravity of 2.97, Blaine 
+fineness of 3500 cm²/g, standard consistency of 30%, initial 
+setting time of 160 min, and final setting time of 600 min. 
+Its 2-day and 28-day compressive strengths were 25 N/mm² 
+and 55 N/mm², respectively [9]. 
+ 
+Manufactured sand obtained from 
+crushed metamorphic rock was used as 
+the fine aggregate. Its grading, specific 
+gravity, water absorption, bulk density, 
+and moisture content were evaluated 
+using standard ASTM procedures. 
+Expanded Polystyrene beads were 
+used as lightweight aggregate to 
+reduce mortar density. Since raw EPS 
+has poor bonding with cement paste, 
+the beads were coated using Polyvinyl 
+Acetate (PVAc) binder and fine M-sand to improve surface 
+roughness and mechanical interlocking [10]. 
+ 
+Rice Husk Ash was used as a supplementary cementitious 
+material. It was sieved through 600 µm, ball milled at about 
+96 rpm, and its final fineness was checked using a 53 µm 
+wet sieve. Polypropylene fibers of 6 mm length, 25 µm 
+diameter, 0.91 g/cm³ density, and 560 MPa tensile strength 
+were added to improve crack resistance and toughness. 
+FAIRFLO S superplasticizer, a modified sulphonated 
+naphthalene polymer, was used at 0.6–1.5% by cement 
+weight to maintain mortar workability at 110 ± 5 mm flow. 
+ 
+The main apparatus included a laboratory ball mill, 
+mechanical pan mixer, standard 40 × 40 × 160 mm steel 
+prism moulds, vibrating table, pycnometers, graduated 
+cylinders, sieve shaker, drying oven, muffle furnace, mortar 
+flow table, Universal Testing Machine, and SEM–EDS 
+equipment for microstructural analysis 
+ 
+B. Experimental Procedure 
+a. Material Characterization and Processing 
+ 
+All raw materials were characterized before mix preparation 
+to confirm their suitability. OPC specific gravity was 
+determined using kerosene pycnometer. M-sand was tested 
+for particle size distribution according to ASTM C136[11], 
+and its grading was checked with BS 882[12] Zone M 
+requirements. Specific gravity, 
+water absorption, bulk density, 
+and moisture content were 
+also measured using standard 
+ASTM methods. RHA was 
+evaluated 
+for 
+chemical 
+composition using SEM–EDS, 
+loss on ignition at 750°C for 2 
+hours, and fineness using a 53 
+µm wet sieve. EPS beads 
+were tested using a hydrostatic water displacement method 
+due to their very low density.  
+ 
+ 
+RHA was dry-sieved through 600 µm mesh and ball milled 
+at about 96 rpm for 2 hours. For EPS coating, 100 g of raw 
+EPS was mixed with 250 g of PVAc emulsion for 5 minutes, 
+followed by fine M-sand addition and another 5 minutes of 
+mixing. The coated EPS beads were dried for 24 hours 
+before use. 
+ 
+b. Mix Design and Mortar Preparation 
+Mix proportions were developed using Response Surface 
+Methodology (RSM) with a Central Composite Design 
+(CCD). The Absolute Volume Method was used to ensure 
+that all constituents, water, and air produced 1.0 m³ of mortar. 
+In Phase 1, the water-to-binder and sand-to-binder ratios were 
+varied to identify the optimum plain mortar matrix. In later 
+phases, the baseline values were fixed at w/b = 0.425 and s/b 
+= 2.25, with 11 mix variations in each CCD phase. 
+ 
+Mortar was mixed in a mechanical pan mixer. OPC and RHA 
+were mixed dry for 2 minutes, followed by M-sand for 
+another 2 minutes. About 80% of the water with 
+superplasticizer was then added and mixed for 1.5 minutes. 
+Coated EPS was added with the remaining 20% water and 
+mixed for 3 minutes. For fiber mixes, 6 mm PP fibers were 
+added gradually over 2 minutes, followed by a final 2-minute 
+mixing. The flow was maintained at 110 ± 5 mm. 
+ 
+c. Casting, Curing, and Testing 
+ 
+Fresh mortar was cast into 40 × 40 
+× 160 mm steel prism moulds in 
+layers and compacted on a vibrating 
+table at 50 Hz for 30 seconds per 
+layer. Specimens were covered for 
+12–24 hours, demolded, and water-
+cured until 28 days. 
+ 
+At 28 days, flexural strength was 
+tested using a three-point bending setup with a 100 mm span 
+and 50 ± 10 N/s loading rate. The broken halves were then 
+tested for compressive strength using a 40 × 40 mm loading 
+area at 2400 ± 200 N/s. Water absorption and apparent 
+porosity were determined by oven drying at 105 ± 5°C for 24 
+hours, 
+followed 
+by 
+water 
+immersion 
+and 
+mass 
+measurements. 
+ 
+d. Microstructural Analysis 
+ 
+Selected fractured samples containing the aggregate–paste 
+interface were prepared for SEM–EDS analysis. Hydration 
+was arrested using isopropyl alcohol, and the samples were 
+dried, epoxy mounted, polished, carbon taped, and gold 
+coated. SEM images and EDS line scans were used to 
+examine the interfacial transition zone and calcium-to-silicon 
+ratio near coated EPS particles. 
+ 
+III. CALCULATIONS  
+ 
+The mix proportions were calculated using the absolute 
+volume method, where the total volume of mortar was taken 
+as the sum of the absolute volumes of binder, water, fine 
+aggregate, lightweight aggregate, fibers, and entrapped air 
+[13]. In this study, a 1% entrapped air allowance was 
+Figure 4 : Processed RHA 
+Figure 1 : M Sand 
+Figure 3 : Casted Prisms 
+Figure 2 : Coated EPS 
+
+--- PAGE 3 ---
+considered; therefore, the total volume of solid materials and 
+mixing water was maintained at 0.99 m³ for a theoretical 1 
+m³ batch. The calculated quantities were then scaled down 
+to the required laboratory batch volume of 0.00096 m³ for 
+casting 40 × 40 × 160 mm mortar prisms.  
+ 
+Before mix design, the material properties required for 
+volume 
+conversion 
+were 
+calculated 
+using 
+standard 
+procedures. The specific gravity values of cement, RHA, M-
+sand, EPS, and superplasticizer were used to convert 
+material mass into absolute volume [14]. The particle size 
+distribution of M-sand was obtained from sieve analysis and 
+checked against the BS 882 grading limits [15], [16]. The 
+water absorption, bulk density, and field moisture content of 
+M-sand were calculated using standard aggregate testing 
+procedures [15]-[17]. Since the measured field moisture 
+content of sand was higher than its water absorption 
+capacity, the excess free water in sand was deducted from 
+the mixing water to maintain the selected water-to-binder 
+ratio. 
+For the base mortar, the binder mass was calculated using: 
+ 
+𝑚𝑏( 1
+𝑆𝐺𝑏+ 𝑤
+𝑏+ 𝑠/𝑏
+𝑆𝐺𝑠) = 990 
+ 
+where 𝑚𝑏is the binder mass, 𝑆𝐺𝑏is the binder specific 
+gravity, 𝑆𝐺𝑠is the sand specific gravity, 𝑤/𝑏is the water-to-
+binder ratio, and 𝑠/𝑏is the sand-to-binder ratio. After Phase 
+1 optimization, the water-to-binder ratio and sand-to-binder 
+ratio were fixed as 0.425 and 2.25, respectively, for the 
+modified mixes. 
+ 
+Rice Husk Ash was added as a mass replacement of cement. 
+Therefore, the cement and RHA masses were calculated as: 
+ 
+𝑚𝑅𝐻𝐴= 𝑟× 𝑚𝑏 
+𝑚𝑐𝑒𝑚𝑒𝑛𝑡= (1 −𝑟) × 𝑚𝑏 
+ 
+where 𝑟is the RHA replacement fraction. The suitability of 
+RHA as a pozzolanic material was checked using Loss on 
+Ignition and reactive oxide content calculations according to 
+pozzolan testing and specification requirements [18], [19]. 
+In the thesis calculation, the RHA showed a Loss on 
+Ignition of 0.83% and a combined reactive oxide content of 
+93.8%, confirming its pozzolanic suitability. 
+ 
+EPS was added as a volumetric replacement of M-sand 
+because its density was much lower than that of normal fine 
+aggregate. The EPS volume and remaining sand volume 
+were calculated using: 
+ 
+𝑉𝐸𝑃𝑆= 𝑣× 𝑉𝑠,𝑡𝑜𝑡𝑎𝑙 
+𝑉𝑠= (1 −𝑣) × 𝑉𝑠,𝑡𝑜𝑡𝑎𝑙 
+ 
+where 𝑣is the EPS volume replacement fraction. This 
+method maintained the total aggregate volume constant 
+while reducing the density of the mortar. For coated EPS, 
+the increased bulk density after coating was considered in 
+the volume-to-mass conversion. 
+ 
+For PP fiber mixes, fibers were treated as a volumetric 
+addition to the optimized RHA–coated EPS mortar. 
+Therefore, the fiber volume was included in the total volume 
+balance: 
+ 
+𝑉𝑏+ 𝑉𝑤+ 𝑉𝑠+ 𝑉𝐸𝑃𝑆+ 𝑉𝑓𝑖𝑏𝑒𝑟= 0.99 
+ 
+The required fiber mass was calculated as: 
+ 
+𝑚𝑓𝑖𝑏𝑒𝑟= 𝑉𝑓𝑖𝑏𝑒𝑟× 𝑆𝐺𝑃𝑃× 1000 
+ 
+Fresh mortar flow was calculated using the flow table spread 
+diameter according to the flow-table consistency method 
+[20]. Flexural and compressive strengths were calculated 
+using standard mortar prism strength equations [21]. The 
+flexural strength was calculated as: 
+ 
+𝑓𝑟= 1.5𝐹𝑓𝐿
+𝑏3
+ 
+ 
+where 𝐹𝑓is the flexural failure load, 𝐿is the support span, and 
+𝑏is the prism width. Compressive strength was calculated 
+using: 
+ 
+𝑓𝑐=
+𝐹𝑐
+1600 
+ 
+where 𝐹𝑐is the maximum crushing load and 1600 mm² is the 
+loading area of the broken prism half. 
+Water absorption and apparent porosity were calculated 
+using oven-dry and saturated surface-dry masses following 
+absorption and void calculation principles [22]. These 
+calculations were used to compare the influence of RHA, 
+coated EPS, and PP fiber on density, strength, water 
+absorption, porosity, and toughness of the modified cement 
+mortar. 
+ 
+ 
+IV. RESULTS AND DISCUSSION  
+ 
+The experimental results were discussed phase by phase to 
+show the contribution of each modification: base matrix 
+optimization, density reduction using coated EPS, RHA-
+based pozzolanic densification, EPS coating validation, and 
+PP fiber crack-bridging. Strength values were interpreted 
+using the standard mortar prism strength procedure, while 
+water absorption and porosity were used to judge the internal 
+quality of the hardened matrix. 
+ 
+A. Phase-wise Summary of Key Outcomes 
+ 
+Table 1 : Condensed phase-wise results recreated from the thesis experimental data 
+ 
+Phase 
+Main variable 
+Key result 
+Interpretation 
+1 
+w/b and s/b 
+Selected w/b = 
+0.425, s/b = 2.25; 
+fc = 35.58 MPa; fr 
+= 4.75 MPa 
+Practical balance of 
+strength, workability, 
+density and porosity. 
+2 
+RHA + coated 
+EPS 
+Optimum: 10% 
+RHA + 20% 
+coated EPS; 
+density approx. 
+1993 kg/m3; fc 
+approx. 16.78 
+MPa 
+Moderate EPS reduced 
+weight while RHA 
+reduced porosity and 
+improved matrix 
+quality. 
+3 
+RHA chemical 
+effect 
+Ca/Si reduced 
+from 24.85 to 5.65 
+at ITZ 
+RHA improved ITZ 
+chemistry by reducing 
+calcium-rich weak 
+phases. 
+4 
+EPS coating 
+At 20% EPS, fc 
+improved 36.45% 
+and fr improved 
+64.29% 
+Coating improved 
+EPS-paste interlock 
+and reduced interfacial 
+weakness. 
+5 
+PP fiber dosage 
+0.5% PP gave the 
+best balance: fc = 
+15.62 MPa, fr = 
+3.59 MPa 
+Low fiber content 
+improved crack 
+resistance without 
+excessive void 
+formation. 
+ 
+B. Base Mortar Optimization (Phase 1) 
+ 
+ 
+Phase 1 established the reference mortar before adding RHA, 
+EPS or PP fiber. The lowest water-to-binder ratio produced 
+the highest strength, but it also made the mix too stiff for later 
+
+--- PAGE 4 ---
+Figure 5 : Phase 1 absolute and specific compressive strength comparison 
+additions. Therefore, the center-point mix was selected 
+instead of the maximum-strength mix. This mix used w/b = 
+0.425 and s/b = 2.25, giving an average compressive strength 
+of 35.58 MPa, flexural strength of 4.75 MPa, 28-day density 
+of about 2271 kg/m3 and apparent porosity of about 7.2%. 
+This result agrees with absolute-volume mix proportioning 
+logic, where strength and practical workability must be 
+balanced [13]. 
+ 
+ 
+ 
+ 
+ 
+ 
+C. Lightweight Aggregate and RHA Optimization (Phase 2) 
+ 
+Phase 2 introduced coated EPS as the lightweight aggregate 
+and RHA as the pozzolanic binder replacement. Increasing 
+EPS clearly reduced density, but high EPS content caused a 
+major reduction in compressive strength and toughness. The 
+40% EPS mixes reached densities near 1719-1748 kg/m3, 
+but their compressive strength dropped to about 4-5 MPa. 
+This confirms that EPS acts as a low-stiffness inclusion and 
+weakens the continuous cementitious skeleton when used at 
+high volume. 
+ 
+The best compromise was obtained using 10% RHA and 
+20% coated EPS. This condition reduced density to about 
+1993 kg/m3 while retaining about 16.78 MPa compressive 
+strength and 3.26 MPa flexural strength. The apparent 
+porosity remained close to the dense control, showing that 
+the RHA helped compensate for the porosity introduced by 
+EPS. This behaviour is consistent with RHA literature, 
+where reactive silica improves strength and permeability by 
+secondary C-S-H formation. 
+ 
+Condition 
+RHA 
+(%) 
+EPS 
+(%) 
+fc 
+(MPa) 
+rho28d 
+(kg/m3) 
+Porosity 
+(%) 
+Toughness 
+Dense 
+control 
+0 
+0 
+35.58 
+2287 
+6.04 
+35.477 
+RHA only 
+10 
+0 
+48.93 
+2263 
+5.83 
+32.945 
+EPS only 
+0 
+20 
+12.25 
+2011 
+7.65 
+12.578 
+Optimum 
+balance 
+10 
+20 
+16.78 
+1993 
+6.12 
+11.58 
+High EPS 
+10 
+40 
+5.21 
+1734 
+6.94 
+3.844 
+ 
+ 
+D. Microstructural and Chemical Interfacial Transition Zone 
+(ITZ) Diagnostics (Phase 3) 
+ 
+Phase 3 checked whether the strength improvement from 
+RHA was supported by a chemical change at the interfacial 
+transition zone (ITZ). The comparison used 40% EPS mixes 
+with and without 20% RHA. The average Ca/Si ratio reduced 
+from 24.85 to 5.65 after RHA addition, which indicates that 
+the EPS boundary became less calcium-rich and more silica-
+rich. This supports the pozzolanic interpretation that RHA 
+consumed calcium hydroxide and supported secondary C-S-
+H formation 
+ 
+ 
+ 
+ 
+ 
+E. Physical Coating Effect of EPS (Phase 4) 
+ 
+Phase 4 isolated the influence of the PVAc/M-sand coating. 
+At 20% EPS, coating increased compressive strength from 
+10.15 MPa to 13.85 MPa and flexural strength from 2.10 
+MPa to 3.45 MPa. At 40% EPS, the coating effect was even 
+stronger, increasing compressive strength from 4.20 MPa to 
+7.15 MPa. These results show that the coating reduced EPS-
+paste debonding by roughening the particle surface and 
+Figure 8 : Response Surface/Contour 
+Plots for Toughness – Phase 2 
+Figure 7 : Response Surface/Contour Plots for 
+Toughness – Phase 2 
+Figure 10 : SEM Micrographs demonstrating the ITZ morphology of S3M1 (top) 
+showing boundary gaps/crystals, and S3M2 (bottom) showing the dense C-S-H gel 
+formation 
+RHA = 0% 
+RHA = 20% 
+Figure 9 : EDS Spectra Mapping comparing elemental peaks of S3M1 and S3M2 at 
+the ITZ 
+Mix ID
+EPS 
+(%)
+RHA 
+(%)
+Avg. Ca
+(at. %)
+Avg.
+Si
+(at. %)
+Avg. Ca/Si Ratio
+ITZ State Characteristic
+S3M1
+40
+0
+38.27
+1.54
+24.85
+Weak / Highly Crystalline 
+S3M2
+40
+20
+21.85
+3.87
+5.65
+Dense / Amorphous C-S-H 
+Figure 6 : Response Surface/Contour 
+Plots for Compressive Strength – 
+Phase 2 
+Table 2 : Key Phase 2 data showing density reduction and strength loss with 
+increasing EPS 
+Table 3 : Comparative EDS Elemental Analysis and ITZ Ca/Si Ratios (3-Location 
+Average) 
+
+--- PAGE 5 ---
+improving mechanical interlocking, which is necessary 
+because raw EPS behaves like a weak internal void. 
+ 
+ 
+Table 4 : Microstructural and coating-validation results from Phases 3 and 4 
+Phase 
+Comparison 
+Main change 
+Result meaning 
+3 
+0% RHA vs 20% 
+RHA at 40% EPS 
+Ca/Si: 24.85 -> 
+5.65 
+Less CH-rich ITZ 
+and more silica-rich 
+hydrated phase 
+4 
+20% EPS uncoated 
+vs coated 
+fc: 10.15 -> 
+13.85 MPa; fr: 
+2.10 -> 3.45 MPa 
+Coating improved 
+mechanical 
+interlock 
+4 
+40% EPS uncoated 
+vs coated 
+fc: 4.20 -> 7.15 
+MPa; fr: 0.95 -> 
+1.85 MPa 
+Coating became 
+more important at 
+high EPS volume 
+ 
+F. PP Fiber Toughness Optimization (Phase 5) 
+ 
+Phase 5 introduced PP micro-fibers into the optimized 
+coated-EPS matrix. The fiber mainly improved flexural 
+response by bridging cracks and delaying brittle fracture. At 
+0.5% fiber, flexural strength rose from 3.26 MPa to 3.59 
+MPa and toughness increased from 14.71 to 18.24 mJ/mm³, 
+while compressive strength eased slightly from 16.78 MPa 
+to 15.62 MPa. Flexural strength continued rising to a 4.00 
+MPa peak at 1.0% fiber, then fell back to 3.65 MPa at 1.5% 
+and 2.89 MPa at 2.0%, as higher dosages caused fiber 
+balling that trapped voids and drove compressive strength 
+down further, to 11.85 MPa and 11.06 MPa respectively. 
+Therefore, 0.5% PP fiber was selected as the practical 
+optimum, balancing toughness gains against strength 
+retention. 
+This 
+trend 
+agrees 
+with 
+fiber-reinforced 
+cementitious composite behavior reported in the literature. 
+ 
+Table 5 : Phase 5 fiber optimization data from the thesis results 
+PP fiber (%) 
+fc (MPa) 
+fr (MPa) 
+Observation 
+0.0 
+16.78 
+3.26 
+Brittle baseline 
+0.5 
+15.62 
+3.59 
+Best overall balance 
+1.0 
+14.14 
+4.00 
+Flexural peak, 
+compression 
+declining 
+1.5 
+11.85 
+3.65 
+Flexural falling back, 
+compression still 
+declining 
+2.0 
+11.06 
+2.89 
+Fiber balling 
+dominates, both 
+properties reduced 
+ 
+ 
+Figure 13 : Effect of PP fiber dosage on compressive flexural strength and toughness. 
+Source: chart generated from thesis Phase 5 results. 
+ 
+ 
+ 
+G. Overall Discussion 
+ 
+The results confirm that the modified mortar performance 
+was controlled by a balance between three mechanisms. 
+Coated EPS reduced density, but excessive EPS weakened 
+the continuous load-carrying skeleton. RHA improved the 
+paste and ITZ by pozzolanic reaction, but it could not fully 
+recover the strength loss caused by very high EPS volume. 
+PP fiber improved flexural resistance and crack control, but 
+only up to the dosage where dispersion remained good. 
+Therefore, the most suitable mix was not the one with 
+maximum EPS, maximum RHA or maximum fiber, but the 
+balanced ternary combination. 
+ 
+Based on the complete phase-wise evaluation, the 
+recommended final combination is w/b = 0.425, s/b = 2.25, 
+10% RHA, 20% PVAc/M-sand coated EPS and 0.5% PP 
+fiber. This mix reduced density compared with the plain 
+mortar, retained useful strength for lightweight precast 
+applications, 
+improved 
+ITZ 
+quality 
+through 
+RHA, 
+strengthened EPS bonding through coating and improved 
+post-cracking behavior through PP fiber bridging. 
+ 
+V. CONCLUSION AND FUTURE WORK  
+ 
+This study successfully developed a lightweight modified 
+EPS cement mortar by combining rice husk ash, surface-
+coated expanded polystyrene beads, and polypropylene 
+micro-fibers. The findings confirm that these three materials 
+work as a complementary system rather than separate 
+additives. RHA improved the cement matrix through 
+pozzolanic reaction and pore refinement, coated EPS 
+reduced density while improving aggregate–paste bonding, 
+and PP fibers enhanced crack-bridging and post-cracking 
+toughness. The optimized ternary mix containing 10% RHA, 
+20% coated EPS, and 0.5% PP fiber achieved 15.62 MPa 
+compressive strength, 3.59 MPa flexural strength, 18.24 
+mJ/mm³ toughness, 5.79% apparent porosity, and 1993 
+kg/m³ density, while reducing self-weight by nearly 300 
+kg/m³ compared with conventional dense mortar. Therefore, 
+the developed mortar can be considered suitable for 
+sustainable 
+non-load-bearing 
+precast 
+partitioning 
+applications. 
+ 
+Future work should focus on validating the long-term 
+durability and practical performance of the optimized mortar 
+under real service conditions. Tests such as chloride 
+penetration, sorptivity, sulfate resistance, drying shrinkage, 
+and weathering resistance should be carried out. Further 
+studies should also evaluate thermal conductivity and 
+acoustic performance, since EPS can improve insulation 
+properties. Finally, the optimized mix should be scaled up 
+from laboratory prisms to full-size precast wall panels and 
+tested 
+under 
+handling, 
+transportation, 
+impact, 
+and 
+installation loads to confirm its suitability for industrial 
+production. 
+ 
+ACKNOWLEDGMENT 
+We sincerely thank Eng. S. P. Guluwita, Department of 
+Materials Science and Engineering, University of Moratuwa, 
+for his valuable supervision, guidance, and encouragement 
+throughout this research work. His insights and feedback 
+have been instrumental in shaping the direction of our study.  
+ 
+ 
+ 
+Figure 6 : Phase 4 strength recovery due to 
+EPS coating. Source: chart generated from 
+thesis results 
+Figure 7 : Phase 3 Ca/Si reduction at the 
+ITZ. Source: chart generated from thesis 
+EDS results. 
+
+--- PAGE 6 ---
+REFERENCES 
+[1] M. Abdel-Jaber, R. Al-Nsour, N. Shatarat, H. Hasan, and H. Al-zu’bi, 
+“Thermal Effect on the Flexural Performance of Lightweight 
+Reinforced Concrete Beams Using Expanded Polystyrene Beads and 
+Pozzolana 
+Aggregate,” 
+Engineered 
+Science, 
+2023, 
+doi: 
+https://doi.org/10.30919/es1029.. 
+[2] O. Horma, M. Charai, S. El Hassani, A. El Hammouti, M. A. 
+Moussaoui, and A. Mezrhab, “Thermal performance study of a 
+cement-based mortar incorporating EPS beads,” Frontiers in Built 
+Environment, 
+vol. 
+8, 
+Art. no. 
+882942, 
+May 2022, doi: 
+10.3389/fbuil.2022.882942. 
+[3] M. R. Irshidat, N. Al-Nuaimi, and M. Rabie, “The role of 
+polypropylene microfibers in thermal properties and post-heating 
+behavior of cementitious composites,” Materials, vol. 13, no. 12, Art. 
+no. 2676, Jun. 2020, doi: 10.3390/ma13122676. 
+[4] Z. Wu, L. Luo, H. Li, Y. Wang, G. Bi, and M. F. Antwi-Afari, “An 
+analysis on promoting prefabrication implementation in construction 
+industry 
+towards 
+sustainability,” 
+International 
+Journal 
+of 
+Environmental Research and Public Health, vol. 18, no. 21, Art. no. 
+11493, Oct. 2021, doi: 10.3390/ijerph182111493. 
+[5] M. Kurpinska, B. Grzyl, and A. Kristowski, “Cost analysis of 
+prefabricated elements of the ordinary and lightweight concrete walls 
+in residential construction,” Materials, vol. 12, no. 21, Art. no. 3629, 
+Nov. 2019, doi: 10.3390/ma12213629. 
+[6] T. Munmulla, H. D. Hidallana-Gamage, S. Navaratnam, T. 
+Ponnampalam, G. Zhang, and T. Jayasinghe, “Suitability of modular 
+technology for house construction in Sri Lanka: A survey and a case 
+study,” Buildings, vol. 13, no. 10, Art. no. 2592, Oct. 2023, doi: 
+10.3390/buildings13102592).  
+[7] W. Xu, T. Y. Lo, W. Wang, D. Ouyang, P. Wang, and F. Xing, 
+“Pozzolanic reactivity of silica fume and ground rice husk ash as 
+reactive silica in a cementitious system: A comparative study,” 
+Materials, vol. 9, no. 3, Art. no. 146, Mar. 2016, doi: 
+10.3390/ma9030146. 
+[8] Y. Yang, B. Chen, W. Zeng, Y. Li, Q. Chen, W. Guo, H. Wang, and 
+Y. Chen, “Utilization of completely recycled fine aggregate for 
+preparation of lightweight concrete partition panels,” International 
+Journal of Concrete Structures and Materials, vol. 15, Art. no. 32, 
+Jul. 2021, doi: 10.1186/s40069-021-00470-z. 
+[9] “Tokyo Super,” Tokyo Cement. https://tokyocement.com/tokyo-
+super/ 
+[10] Z. Mohamed and A. Al-Hadithi, “The effect of adding expanded 
+polystyrene 
+beads 
+(EPS) 
+on 
+polymer-modified 
+mortar,” 
+*Engineering, Technology & Applied Science Research*, vol. 12, 
+pp. 9426–9430, Dec. 2022, doi: 10.48084/etasr.5226. 
+[11] ASTM International, “ASTM C136/C136M-25, Standard Test 
+Method for Sieve Analysis of Fine and Coarse Aggregates,” ASTM 
+International, 
+West 
+Conshohocken, 
+PA, 
+USA, 
+2025, 
+doi: 
+10.1520/C0136_C0136M-25. 
+[12] British Standards Institution, BS 882:1992, Specification for 
+Aggregates from Natural Sources for Concrete. London, U.K.: 
+British Standards Institution, 1992. 
+[13] ACI Committee 211, Selecting Proportions for Normal-Density and 
+High-Density Concrete—Guide, ACI PRC-211.1-22. Farmington 
+Hills, MI, USA: American Concrete Institute, 2022. 
+[14] ASTM International, ASTM D854-23: Standard Test Methods for 
+Specific Gravity of Soil Solids by Water Displacement. West 
+Conshohocken, PA, USA: ASTM International, 2023. 
+[15] ASTM International, ASTM C128-22: Standard Test Method for 
+Relative Density (Specific Gravity) and Absorption of Fine 
+Aggregate. West Conshohocken, PA, USA: ASTM International, 
+2022. 
+[16] ASTM International, ASTM C29/C29M-23: Standard Test Method 
+for Bulk Density (“Unit Weight”) and Voids in Aggregate. West 
+Conshohocken, PA, USA: ASTM International, 2023. 
+[17] ASTM International, ASTM C566-19: Standard Test Method for 
+Total Evaporable Moisture Content of Aggregate by Drying. West 
+Conshohocken, PA, USA: ASTM International, 2019. 
+[18] ASTM International, ASTM C311/C311M-22: Standard Test 
+Methods for Sampling and Testing Fly Ash or Natural Pozzolans for 
+Use in Portland-Cement Concrete. West Conshohocken, PA, USA: 
+ASTM International, 2022. 
+[19] ASTM International, ASTM C618-22: Standard Specification for 
+Coal Fly Ash and Raw or Calcined Natural Pozzolan for Use in 
+Concrete. West Conshohocken, PA, USA: ASTM International, 2022. 
+[20] British Standards Institution, BS EN 1015-3:1999: Methods of Test 
+for Mortar for Masonry—Determination of Consistence of Fresh 
+Mortar by Flow Table. London, U.K.: BSI, 1999. 
+[21] British Standards Institution, BS EN 196-1:2016: Methods of Testing 
+Cement—Determination of Strength. London, U.K.: BSI, 2016. 
+[22] ASTM International, ASTM C642-21: Standard Test Method for 
+Density, Absorption, and Voids in Hardened Concrete. West 
+Conshohocken, PA, USA: ASTM International, 2021. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

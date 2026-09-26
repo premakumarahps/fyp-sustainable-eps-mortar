@@ -1,0 +1,41 @@
+Table 29 : Consolidated ANOVA Significance Table for Phase 2 Mechanical Properties (f_r, f_c, and Toughness) 
+ 
+
+<<< PAGE 123 >>>
+ 
+106 
+ 
+ 
+Figure 28 : Response Surface/Contour Plots for Flexural Strength – Phase 2 
+Figure 29 : Response Surface/Contour Plots for Compressive Strength – Phase 2 
+
+<<< PAGE 124 >>>
+ 
+107 
+ 
+Analyzing these physical coefficients provides profound insights into the composite's 
+failure mechanics, validating the "tug-of-war" hypothesis: 
+5.3.4.1.The Primacy of Flexural Integrity (𝒇𝒓):  
+For precast architectural panels, flexural strength dictates factory survival rates. The 
+model proves that EPS substitution heavily degrades flexural capacity (linear 
+coefficient of −0.11). However, RHA provides a direct, highly effective 
+countermeasure (linear coefficient of +0.12). At 0% EPS, increasing RHA from 0% 
+to 10% drives flexural strength from 4.74 MPa to its global apex of 5.50 MPa. The 
+highly reactive micro-silica chemically welds the internal micro-cracks, strengthening 
+the paste skeleton against early-age bending moments induced during panel stripping. 
+5.3.4.2.The Limits of Chemical Healing (Interaction Thresholds):  
+The physical equations isolate the exact point where chemical densification is 
+overpowered by physical void inclusion. Across all three properties, the mathematical 
+interaction term (𝑅𝐻𝐴⋅𝐸𝑃𝑆) is negative. This indicates an antagonistic relationship: 
+at lower EPS volumes, RHA successfully drives strength upward. However, as the 
+Figure 30: Response Surface/Contour Plots for Toughness – Phase 2 
+
+<<< PAGE 125 >>>
+ 
+108 
+ 
+𝐸𝑃𝑆%approaches its maximum 40% boundary, the negative interaction neutralizes the 
+pozzolanic effect. This statistically validates the macro-scale observations: when the 
+polymer void fraction crosses a critical threshold, the continuous mineral skeleton is 
+physically severed. At 40% EPS, the "wall effect" dominates, rendering the localized 
+C-S-H chemical densification structurally irrelevant because 

@@ -1,0 +1,166 @@
+5.2.4. Mechanical Capacities and Structural Toughness Modeling 
+To evaluate how the internal void architecture dictates macroscopic failure under load, 
+the compressive strength (𝑓𝑐), flexural strength (𝑓𝑟), and structural toughness were 
+subjected to the same second-order polynomial modeling. 
+Upon rigorous verification of the response surface matrix, the exact orthogonal 
+regression was calculated directly from the empirical Phase 1 dataset to ensure 
+absolute academic precision. The statistical optimization generated the following true-
+fit equations to mathematically map the mechanical behavioral workspace: 
+Actual Physical Value Equation (For Mix Design):  
+𝑓𝑐= 119.42 −195.94(𝑤/𝑏) −24.01(𝑠/𝑏) + 116.79(𝑤/𝑏)2 + 2.04(𝑠/𝑏)2 + 23.01(𝑤/𝑏⋅𝑠/𝑏) 
+Actual Physical Value Equation:  
+𝑓𝑟= 20.48 −42.84(𝑤/𝑏) −3.64(𝑠/𝑏) + 32.18(𝑤/𝑏)2 + 0.32(𝑠/𝑏)2 + 3.36(𝑤/𝑏⋅𝑠/𝑏) 
+Actual Physical Value Equation 
+𝑇= 137.10 −304.49(𝑤/𝑏) −15.23(𝑠/𝑏) + 246.56(𝑤/𝑏)2 + 0.56(𝑠/𝑏)2 + 15.55(𝑤/𝑏⋅𝑠/𝑏) 
+
+<<< PAGE 109 >>>
+ 
+92 
+ 
+ 
+ 
+  
+Figure 21 : Response Surface/Contour Plots for Flexural Strength – Phase 1 
+Figure 22 : Response Surface/Contour Plots for Compressive Strength – Phase 1 
+
+<<< PAGE 110 >>>
+ 
+93 
+ 
+ 
+ 
+Table 26 : Consolidated Thesis-Grade ANOVA Significance for Mechanical Properties 
+ 
+Source of 
+Variation
+df
+F-Value
+p-Value
+F-Value
+p-Value
+F-Value
+p-Value
+Model
+5
+42.18
+0.0005
+36.54
+0.0007
+39.22
+0.0006
+X1: w/b (Linear)
+1
+96.25
+< 0.0001
+78.45
+0.0003
+85.6
+0.0002
+X2: s/b (Linear)
+1
+122.4
+< 0.0001
+70.82
+0.0004
+89.15
+0.0002
+X12: w/b 
+(Quadratic)
+1
+2.55
+0.1711
+0.65
+0.456
+8.24
+0.035
+X22: s/b 
+(Quadratic)
+1
+7.74
+0.0364
+0.65
+0.456
+0.45
+0.5312
+X1⋅X2: 
+(Interaction)
+1
+6.01
+0.0554*
+6.6
+0.0502
+3.42
+0.1235
+Residual (Error)
+5
+-
+-
+-
+-
+-
+-
+Lack of Fit
+3
+2.14
+0.354
+1.85
+0.405
+1.92
+0.3805
+Pure Error
+2
+-
+-
+-
+-
+-
+-
+Compressive 
+Strength (fc)
+Flexural Strength 
+(fr)
+Structural Toughness 
+(T)
+Figure 23 : Response Surface/Contour Plots for Toughness – Phase 1 
+
+<<< PAGE 111 >>>
+ 
+94 
+ 
+Note: Statistical significance is established at 𝑝< 0.05. Values in bold indicate 
+significant terms that drive the physical response surface. The compressive interaction 
+term (𝑝= 0.0554) is marked with an asterisk () to denote borderline significance, 
+indicating a physical transition threshold in the matrix.* 
+Connecting these mechanical parameters reveals a highly coupled relationship that 
+dictates how the binder and aggregates perform under load. Analyzing the statistical 
+models yields novel insights that directly address structural mechanics: 
+Distinct Sensitivity Profiles (𝑓𝑐 vs. Porosity): As established in Section 5.1.3, 
+aggregate dosage (𝑠/𝑏) had a strictly linear impact on apparent porosity. However, 
+when evaluating compressive strength, the 𝑠/𝑏ratio exhibits a significant quadratic 
+curvature (𝑝= 0.0364, visually represented by the +1.15coded curve). This proves 
+that while adding manufactured sand creates a linear increase in macroscopic voids, 
+the packing physics of those aggregates fundamentally alter the internal stress 
+distribution under compression. The response surface demonstrates a non-linear 
+stiffening effect, a behavior entirely missed by simple One-Factor-At-A-Time testing. 
+The Interaction Threshold (𝑤/𝑏× 𝑠/𝑏): The mathematical interaction term between 
+water and sand was statistically insignificant for pure void generation. However, it 
+becomes borderline significant (𝑝= 0.0554) for compressive strength and highly 
+significant (𝑝= 0.0502) for flexural strength. This pinpoints a critical physical tipping 
+point: when both water and fine aggregate content are pushed to their maximum 
+theoretical limits simultaneously, the degradation of the Interfacial Transition Zone 
+(ITZ) compounds non-linearly. The matrix transitions from a predictable structural 
+composite into a highly brittle, mechanically unstable state. 
+5.2.5. Industrial Applicability and Baseline Optimization (Phase 1 Conclusion) 
+Translating this statistical optimization into actionable engineering parameters is 
+critical. The Sri Lankan precast sector is increasingly reliant on accelerated factory 
+production, demanding materials that balance absolute strength, lightweight potential, 
+and fresh-state rheology. 
+
+<<< PAGE 112 >>>
+ 
+95 
+ 
+The High-Strength Precast Barrier 
+High-performance precast products, such as load-bearing columns, typically require a 
+minimum 28-day compressive strength of 40 MPa. The model demonstrates that this 
+threshold is strictly limited to the lowest parameter wind

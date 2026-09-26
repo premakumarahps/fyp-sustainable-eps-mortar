@@ -1,0 +1,148 @@
+FIGURE CAPTIONS EXTRACTED FROM THESIS:
+============================================================
+Figure 1: Microstructural Profile of Raw EPS in Cementitious Matrix. Schematic 
+representation of an unmodified, raw expanded polystyrene (EPS) bead embedded
+
+Figure 2: Coated EPS beads by sand [35] .................................................................. 17 
+Figure 3: ITZ Deficit vs. Chemical Pozzolanic Healing [38] .................................... 19
+
+Figure 4 : Microstructural Stress Path: Plain Matrix vs. PP Fiber Bridging .............. 21 
+Figure 5 : Mechanical Impact of PP Fiber Dosage Thresholds ................................. 22
+
+Figure 6 : Ternary Synergy Framework ..................................................................... 24 
+Figure 7 : M-Sand ...................................................................................................... 29
+
+Figure 8 : Uncoated EPS ............................................................................................ 30 
+Figure 9 : Coated EPS ................................................................................................ 30
+
+Figure 11 : Standard Prismatic Molds ........................................................................ 35 
+Figure 12 : Universal testing Machine ....................................................................... 37
+
+Figure 13 : Ball Milling Process ................................................................................ 46 
+Figure 14 : Spatial distribution of the Phase 1 Face - Centered Central Composite
+
+Figure 15 : Spatial distribution of the Phase 2 CCF scatter plot mapping Volumetric 
+EPS Replacement (v) vs RHA Mass Replacement (r) ............................................... 75
+
+Figure 16 : Particle size distribution curve of the crushed metamorphic Manufactured 
+Sand (M-Sand) plotted against the standard BS 882 (Zone M) structural grading
+
+Figure 17 : Representative Energy Dispersive X-ray Spectroscopy (EDS) elemental 
+spectrum of the processed Rice Husk Ash (Sample Area 1). Analysis was conducted
+
+Figure 18 : Scatter Plot of Theoretical vs. Measured Fresh Density across Phase 1 CCF 
+Runs ........................................................................................................................... 86
+
+Figure 19 : Dual-Axis Bar Chart Comparing Absolute Compressive Strength vs. 
+Specific Compressive Strength across Phase 1 .......................................................... 88
+
+Figure 20 : Response Surface and Contour Plot for Influence of w/b and s/b Ratios on 
+Apparent Porosity ...................................................................................................... 89
+
+Figure 21 : Response Surface/Contour Plots for Flexural Strength – Phase 1........... 92 
+Figure 22 : Response Surface/Contour Plots for Compressive Strength – Phase 1 ... 92
+
+Figure 23 : Response Surface/Contour Plots for Toughness – Phase 1 ..................... 93 
+Figure 24 : Line Graph showing the inverse relationship between EPS Volume
+
+Figure 25 : Dual-Axis Bar Chart comparing Apparent Porosity and Water Absorption 
+across the Baseline (S2M1) and Extreme Lightweight (S2M3, S2M4) boundaries .. 99
+
+Figure 26 : Response Surface/Contour Plot illustrating the interactive effect of EPS 
+volume (v) and RHA mass (r) on Apparent Porosity ............................................... 100
+
+Figure 27 : Dual-Axis Bar Chart comparing Compressive Strength against Density for 
+the EPS and RHA boundary configurations............................................................. 103
+
+Figure 28 : Response Surface/Contour Plots for Flexural Strength – Phase 2......... 106 
+Figure 29 : Response Surface/Contour Plots for Compressive Strength – Phase 2 . 106
+
+Figure 30: Response Surface/Contour Plots for Toughness – Phase 2 .................... 107 
+Figure 31 : EDS Spectra Mapping comparing elemental peaks of S3M1 and S3M2 at
+
+Figure 32 : SEM Micrographs demonstrating the ITZ morphology of S3M1 (top) 
+showing boundary gaps/crystals, and S3M2 (bottom) showing the dense C-S-H gel
+
+Figure 33 : Compressive Strength vs. PP Fiber, Flexural Strength vs. PP Fiber, and 
+Toughness vs. PP Fiber ............................................................................................ 115
+
+Figure 1: Microstructural Profile of Raw EPS in Cementitious Matrix. Schematic 
+representation of an unmodified, raw expanded polystyrene (EPS) bead embedded within
+
+Figure 2: Coated EPS beads by sand [35] 
+This physical pre-coating strategy yields several critical microstructural advantages:
+
+Figure 3: ITZ Deficit vs. Chemical Pozzolanic Healing [38] 
+Analytical evaluations from existing literature confirm that this chemical optimization
+
+Figure 4 : Microstructural Stress Path: Plain Matrix vs. PP Fiber Bridging 
+The underlying mechanism of this mechanical reinforcement relies on a randomly
+
+Figure 5 : Mechanical Impact of PP Fiber Dosage Thresholds 
+However, incorporating high-aspect-ratio synthetic fibers within a fine-aggregate
+
+Figure 6 : Ternary Synergy Framework 
+This research bridges this empirical gap by evaluating Coated EPS, processed RHA,
+
+Figure 7 : M-Sand
+
+Figure 9 : Coated EPS 
+Figure 8 : Uncoated EPS
+
+Figure 11 : Standard Prismatic 
+Molds
+
+Figure 12 : Universal testing Machine
+
+Figure 13 : Ball Milling Process
+
+Figure 14 : Spatial distribution of the Phase 1 Face - Centered Central Composite Design (CCF) scatter plot 
+mapping w/b vs s/b
+
+Figure 15 : Spatial distribution of the Phase 2 CCF scatter plot mapping Volumetric EPS Replacement (v) vs 
+RHA Mass Replacement (r)
+
+Figure 16 : Particle size distribution curve of the crushed metamorphic Manufactured Sand (M-Sand) plotted 
+against the standard BS 882 (Zone M) structural grading envelope.
+
+Figure 17 : Representative Energy Dispersive X-ray Spectroscopy (EDS) elemental spectrum of the processed Rice 
+Husk Ash (Sample Area 1). Analysis was conducted across three distinct spatial locations to derive the average
+
+Figure 18 : Scatter Plot of Theoretical vs. Measured Fresh Density across Phase 1 CCF Runs 
+The transition from the fresh state to the 28-day hardened state (𝜌28𝑑) exhibits a slight,
+
+Figure 19 : Dual-Axis Bar Chart Comparing Absolute Compressive Strength vs. Specific Compressive Strength 
+across Phase 1
+
+Figure 20 : Response Surface and Contour Plot for Influence of w/b and s/b Ratios on Apparent Porosity
+
+Figure 21 : Response Surface/Contour Plots for Flexural Strength – Phase 1 
+Figure 22 : Response Surface/Contour Plots for Compressive Strength – Phase 1
+
+Figure 23 : Response Surface/Contour Plots for Toughness – Phase 1
+
+Figure 24 : Line Graph showing the inverse relationship between EPS Volume Fraction and Hardened Density 
+However, establishing a low density is only structurally viable if the matrix remains
+
+Figure 25 : Dual-Axis Bar Chart comparing Apparent Porosity and Water Absorption across the Baseline (S2M1) 
+and Extreme Lightweight (S2M3, S2M4) boundaries
+
+Figure 26 : Response Surface/Contour Plot illustrating the interactive effect of EPS volume (v) and RHA mass (r) 
+on Apparent Porosity
+
+Figure 27 : Dual-Axis Bar Chart comparing Compressive Strength against Density for the EPS and RHA 
+boundary configurations
+
+Figure 28 : Response Surface/Contour Plots for Flexural Strength – Phase 2 
+Figure 29 : Response Surface/Contour Plots for Compressive Strength – Phase 2
+
+Figure 30: Response Surface/Contour Plots for Toughness – Phase 2
+
+Figure 31 : EDS Spectra Mapping comparing elemental peaks of S3M1 and S3M2 at the ITZ
+
+Figure 32 : SEM Micrographs demonstrating the ITZ morphology of S3M1 (top) showing boundary 
+gaps/crystals, and S3M2 (bottom) showing the dense C-S-H gel formation
+
+Figure 33 : Compressive Strength vs. PP Fiber, Flexural Strength vs. PP Fiber, and Toughness vs. PP Fiber 
+5.6.1. Flexural Toughness and the Crack-Bridging Mechanism
+

@@ -1,0 +1,356 @@
+TABLES IN CHAPTER 5:
+ - Table 15 : Phase 1 Mix Proportioning Matrix (CCF) for a 0.00096 m3 Batch 
+ - Table 16 : Phase 2 Mix Proportioning Matrix (CCF) for Modified Lightweight Mortar 
+ - Table 17 : Phase 3 Chemical Analytical Validation Proportions 
+ - Table 18 : Phase 4 Mix Proportions (Uncoated Baseline Equivalent vs Coated Center) 
+ - Table 19 : Phase 5 Final Mix Proportions Incorporating Volumetric PP Fiber Additions 
+ - Table 20 : Summary of Raw Material Characterization and Standard Compliance 
+ - Table 21 : eZAF Smart Quant Results for sample area 1 
+ - Table 22 : Phase 1 CCF Mix Matrix and Consolidated Experimental Results 
+ - Table 23 : Phase 1 Volumetric Density and Air-Void Variance 
+ - Table 24 : Phase 1 Absolute and Specific Mechanical Capacities 
+ - Table 25 : Thesis-Grade ANOVA Table for Apparent Porosity (Quadratic Model) 
+ - Table 26 : Consolidated Thesis-Grade ANOVA Significance for Mechanical Properties 
+ - Table 27 : Phase 2 CCF Mix Matrix and Consolidated Experimental Results 
+
+============================================================
+KEY REGRESSION FORMULAS, EQUATIONS & ANOVA DETAILS:
+============================================================
+
+[Line 25]:
+𝑚𝑐𝑒𝑚𝑒𝑛𝑡= (1 −𝑟) × 𝑚𝑏 
+Because the binder is now a heterogeneous powder blend, the singular specific gravity 
+of the cement (𝑆𝐺𝑐) utilized in the absolute volume equation is replaced by the 
+mathematically derived composite specific gravity of the blended binder (𝑆𝐺𝑏): 
+𝑆𝐺𝑏=
+1
+1 −𝑟
+𝑆𝐺𝑐+
+𝑟
+𝑆𝐺𝑅𝐻𝐴
+----------------------------------------
+
+[Line 85]:
+𝜌𝑏𝑢𝑙𝑘,𝑢
+) 
+4.2.3.3.Generalized Multi-Phase Volume Equation  
+To resolve the total required binder mass (𝑚𝑏) for the modified lightweight mix within 
+a 1.0 m3spatial boundary, the fundamental absolute volume equation is expanded to 
+accommodate the binary binder and the partitioned aggregate systems: 
+𝑚𝑏
+𝑆𝐺𝑏× 1000 + 𝑚𝑏× (𝑤/𝑏)
+1000
++
+----------------------------------------
+
+[Line 87]:
+4.2.3.3.Generalized Multi-Phase Volume Equation  
+To resolve the total required binder mass (𝑚𝑏) for the modified lightweight mix within 
+a 1.0 m3spatial boundary, the fundamental absolute volume equation is expanded to 
+accommodate the binary binder and the partitioned aggregate systems: 
+𝑚𝑏
+𝑆𝐺𝑏× 1000 + 𝑚𝑏× (𝑤/𝑏)
+1000
++
+𝑉𝑠
+1000 + 𝑉𝐸𝑃𝑆,𝑐
+----------------------------------------
+
+[Line 101]:
+, the fractional 
+volumes for the remaining sand and the incorporated EPS are substituted into the 
+equation: 
+𝑚𝑏
+𝑆𝐺𝑏× 1000 + 𝑚𝑏× (𝑤/𝑏)
+1000
++ (1 −𝑣) × 𝑚𝑏× (𝑠/𝑏)
+𝑆𝐺𝑠× 1000
++ 𝑣× 𝑚𝑏× (𝑠/𝑏)
+𝑆𝐺𝑠× 1000
+----------------------------------------
+
+[Line 115]:
+Consequently, the total mass of the binder (𝑚𝑏) required to maintain the absolute 
+volume of the mixture remains entirely independent of the EPS replacement 
+percentage. By factoring out 𝑚𝑏as a common multiplier, the final generalized equation 
+utilized for the Phase 2 modified batching simplifies to: 
+𝑚𝑏( 1
+𝑆𝐺𝑏
++ (𝑤/𝑏) + 𝑠/𝑏
+𝑆𝐺𝑠
+) = 990 
+Once 𝑚𝑏is mathematically resolved, the individual theoretical constituent masses 
+----------------------------------------
+
+[Line 175]:
+Because the baseline binder reverts from a binary blend back to a singular powder, the 
+composite specific gravity (𝑆𝐺𝑏) utilized in Phase 2 is replaced by the intrinsic specific 
+gravity of the pure cement (𝑆𝐺𝑐). The absolute volume equation required to resolve 
+the total binder mass (𝑚𝑏) for the baseline matrix within a 1.0 m3spatial boundary is 
+adjusted as follows: 
+𝑚𝑏( 1
+𝑆𝐺𝑐
++ (𝑤/𝑏) + 𝑠/𝑏
+𝑆𝐺𝑠
+) = 990 
+----------------------------------------
+
+[Line 205]:
+M-Sand under the exact same volumetric constraints as the coated EPS, the algebraic 
+cancellation of the replacement fraction (𝑣) remains mathematically valid. Therefore, 
+the absolute volume equation resolving the total composite binder mass (𝑚𝑏) remains 
+identical to Phase 2: 
+𝑚𝑏( 1
+𝑆𝐺𝑏
++ (𝑤/𝑏) + 𝑠/𝑏
+𝑆𝐺𝑠
+) = 990 
+Consequently, the theoretical batch masses for the composite binder (𝑚𝑐, 𝑚𝑅𝐻𝐴), 
+----------------------------------------
+
+[Line 250]:
+substitutes the sand. However, because the PP micro-fibers represent an additional 
+spatial volume rather than a direct substitution, 𝑉𝑓𝑖𝑏𝑒𝑟cannot be canceled. Therefore, 
+the final comprehensive volume equation required to resolve the composite binder 
+mass (𝑚𝑏) becomes: 
+𝑚𝑏( 1
+𝑆𝐺𝑏
++ (𝑤/𝑏) + 𝑠/𝑏
+𝑆𝐺𝑠
+) = 990 −𝑉𝑓𝑖𝑏𝑒𝑟(𝐿) 
+Once the adjusted spatial geometry of the binder is mathematically resolved, the actual 
+----------------------------------------
+
+[Line 283]:
+for each constituent (𝑚𝑤= 𝑚𝑏(𝑤/𝑏); 𝑚𝑠= 𝑚𝑏(𝑠/𝑏)(1 −𝑣); and deriving the EPS 
+mass from its specific gravity relative to the sand phase), the consolidated theoretical 
+density equations were formulated for each experimental phase. 
+For the Phase 1 Base Mortar (100% OPC binder and M-Sand, utilizing the base 
+volumetric ratios without EPS or RHA substitution): 
+𝜌𝑡ℎ,𝑏𝑎𝑠𝑒= 𝑚𝑏[1 + (𝑤/𝑏) + (𝑠/𝑏)] 
+ 
+For the Phase 2 Modified Lightweight Mortar (Coated EPS and RHA): 
+𝜌𝑡ℎ,𝑚𝑜𝑑= 𝑚𝑏[1 + (𝑤/𝑏) + (𝑠/𝑏) ((1 −𝑣) + 𝑣𝑆𝐺𝐸𝑃𝑆,𝑐
+𝑆𝐺𝑠
+----------------------------------------
+
+[Line 295]:
+20% RHA] are identical in proportion to specific boundary runs within the Phase 2 
+matrix [S2M3 and S2M4]. Therefore, their theoretical fresh densities are governed 
+identically by this Phase 2 equation). 
+For the Phase 4 Physical Coating Efficacy Baseline (Uncoated EPS utilized for coating 
+efficacy and ITZ evaluation): 
+𝜌𝑡ℎ,𝑢𝑛𝑐= 𝑚𝑏[1 + (𝑤/𝑏) + (𝑠/𝑏) ((1 −𝑣) + 𝑣𝑆𝐺𝐸𝑃𝑆,𝑢
+𝑆𝐺𝑠
+)] 
+𝜌𝑡ℎ,𝑐𝑜𝑎𝑡= 𝑚𝑏[1 + (𝑤/𝑏) + (𝑠/𝑏) ((1 −𝑣) + 𝑣𝑆𝐺𝐸𝑃𝑆,𝑐
+𝑆𝐺𝑠
+----------------------------------------
+
+[Line 400]:
+RHA Mass Replacement (r) 
+By locking the optimal 𝑤/𝑏and 𝑠/𝑏ratios, the generalized multi-phase volume 
+equation (Section 4.2.3) was utilized to convert these interacting replacement ratios 
+into theoretical physical masses. Incorporating the composite specific gravities for the 
+blended binder (𝑆𝐺𝑏) and the coated beads (𝑆𝐺𝐸𝑃𝑆,𝑐), the 11 composite mixtures were 
+batched according to Table 16. 
+Table 16 : Phase 2 Mix Proportioning Matrix (CCF) for Modified Lightweight Mortar 
+ 
+4.2.7.3.Phase 3: Chemical Analytical Validation Matrix (Pozzolanic Effect) 
+To empirically validate the secondary pozzolanic matrix densification driven by the 
+----------------------------------------
+
+[Line 696]:
+ 
+test. The ultimate flexural strength (𝑓𝑟) in Megapascals (MPa or N/mm2) was 
+calculated using the standard bending equation for a rectangular cross-section: 
+𝑓𝑟= 1.5 × 𝐹𝑓× 𝐿
+𝑏3
+ 
+Where: 
+• 
+𝐹𝑓= The maximum applied load at fracture (N) 
+• 
+----------------------------------------
+
+[Line 910]:
+proportions derived via the Face - Centered Central Composite Design (CCF) in 
+Chapter 4 were physically cast and tested. 
+Table 22 consolidates the fixed volumetric input ratios against the measured fresh-
+state and 28-day hardened mechanical and physical responses. This dataset serves as 
+the foundational empirical baseline, establishing the strict boundaries for structural 
+strength, matrix porosity, and volumetric stability required to optimize the subsequent 
+ternary composite. 
+Table 22 : Phase 1 CCF Mix Matrix and Consolidated Experimental Results 
+ 
+ 
+----------------------------------------
+
+[Line 915]:
+strength, matrix porosity, and volumetric stability required to optimize the subsequent 
+ternary composite. 
+Table 22 : Phase 1 CCF Mix Matrix and Consolidated Experimental Results 
+ 
+ 
+
+========================================
+<<< PDF PAGE 102 >>>
+========================================
+ 
+----------------------------------------
+
+[Line 936]:
+ 
+An analysis of the dataset confirms that the mathematical batching algorithms 
+accurately reflect the physical composite. The theoretical density equations (detailed 
+in Chapter 4) incorporated a standard 1% entrapped air allowance. The measured fresh 
+densities consistently align with these theoretical projections across all 11 
+experimental runs, demonstrating an exceptionally narrow variance boundary. For 
+example, the high-density corner point S1M1 (𝑤/𝑏 = 0.35, 𝑠/𝑏= 1.5) yielded a 
+theoretical density of 2286 kg/m³ and a measured fresh density of 2262 kg/m³, 
+representing a volumetric displacement error of merely 1.05%. 
+This tight alignment is particularly evident within the strictly controlled center points 
+----------------------------------------
+
+[Line 1067]:
+This normalizes the structural yield per unit of mass, providing a highly accurate 
+indicator of handling efficiency. 
+Table 24 : Phase 1 Absolute and Specific Mechanical Capacities 
+ 
+(Note: Specific strength values are multiplied by 103for graphical and analytical 
+readability). 
+An analysis of the absolute parameters reveals the expected inverse relationship 
+between the water-to-binder (𝑤/𝑏) ratio and mechanical yield. Mix S1M1 (𝑤/𝑏=
+0.35) achieves the global maximum absolute compressive strength (𝑓𝑐= 46.00 MPa) 
+and flexural strength (𝑓𝑟= 6.47 MPa). By minimizing the free water, the matrix 
+----------------------------------------
+
+[Line 1225]:
+89 
+ 
+5.2.3. Microstructural Permeability and Statistical Modeling (ANOVA) 
+The mechanical capacities evaluated in the preceding sections are fundamentally 
+governed by the internal void architecture of the hardened matrix. To quantify the 
+interconnected capillary networks present before the introduction of pozzolanic 
+modifiers, the apparent porosity was modeled using a quadratic Response Surface 
+Methodology (RSM). 
+The Face - Centered Central Composite Design (CCF) yielded a highly significant 
+regression model, indicating that the vast majority of the variability in matrix porosity 
+----------------------------------------
+
+[Line 1234]:
+regression model, indicating that the vast majority of the variability in matrix porosity 
+is explained by the design variables. The statistical optimization generated the 
+following true-fit equations to map the microstructural void generation: 
+𝑃𝑜𝑟𝑜𝑠𝑖𝑡𝑦(%) = 14.07 −47.29(𝑤/𝑏) −0.74(𝑠/𝑏) + 68.02(𝑤/𝑏)2 + 0.21(𝑠/𝑏)2 + 1.60(𝑤/𝑏⋅𝑠/𝑏) 
+ 
+  
+Figure 20 : Response Surface and Contour Plot for Influence of w/b and s/b Ratios on Apparent Porosity 
+ 
+
+========================================
+----------------------------------------
+
+[Line 1247]:
+90 
+ 
+Table 25 : Thesis-Grade ANOVA Table for Apparent Porosity (Quadratic Model) 
+ 
+(Note: Statistical Fit Summary Metrics: 𝑅2 > 0.96. An insignificant Lack of Fit 
+validates this quadratic model architecture). 
+Analyzing the corrected statistical fit metrics reveals a highly distinct sensitivity 
+profile governing matrix permeability. The water-to-binder ratio (𝑤/𝑏) acts as the 
+dominant physical mechanism controlling void generation, exhibiting both a massive 
+linear impact and a highly significant non-linear parabolic curve (𝑤/𝑏2 coefficient of 
+----------------------------------------
+
+[Line 1369]:
+regression was calculated directly from the empirical Phase 1 dataset to ensure 
+absolute academic precision. The statistical optimization generated the following true-
+fit equations to mathematically map the mechanical behavioral workspace: 
+Actual Physical Value Equation (For Mix Design):  
+𝑓𝑐= 119.42 −195.94(𝑤/𝑏) −24.01(𝑠/𝑏) + 116.79(𝑤/𝑏)2 + 2.04(𝑠/𝑏)2 + 23.01(𝑤/𝑏⋅𝑠/𝑏) 
+Actual Physical Value Equation:  
+𝑓𝑟= 20.48 −42.84(𝑤/𝑏) −3.64(𝑠/𝑏) + 32.18(𝑤/𝑏)2 + 0.32(𝑠/𝑏)2 + 3.36(𝑤/𝑏⋅𝑠/𝑏) 
+Actual Physical Value Equation 
+𝑇= 137.10 −304.49(𝑤/𝑏) −15.23(𝑠/𝑏) + 246.56(𝑤/𝑏)2 + 0.56(𝑠/𝑏)2 + 15.55(𝑤/𝑏⋅𝑠/𝑏) 
+
+----------------------------------------
+
+[Line 1370]:
+absolute academic precision. The statistical optimization generated the following true-
+fit equations to mathematically map the mechanical behavioral workspace: 
+Actual Physical Value Equation (For Mix Design):  
+𝑓𝑐= 119.42 −195.94(𝑤/𝑏) −24.01(𝑠/𝑏) + 116.79(𝑤/𝑏)2 + 2.04(𝑠/𝑏)2 + 23.01(𝑤/𝑏⋅𝑠/𝑏) 
+Actual Physical Value Equation:  
+𝑓𝑟= 20.48 −42.84(𝑤/𝑏) −3.64(𝑠/𝑏) + 32.18(𝑤/𝑏)2 + 0.32(𝑠/𝑏)2 + 3.36(𝑤/𝑏⋅𝑠/𝑏) 
+Actual Physical Value Equation 
+𝑇= 137.10 −304.49(𝑤/𝑏) −15.23(𝑠/𝑏) + 246.56(𝑤/𝑏)2 + 0.56(𝑠/𝑏)2 + 15.55(𝑤/𝑏⋅𝑠/𝑏) 
+
+========================================
+----------------------------------------
+
+[Line 1372]:
+Actual Physical Value Equation (For Mix Design):  
+𝑓𝑐= 119.42 −195.94(𝑤/𝑏) −24.01(𝑠/𝑏) + 116.79(𝑤/𝑏)2 + 2.04(𝑠/𝑏)2 + 23.01(𝑤/𝑏⋅𝑠/𝑏) 
+Actual Physical Value Equation:  
+𝑓𝑟= 20.48 −42.84(𝑤/𝑏) −3.64(𝑠/𝑏) + 32.18(𝑤/𝑏)2 + 0.32(𝑠/𝑏)2 + 3.36(𝑤/𝑏⋅𝑠/𝑏) 
+Actual Physical Value Equation 
+𝑇= 137.10 −304.49(𝑤/𝑏) −15.23(𝑠/𝑏) + 246.56(𝑤/𝑏)2 + 0.56(𝑠/𝑏)2 + 15.55(𝑤/𝑏⋅𝑠/𝑏) 
+
+========================================
+<<< PDF PAGE 109 >>>
+========================================
+----------------------------------------
+
+[Line 1374]:
+Actual Physical Value Equation:  
+𝑓𝑟= 20.48 −42.84(𝑤/𝑏) −3.64(𝑠/𝑏) + 32.18(𝑤/𝑏)2 + 0.32(𝑠/𝑏)2 + 3.36(𝑤/𝑏⋅𝑠/𝑏) 
+Actual Physical Value Equation 
+𝑇= 137.10 −304.49(𝑤/𝑏) −15.23(𝑠/𝑏) + 246.56(𝑤/𝑏)2 + 0.56(𝑠/𝑏)2 + 15.55(𝑤/𝑏⋅𝑠/𝑏) 
+
+========================================
+<<< PDF PAGE 109 >>>
+========================================
+ 
+92 
+----------------------------------------
+
+[Line 1397]:
+ 
+ 
+Table 26 : Consolidated Thesis-Grade ANOVA Significance for Mechanical Properties 
+ 
+Source of 
+Variation
+df
+F-Value
+p-Value
+F-Value
+----------------------------------------
+
+[Line 1578]:
+beads, and the localized chemical densification driven by the reactive Rice Husk Ash 
+(RHA). 
+Table 27 consolidates the experimental dataset generated by the secondary Face - 
+Centered Central Composite Design (CCF). This matrix maps the extreme 
+microstructural competition between physical void inclusion and chemical pozzolanic 
+healing, quantifying their combined effects on volumetric stability, internal porosity, 
+and macroscopic structural capacity. 
+Table 27 : Phase 2 CCF Mix Matrix and Consolidated Experimental Results 
+ 
+5.3.1. Volumetric Displacement and Density Reduction Kinetics 
+----------------------------------------
+
+[Line 1583]:
+healing, quantifying their combined effects on volumetric stability, internal porosity, 
+and macroscopic structural capacity. 
+Table 27 : Phase 2 CCF Mix Matrix and Consolidated Experimental Results 
+ 
+5.3.1. Volumetric Displacement and Density Reduction Kinetics 
+The primary functional objective of integrating Expanded Polystyrene (EPS) into the 
+composite is to alleviate the severe dead-weight penalties associated with precast panel 
+transportation and crane installation. To evaluate the efficacy of this volumetric 
+Mix ID
+w/b
+----------------------------------------

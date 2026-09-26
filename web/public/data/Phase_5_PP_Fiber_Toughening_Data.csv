@@ -1,0 +1,6 @@
+Mix_ID,Fixed_wb,Fixed_sb,RHA_pct,Coated_EPS_pct,PP_Fiber_Dosage_v_v_pct,fr_MPa,fc_MPa,Theoretical_Density_kg_m3,Fresh_Density_kg_m3,Measured_28d_Density_kg_m3,Water_Absorption_pct,Apparent_Porosity_pct,Toughness_mJ_mm3,Structural_Evaluation
+S5M1,0.425,2.25,10,20,0.0,3.261,16.78,2014,1980,1995,3.13,6.15,14.706,Baseline unreinforced ternary matrix (brittle)
+S5M2,0.425,2.25,10,20,0.5,3.585,15.62,2013,1952,1969,3.34,6.48,18.24,"GLOBAL OPTIMUM: +10.1% fr, +24.0% Toughness, 15.62 MPa fc, 1993 kg/m3 bulk"
+S5M3,0.425,2.25,10,20,1.0,3.998,14.14,2011,1922,1938,3.62,6.95,25.415,Flexural apex (4.00 MPa); compressive yield drops to 14.14 MPa
+S5M4,0.425,2.25,10,20,1.5,3.652,11.85,2009,1902,1919,3.91,7.42,28.85,Fiber balling onset: fc drops -24.1% due to entangled air pockets
+S5M5,0.425,2.25,10,20,2.0,2.888,11.06,2006,1884,1903,4.28,7.98,31.54,Degradation plateau: fr (2.89 MPa) falls below unreinforced baseline

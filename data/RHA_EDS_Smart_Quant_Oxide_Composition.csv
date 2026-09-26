@@ -1,0 +1,11 @@
+Element_Line,Weight_pct,Atomic_pct,Net_Intensity,Error_pct,K_ratio,Z_factor,A_factor,F_factor,Role_in_Hydration
+O K,41.96,57.19,3097.05,8.29,0.1326,1.0616,0.2978,1.0,Oxide partner for silicates and aluminates
+Mg K,0.32,0.29,55.29,13.79,0.0019,0.9823,0.5843,1.0146,Trace refractory oxide
+Al K,4.25,3.43,884.03,4.83,0.0299,0.9462,0.7261,1.0242,Aluminate phase forming secondary C-A-H
+Si K,44.78,34.76,10207.52,3.26,0.3438,0.9672,0.7926,1.0018,Primary reactive amorphous pozzolanic silica (SiO2)
+P K,0.3,0.21,36.79,14.6,0.0015,0.9291,0.5567,1.0032,Agricultural mineral trace
+Cl K,0.12,0.08,17.59,48.46,0.0008,0.9015,0.7508,1.009,Non-deleterious trace chloride
+K K,4.16,2.32,565.3,4.69,0.0333,0.8973,0.8798,1.0114,Alkali content from agricultural ash
+Ca K,0.62,0.34,73.77,13.76,0.0052,0.9138,0.9019,1.0148,Trace lime constituent
+Ti K,0.31,0.14,33.5,24.71,0.0025,0.8284,0.9536,1.0308,Trace mineral inclusion
+Fe K,3.18,1.24,223.54,6.16,0.0272,0.8151,0.9958,1.054,Ferrite phase contributor (C4AF)

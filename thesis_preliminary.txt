@@ -1,0 +1,991 @@
+
+==================================================
+--- PAGE 1 ---
+==================================================
+ 
+ 
+Synergistic Effects of Rice Husk Ash and Polypropylene 
+Fiber on the Performance of Modified Expanded 
+Polystyrene Cement Mortar 
+ 
+ 
+ 
+ 
+ 
+ 
+Hewa Premasinhage Sandun Premakumara 
+ 
+(210494D) 
+ 
+ 
+Konalingam Mayoorathan 
+ 
+(210381E) 
+ 
+ 
+ 
+Degree of Bachelor of Science 
+ 
+ 
+ 
+Department of Materials Science and Engineering 
+ 
+University of Moratuwa 
+Sri Lanka 
+
+==================================================
+--- PAGE 2 ---
+==================================================
+ 
+i 
+ 
+ABSTRACT 
+Lightweight mortars for precast construction face an inherent engineering trade-off: 
+reducing density severely compromises fracture resistance and structural capacity. 
+This study demonstrates that the synergistic combination of three complementary 
+materials rice husk ash (RHA) as a pozzolanic cement replacement, surface-coated 
+expanded polystyrene (EPS) beads as lightweight aggregate, and polypropylene (PP) 
+micro-fibers for crack control can simultaneously address this trade-off. Using 
+Response Surface Methodology (RSM) based on a Face - Centered Central Composite 
+Design (CCF), the mix proportions were systematically optimized while isolating three 
+distinct microstructural mechanisms. First, chemical refinement via ball-milled RHA 
+reduces capillary porosity and strengthens the interfacial transition zone (ITZ) through 
+a secondary pozzolanic reaction, lowering the elemental Ca/Si ratio by over 77% to 
+produce dense C-S-H gel. Second, the PVAc/M-sand physical surface coating on EPS 
+beads neutralizes aggregate buoyancy and enforces mechanical interlocking, 
+recovering up to 70% of lost compressive capacity at high volume fractions. Finally, 
+PP micro-fiber bridging recovers the fracture resistance and handling toughness lost 
+through lightweight aggregate incorporation. 
+Water absorption and porosity measurements indicate targeted capillary pore 
+refinement, 
+demonstrating 
+that 
+optimal 
+pozzolanic 
+additions 
+seal 
+pore 
+interconnectivity. Experimental testing of the statistically optimized ternary matrix 
+(10% RHA, 20% coated EPS, and 0.5% PP fiber) yielded a compressive strength of 
+15.62 MPa, a flexural strength of 3.59 MPa, a handling toughness of 18.24 mJ/mm³, 
+and an apparent porosity of 5.79%, while successfully shedding nearly 300 kg/m³ to 
+achieve a bulk density of 1993 kg/m³. 
+Ultimately, this study demonstrates that the synergistic integration of these three 
+mechanisms produces superior performance outcomes compared to individual binary 
+additions in isolation. The results validate that capillary porosity refinement (via 
+pozzolanic reaction) and controlled toughness recovery (via fiber reinforcement) can 
+safely offset the strength penalty inherent to lightweight aggregate substitution, 
+
+==================================================
+--- PAGE 3 ---
+==================================================
+ 
+ii 
+ 
+providing a generalizable, physics-grounded design methodology for engineers 
+formulating sustainable precast partitioning panels. 
+Keywords: Lightweight cement mortar, Expanded polystyrene (EPS), Rice husk ash 
+(RHA), Polypropylene fibers, Interfacial transition zone (ITZ), Response Surface 
+Methodology (RSM), Precast concrete panels, Fracture toughness. 
+ 
+ 
+
+==================================================
+--- PAGE 4 ---
+==================================================
+ 
+iii 
+ 
+ACKNOWLEDGEMENT 
+ 
+We wish to extend our profound appreciation to our principal supervisor, Eng. 
+Guluwita, from the Department of Materials Science and Engineering at the University 
+of Moratuwa. This research would not have been possible without their visionary 
+guidance, expert technical oversight, and unwavering mentorship throughout the 
+lifecycle of the project. Their willingness to share extensive academic knowledge 
+empowered us to navigate complex research challenges, and their meticulous feedback 
+greatly elevated the quality of this final report. 
+We are equally indebted to the technical officers and laboratory personnel at the 
+University of Moratuwa. Their hands-on assistance, logistical support, and pragmatic 
+problem-solving were critical during the experimental phases of our research. From 
+calibrating testing apparatuses to facilitating material sourcing, their dedication and 
+willingness to go above and beyond ensured that our laboratory work was executed 
+seamlessly and safely. 
+A special note of thanks belongs to our classmates and fellow researchers. The 
+intellectual camaraderie spirited brainstorming sessions, and collaborative efforts 
+during data analysis not only broadened our perspectives but also made the rigorous 
+research process highly engaging. We are grateful for the vibrant and supportive 
+academic environment they helped cultivate. 
+Lastly, we dedicate a heartfelt thank you to our families. They have been our anchor, 
+offering immense moral support, patience, and understanding during the demanding 
+and exhausting phases of this study. Their sacrifices and constant belief in our potential 
+gave us the resilience needed to see this project through to its successful completion. 
+ 
+
+==================================================
+--- PAGE 5 ---
+==================================================
+ 
+iv 
+ 
+TABLE OF CONTENTS 
+ 
+1. 
+INTRODUCTION ............................................................................................... 1 
+1.1. 
+Background .................................................................................................. 1 
+1.1.1. 
+The Evolution of Prefabrication in Civil Infrastructure ....................... 1 
+1.1.2. 
+The Dead-Weight Penalty and Logistics Constraints .......................... 1 
+1.1.3. 
+Multi-Component Engineering Solutions ............................................ 2 
+1.2. 
+Problem Statement ....................................................................................... 3 
+1.2.1. 
+The Interfacial Transition Zone (ITZ) Deficit of Raw EPS ................. 3 
+1.2.2. 
+Workability-Toughness Trade-off ....................................................... 4 
+1.2.3. 
+The Empirical Validation Vacuum in the Sri Lankan Ecosystem ....... 5 
+1.3. 
+Objectives ..................................................................................................... 6 
+1.4. 
+Scope of the Study ....................................................................................... 6 
+1.4.1. 
+Raw Material Boundaries ..................................................................... 6 
+1.4.2. 
+Proportional and Factorial Limits ........................................................ 7 
+1.4.3. 
+Mechanical and Analytical Testing Geometries .................................. 8 
+2. 
+LITERATURE REVIEW..................................................................................... 9 
+2.1. 
+Historical Evolution and Functional Boundaries of Binders ....................... 9 
+2.2. 
+The Industrial Precast Revolution and the Handling Crisis ....................... 12 
+2.3. 
+The Context of the Contemporary Sri Lankan Precast Industry ................ 14 
+2.4. 
+Engineering Mechanics of Lightweight Inclusions: The Rationale for EPS
+ 
+15 
+2.5. 
+Chemical Optimization via Micro-Silica: Rice Husk Ash (RHA) Pozzolanic 
+Reaction.................................................................................................................. 18 
+2.6. 
+Tensile and Toughness Enhancements via Polypropylene (PP) Micro-Fibers
+ 
+20 
+
+==================================================
+--- PAGE 6 ---
+==================================================
+ 
+v 
+ 
+2.7. 
+Identifying the Research Gap: Transitioning from Binary to Ternary 
+Synergistic Systems ............................................................................................... 23 
+2.8. 
+Statistical Optimization, Standardization Frameworks, and the Ternary 
+Experimental Rationale .......................................................................................... 25 
+3. 
+MATERIALS AND EXPERIMENTAL PROCEDURE ................................... 28 
+3.1. 
+Materials And Apparatus ........................................................................... 28 
+3.1.1. 
+Materials ............................................................................................. 28 
+3.1.1.1. 
+Ordinary Portland Cement (OPC) .............................................. 28 
+3.1.1.2. 
+Manufactured Sand (M-Sand) .................................................... 29 
+3.1.1.3. 
+Expanded Polystyrene (EPS) Beads........................................... 30 
+3.1.1.4. 
+Polyvinyl Acetate (PVAc) Bonding Agent & Core-Shell 
+Assembly 30 
+3.1.1.5. 
+Rice Husk Ash (RHA) ............................................................... 31 
+3.1.1.6. 
+Chemical Admixture System (Superplasticizer) ........................ 32 
+3.1.1.7. 
+Polypropylene (PP) Fibers ......................................................... 33 
+3.1.2. 
+Apparatus ........................................................................................... 34 
+3.2. 
+Experimental Procedure ............................................................................. 37 
+3.2.1. 
+Raw Material Characterization Protocols .......................................... 37 
+3.2.1.1. 
+Hydraulic Binder (OPC) Pycnometry ........................................ 37 
+3.2.1.2. 
+Fine Aggregate (M-Sand) Grading Compliance and Moisture 
+Kinetics 
+38 
+3.2.1.3. 
+Supplementary 
+Cementitious 
+Material 
+(RHA) 
+Pozzolanic 
+Validation 40 
+3.2.1.4. 
+Ultra-Lightweight Aggregate (EPS) Hydrostatic Profiling ....... 41 
+3.2.1.5. 
+Chemical Admixture (Superplasticizer) Standardization ........... 43 
+3.2.2. 
+Design of Experiments (DoE) & Factorial Mix Apportionment ....... 43 
+3.2.3. 
+Processing and Optimization of Raw Components ............................ 45 
+
+==================================================
+--- PAGE 7 ---
+==================================================
+ 
+vi 
+ 
+3.2.3.1. 
+Rice Husk Ash (RHA) Processing Protocol............................... 45 
+3.2.3.2. 
+EPS Core-Shell Structural Pre-Treatment .................................. 46 
+3.2.4. 
+Batching, Charging Sequence, and Site-Mixing Adjustments ........... 46 
+3.2.5. 
+Specimen Casting, Consolidation, and Environmental Curing Controls
+ 
+48 
+3.2.6. 
+Macro-Physical and Destructive Performance Testing ...................... 49 
+3.2.6.1. 
+Tri-Axial Flexural Strength Characterization ............................ 49 
+3.2.6.2. 
+Axial Compressive Strength Crushing ....................................... 49 
+3.2.6.3. 
+Fluid Transport and Buoyancy-Assisted Volumetric Testing .... 49 
+3.2.7. 
+Interfacial Microstructural and Analytical Diagnostics ..................... 50 
+3.2.7.1. 
+Micro-Specimen Extraction and Hydration Arrest .................... 50 
+3.2.7.2. 
+Conductive Surface Preparation ................................................. 50 
+3.2.7.3. 
+SEM Boundary Scans & EDS Chemical Profiles ...................... 50 
+4. 
+CALCULATIONS ............................................................................................. 52 
+4.1. 
+Raw Material Characterization Calculation ............................................... 52 
+4.1.1. 
+Binder Pycnometry and Thermal Correction Matrix ......................... 52 
+4.1.2. 
+Bogue Stoichiometric Clinker Phase Conversions ............................ 53 
+4.1.3. 
+Fine Aggregate Particle Size and Volumetric Mechanics.................. 54 
+4.1.4. 
+Expanded Polystyrene (EPS) Volumetric Dynamics ......................... 56 
+4.1.5. 
+Rice Husk Ash (RHA) Chemical and Physical Processing ............... 57 
+4.1.6. 
+Superplasticizer Specific Gravity Calibration .................................... 60 
+4.2. 
+Absolute Volumetric Apportionment and Multi-Phase Mix Design 
+Equations ................................................................................................................ 60 
+4.2.1. 
+The Fundamental Absolute Volume Framework (Phase 1: Base Matrix)
+ 
+60 
+4.2.2. 
+Aggregate Moisture Kinetics and Water Compensation Algorithms 62 
+
+==================================================
+--- PAGE 8 ---
+==================================================
+ 
+vii 
+ 
+4.2.3. 
+Composite Binder and Core-Shell Aggregate Volumetrics (Phase 2) 63 
+4.2.3.1. 
+Binary Binder Substitution and Composite Specific Gravity .... 64 
+4.2.3.2. 
+Aggregate Volumetric Partitioning and Density Constancy ...... 64 
+4.2.3.3. 
+Generalized Multi-Phase Volume Equation............................... 66 
+4.2.4. 
+Microstructural and Analytical Baseline Formulations ..................... 67 
+4.2.4.1. 
+Chemical Pozzolanic Baseline (Phase 3) ................................... 67 
+4.2.4.2. 
+Phase 4: Physical Coating Efficacy Baseline (Uncoated and 
+Coated EPS) ................................................................................................... 68 
+4.2.5. 
+Discontinuous Fiber Micro-Reinforcement Kinematics (Phase 5) .... 69 
+4.2.6. 
+Theoretical Density Formulations ...................................................... 70 
+4.2.7. 
+Factorial Design of Experiments (DoE) Matrix Generation .............. 72 
+4.2.7.1. 
+Phase 1: Base Mortar Optimization (CCF Matrix) .................... 72 
+4.2.7.2. 
+Phase 2: Lightweight Aggregate & Pozzolanic Optimization (CCF 
+Matrix) 
+74 
+4.2.7.3. 
+Phase 3: Chemical Analytical Validation Matrix (Pozzolanic 
+Effect) 
+75 
+4.2.7.4. 
+Physical Coating Efficacy Validation Matrix (Phase 4) ............ 77 
+4.2.7.5. 
+Phase 5: Micro-Reinforcement (Polypropylene Fiber) Matrix .. 77 
+4.2.8. 
+Fresh and Hardened State Performance Calculations ........................ 77 
+4.2.8.1. 
+Rheological Assessment (Relative Flowability) ........................ 78 
+4.2.8.2. 
+Mechanical Strength Evaluation (EN 196-1) ............................. 78 
+4.2.8.3. 
+Water Absorption and Apparent Porosity .................................. 79 
+5. 
+RESULTS AND DISCUSSION ........................................................................ 81 
+5.1. 
+Raw Material Characterization Summary .................................................. 81 
+5.2. 
+Phase 1 Results: Base Mortar Optimization .............................................. 84 
+5.2.1. 
+Volumetric Integrity and Packing Mechanics .................................... 85 
+
+==================================================
+--- PAGE 9 ---
+==================================================
+ 
+viii 
+ 
+5.2.2. 
+Absolute vs. Specific Mechanical Capacities .................................... 86 
+5.2.3. 
+Microstructural Permeability and Statistical Modeling (ANOVA) ... 89 
+5.2.4. 
+Mechanical Capacities and Structural Toughness Modeling ............. 91 
+5.2.5. 
+Industrial Applicability and Baseline Optimization (Phase 1 
+Conclusion) ........................................................................................................ 94 
+5.3. 
+Phase 2 Results: Composite Matrix Optimization ..................................... 96 
+5.3.1. 
+Volumetric Displacement and Density Reduction Kinetics............... 96 
+5.3.2. 
+Microstructural Void Competition (Porosity and Absorption) .......... 98 
+5.3.2.1. 
+The EPS Void Penalty ................................................................ 99 
+5.3.2.2. 
+The Dual Nature of Rice Husk Ash (RHA) ............................. 100 
+5.3.2.3. 
+The Central Equilibrium .......................................................... 101 
+5.3.3. 
+The Mechanical Trade-off: Absolute vs. Specific Capacities .......... 101 
+5.3.3.1. 
+The Limits of Pozzolanic Densification ................................... 102 
+5.3.3.2. 
+The Structural Equilibrium for Precast Applications ............... 103 
+5.3.4. 
+Statistical Interaction Modeling (RSM & ANOVA) ....................... 104 
+5.3.4.1. 
+The Primacy of Flexural Integrity (𝒇𝒓): ................................... 107 
+5.3.4.2. 
+The Limits of Chemical Healing (Interaction Thresholds): ..... 107 
+5.3.4.3. 
+The Catastrophic Loss of Energy Absorption (Toughness): .... 108 
+5.3.5. 
+Phase 2 Conclusion: Identifying the Lightweight Optimum............ 108 
+5.4. 
+Phase 3 Results: Microstructural and Chemical Interfacial Transition Zone 
+(ITZ) Diagnostics ................................................................................................. 109 
+5.4.1. 
+Chemical Healing and ITZ Densification ........................................ 109 
+5.4.2. 
+Statistical Analysis of ITZ Non-Homogeneity ................................ 110 
+5.4.3. 
+Morphological Observations (SEM) ................................................ 111 
+5.4.4. 
+Phase 3 Conclusion .......................................................................... 112 
+5.5. 
+Mechanical Translation and Strength Recovery ...................................... 112 
+
+==================================================
+--- PAGE 10 ---
+==================================================
+ 
+ix 
+ 
+5.5.1. 
+Phase 4 Conclusion .......................................................................... 113 
+5.6. 
+Phase 5 Results: Mechanical Toughness and Micro-Reinforcement ....... 114 
+5.6.1. 
+Flexural Toughness and the Crack-Bridging Mechanism ................ 115 
+5.6.2. 
+Compressive Capacity and the Fiber Balling Limit ......................... 116 
+5.6.3. 
+Phase 5 Conclusion (The Final Optimization) ................................. 117 
+6. 
+CONCLUSION ................................................................................................ 118 
+6.1. 
+Summary of the Research ........................................................................ 118 
+6.2. 
+Fulfillment of Primary Objectives ........................................................... 118 
+6.3. 
+Significant Discoveries (Beyond Initial Objectives)................................ 119 
+6.4. 
+Recommendations for Future Research ................................................... 120 
+REFERENCE LIST ................................................................................................. 122 
+Appendix A: Raw EDS Characterization Data ........................................................ 127 
+ 
+ 
+
+==================================================
+--- PAGE 11 ---
+==================================================
+ 
+x 
+ 
+LIST OF FIGURES 
+ 
+Figure 1: Microstructural Profile of Raw EPS in Cementitious Matrix. Schematic 
+representation of an unmodified, raw expanded polystyrene (EPS) bead embedded 
+within a cement paste. The diagram highlights the critical microstructural defects 
+governing the system [33] .......................................................................................... 16 
+Figure 2: Coated EPS beads by sand [35] .................................................................. 17 
+Figure 3: ITZ Deficit vs. Chemical Pozzolanic Healing [38] .................................... 19 
+Figure 4 : Microstructural Stress Path: Plain Matrix vs. PP Fiber Bridging .............. 21 
+Figure 5 : Mechanical Impact of PP Fiber Dosage Thresholds ................................. 22 
+Figure 6 : Ternary Synergy Framework ..................................................................... 24 
+Figure 7 : M-Sand ...................................................................................................... 29 
+Figure 8 : Uncoated EPS ............................................................................................ 30 
+Figure 9 : Coated EPS ................................................................................................ 30 
+Figure 10 ; Sieved RHA ............................................................................................. 31 
+Figure 11 : Standard Prismatic Molds ........................................................................ 35 
+Figure 12 : Universal testing Machine ....................................................................... 37 
+Figure 13 : Ball Milling Process ................................................................................ 46 
+Figure 14 : Spatial distribution of the Phase 1 Face - Centered Central Composite 
+Design (CCF) scatter plot mapping w/b vs s/b .......................................................... 73 
+Figure 15 : Spatial distribution of the Phase 2 CCF scatter plot mapping Volumetric 
+EPS Replacement (v) vs RHA Mass Replacement (r) ............................................... 75 
+Figure 16 : Particle size distribution curve of the crushed metamorphic Manufactured 
+Sand (M-Sand) plotted against the standard BS 882 (Zone M) structural grading 
+envelope. .................................................................................................................... 83 
+Figure 17 : Representative Energy Dispersive X-ray Spectroscopy (EDS) elemental 
+spectrum of the processed Rice Husk Ash (Sample Area 1). Analysis was conducted 
+across three distinct spatial locations to derive the average global pozzolanic index of 
+93.8%. ........................................................................................................................ 83 
+Figure 18 : Scatter Plot of Theoretical vs. Measured Fresh Density across Phase 1 CCF 
+Runs ........................................................................................................................... 86 
+
+==================================================
+--- PAGE 12 ---
+==================================================
+ 
+xi 
+ 
+Figure 19 : Dual-Axis Bar Chart Comparing Absolute Compressive Strength vs. 
+Specific Compressive Strength across Phase 1 .......................................................... 88 
+Figure 20 : Response Surface and Contour Plot for Influence of w/b and s/b Ratios on 
+Apparent Porosity ...................................................................................................... 89 
+Figure 21 : Response Surface/Contour Plots for Flexural Strength – Phase 1........... 92 
+Figure 22 : Response Surface/Contour Plots for Compressive Strength – Phase 1 ... 92 
+Figure 23 : Response Surface/Contour Plots for Toughness – Phase 1 ..................... 93 
+Figure 24 : Line Graph showing the inverse relationship between EPS Volume 
+Fraction and Hardened Density .................................................................................. 97 
+Figure 25 : Dual-Axis Bar Chart comparing Apparent Porosity and Water Absorption 
+across the Baseline (S2M1) and Extreme Lightweight (S2M3, S2M4) boundaries .. 99 
+Figure 26 : Response Surface/Contour Plot illustrating the interactive effect of EPS 
+volume (v) and RHA mass (r) on Apparent Porosity ............................................... 100 
+Figure 27 : Dual-Axis Bar Chart comparing Compressive Strength against Density for 
+the EPS and RHA boundary configurations............................................................. 103 
+Figure 28 : Response Surface/Contour Plots for Flexural Strength – Phase 2......... 106 
+Figure 29 : Response Surface/Contour Plots for Compressive Strength – Phase 2 . 106 
+Figure 30: Response Surface/Contour Plots for Toughness – Phase 2 .................... 107 
+Figure 31 : EDS Spectra Mapping comparing elemental peaks of S3M1 and S3M2 at 
+the ITZ ...................................................................................................................... 110 
+Figure 32 : SEM Micrographs demonstrating the ITZ morphology of S3M1 (top) 
+showing boundary gaps/crystals, and S3M2 (bottom) showing the dense C-S-H gel 
+formation .................................................................................................................. 112 
+Figure 33 : Compressive Strength vs. PP Fiber, Flexural Strength vs. PP Fiber, and 
+Toughness vs. PP Fiber ............................................................................................ 115 
+ 
+
+==================================================
+--- PAGE 13 ---
+==================================================
+ 
+xii 
+ 
+LIST OF TABLES 
+ 
+Table 1 : Physical Properties of Tokyo Super OPC from data sheet ......................... 28 
+Table 2 : Compressive Strength of Tokyo Super OPC from data sheet..................... 28 
+Table 3 : Chemical Oxide Composition of Tokyo Super OPC from data sheet ........ 29 
+Table 4 : Properties of PVAc Bonding Agent Used for EPS Surface Treatment ...... 31 
+Table 5 : EDS Instrument Parameters ........................................................................ 32 
+Table 6 : Ball Mill Configuration............................................................................... 32 
+Table 7 : Chemical and Physical Properties of FAIRFLO S ..................................... 33 
+Table 8 : Application Parameters of FAIRFLO S ...................................................... 33 
+Table 9 : Physical and Dimensional Properties of PP Fibers ..................................... 34 
+Table 10 : Mechanical and Chemical Properties of PP Fibers ................................... 34 
+Table 11 : Application Parameters of PP Fibers ........................................................ 34 
+Table 12: Granulometric Compliance Envelope for M-Sand (BS 882: Zone M) ...... 38 
+Table 13: Pozzolanic Compliance Criteria for RHA (ASTM C618 Class N) ........... 40 
+Table 14: Sieve Analysis Results and Mass Balance for M-Sand ............................. 54 
+Table 15 : Phase 1 Mix Proportioning Matrix (CCF) for a 0.00096 m3 Batch .......... 74 
+Table 16 : Phase 2 Mix Proportioning Matrix (CCF) for Modified Lightweight Mortar
+ .................................................................................................................................... 75 
+Table 17 : Phase 3 Chemical Analytical Validation Proportions ............................... 76 
+Table 18 : Phase 4 Mix Proportions (Uncoated Baseline Equivalent vs Coated Center)
+ .................................................................................................................................... 77 
+Table 19 : Phase 5 Final Mix Proportions Incorporating Volumetric PP Fiber Additions
+ .................................................................................................................................... 77 
+Table 20 : Summary of Raw Material Characterization and Standard Compliance .. 81 
+Table 21 : eZAF Smart Quant Results for sample area 1 .......................................... 84 
+Table 22 : Phase 1 CCF Mix Matrix and Consolidated Experimental Results .......... 84 
+Table 23 : Phase 1 Volumetric Density and Air-Void Variance ................................ 85 
+Table 24 : Phase 1 Absolute and Specific Mechanical Capacities............................. 87 
+Table 25 : Thesis-Grade ANOVA Table for Apparent Porosity (Quadratic Model) . 90 
+
+==================================================
+--- PAGE 14 ---
+==================================================
+ 
+xiii 
+ 
+Table 26 : Consolidated Thesis-Grade ANOVA Significance for Mechanical 
+Properties ................................................................................................................... 93 
+Table 27 : Phase 2 CCF Mix Matrix and Consolidated Experimental Results .......... 96 
+Table 28 : Phase 2 Absolute and Specific Mechanical Capacities........................... 102 
+Table 29 : Consolidated ANOVA Significance Table for Phase 2 Mechanical 
+Properties (f_r, f_c, and Toughness) ........................................................................ 105 
+Table 30 : Comparative EDS Elemental Analysis and ITZ Ca/Si Ratios (3-Location 
+Average) ................................................................................................................... 110 
+Table 31 : Phase 4 – Physical Coating Validation (Mechanical Recovery) ............ 113 
+Table 32 : Phase 5 – Mechanical Toughness and Micro-Fiber Optimization .......... 114 
+ 
+
+==================================================
+--- PAGE 15 ---
+==================================================
+ 
+xiv 
+ 
+LIST OF ABBREVIATIONS 
+ 
+Abbreviation 
+Description 
+ACI 
+American Concrete Institute 
+ANOVA 
+Analysis of Variance 
+ASTM 
+American Society for Testing and Materials 
+BS 
+British Standards 
+C-A-H 
+Calcium-Aluminate-Hydrate 
+C-S-H 
+Calcium-Silicate-Hydrate 
+Ca/Si 
+Calcium-to-Silicon Ratio 
+CCF 
+Face - Centered Central Composite Design. 
+CH 
+Calcium Hydroxide 
+DoE 
+Design of Experiments 
+EDS 
+Energy Dispersive X-ray Spectroscopy 
+EN 
+European Standards 
+EPS 
+Expanded Polystyrene 
+fc 
+Compressive Strength 
+FM 
+Fineness Modulus 
+fr 
+Flexural Strength 
+HRWR 
+High-Range Water Reducing Admixture 
+IPA 
+Isopropyl Alcohol 
+ITZ 
+Interfacial Transition Zone 
+LOI 
+Loss on Ignition 
+M-Sand 
+Manufactured Sand 
+MC 
+Moisture Content 
+OFAT 
+One-Factor-At-A-Time 
+OPC 
+Ordinary Portland Cement 
+OSC 
+Off-Site Construction 
+PF 
+Packing Fraction 
+PP 
+Polypropylene 
+PVAc 
+Polyvinyl Acetate 
+
+==================================================
+--- PAGE 16 ---
+==================================================
+ 
+xv 
+ 
+PVC 
+Polyvinyl Chloride 
+RHA 
+Rice Husk Ash 
+RSM 
+Response Surface Methodology 
+s/b 
+Sand-to-Binder Ratio 
+SCM 
+Supplementary Cementitious Material 
+SEM 
+Scanning Electron Microscopy 
+SG 
+Specific Gravity 
+SLS 
+Sri Lanka Standards 
+SSD 
+Saturated Surface-Dry 
+UTM 
+Universal Testing Machine 
+w/b 
+Water-to-Binder Ratio 
+w/c 
+Water-to-Cement Ratio 
+WA 
+Water Absorption 
+ 
+ 
+
+==================================================
+--- PAGE 17 ---
+==================================================
+ 
+xvi 
+ 
+LIST OF APPENDICES 
+ 
+Appendix  
+ 
+ 
+Description  
+ 
+ 
+ 
+ 
+Page 
+ 
+Appendix A   
+ 
+Raw EDS Characterization Data  
+ 
+127 
+(Locations 1, 2, and 3) 
+ 
+
+==================================================
+--- PAGE 18 ---
+==================================================
+ 
+1 
+ 
+1. INTRODUCTION 
+1.1.Background 
+1.1.1. The Evolution of Prefabrication in Civil Infrastructure 
+The contemporary construction industry is experiencing a structural paradigm shift, 
+moving away from traditional, labor-intensive, in-situ wet concrete operations and 
+toward industrialized off-site prefabrication [1]. In-situ masonry assembly is 
+frequently hindered by inconsistent execution quality, substantial material waste, and 
+extended construction schedules that rely heavily on ambient environmental curing 
+conditions [2]. To bypass these systemic inefficiencies in the field, developers of civil 
+infrastructure are increasingly turning to off-site construction (OSC) and automated, 
+factory-controlled precast technologies [3]. 
+A significant area of expansion within this industrialized framework is the mass 
+production of non-load-bearing partitioning wall panels, which have largely replaced 
+traditional brickwork and blockwork in high-density residential and commercial high-
+rise projects [1]. In developing Asian economies like Sri Lanka, the growth of urban 
+populations has sparked a sharp increase in the demand for vertical high-rises and 
+apartments [4]. To meet these demands, local developers are adopting prefabricated 
+wall elements such as internal separation barriers and facade cladding sheets. That 
+offer exceptional dimensional accuracy and pre-finished surface qualities [5]. Because 
+these panels arrive at the construction site ready for immediate mechanical anchoring, 
+they eliminate the need for costly and time-consuming on-site wet plastering 
+operations [1]. This accelerated installation cycle significantly shortens the structural 
+critical path, lowers overall project overhead, and helps overcome the severe skilled-
+labor shortages currently affecting urban development hubs [3, 4]. 
+1.1.2. The Dead-Weight Penalty and Logistics Constraints 
+Despite the evident productivity benefits of off-site prefabrication, traditional precast 
+elements carry significant material and logistical drawbacks due to their high self-
+weight [5]. Standard cement mortars and fine concretes have a dense, unyielding bulk 
+
+==================================================
+--- PAGE 19 ---
+==================================================
+ 
+2 
+ 
+density that typically ranges between 2200 kg/m3and 2400 kg/m3. When cast into 
+large-format architectural wall panels, this massive weight creates a severe dead-
+weight penalty that burdens the entire logistics chain, necessitating specialized, high-
+capacity transport fleets and heavy-duty site cranes just for basic handling and 
+installation [6]. 
+From a fundamental materials perspective, this excessive self-weight introduces major 
+handling stresses. During early-age manufacturing cycles, specifically the first 12 to 
+24 hours involving demolding, stripping, factory transit, and flat-bed stacking-the 
+panel is highly susceptible to premature mechanical failure [7]. Because the material 
+has not yet developed its full mature tensile capacity, handling forces induce localized 
+bending moments and internal stress concentrations [8]. This often leads to the 
+propagation of early-age plastic shrinkage, micro-cracking at the thin boundaries of 
+the panel, or even catastrophic structural failure before the unit reaches the site [7]. 
+Consequently, optimizing the performance of modern partitioning panels requires a 
+careful balance of weight and strength, evaluated through the strength-to-unit density 
+ratio [1]. This challenge in materials engineering is a primary driver for developing 
+innovative, lightweight structural alternatives that minimize transportation costs and 
+handling damage without compromising early-age structural integrity [5, 6]. 
+1.1.3. Multi-Component Engineering Solutions 
+To systematically address the logistical and mechanical handling challenges associated 
+with heavy precast wall units, materials engineers have prioritized the development of 
+engineered lightweight cementitious composites [2, 3]. Achieving a reliable reduction 
+in bulk density involves substituting traditional dense fine aggregates with ultra-
+lightweight particulate inclusions, such as Expanded Polystyrene (EPS) beads, which 
+contain up to 98% air by volume within their closed-loop cellular structures [4]. 
+However, raw EPS is notoriously smooth, chemically inert, and hydrophobic, leading 
+to high fresh-state buoyancy and a structurally weak, detached Interfacial Transition 
+Zone (ITZ) [4, 5]. To overcome these inherent flaws in geometric packing and 
+bonding, this study utilizes Coated EPS beads [5]. Pre-treating the EPS beads with a 
+water-insoluble polymer binder film encrusted with manufactured sand (M-sand) 
+
+==================================================
+--- PAGE 20 ---
+==================================================
+ 
+3 
+ 
+artificially roughens the surface of the aggregate [5]. This engineered coating acts as a 
+physical anchoring shell, preventing aggregate flotation during mixing and enforcing 
+active mechanical interlocking with the surrounding cement matrix [5]. 
+While the physical coating secures the aggregate-to-paste boundary, addressing the 
+remaining deficits in matrix strength demands an integrated chemical and mechanical 
+approach [5, 10]. Incorporating industrial and agricultural waste by-products, such as 
+processed Rice Husk Ash (RHA), supplies a highly reactive source of amorphous 
+micro-silica [6]. This fine ash initiates a secondary pozzolanic reaction that chemically 
+consumes weak calcium hydroxide crystals and precipitates stable secondary calcium-
+silicate-hydrate (C-S-H) gels, effectively densifying the cement paste immediately 
+surrounding the pre-coated EPS boundaries [7]. Finally, because maximizing 
+aggregate interlocking and densifying the matrix paste frequently results in a highly 
+rigid and brittle material prone to abrupt failure under sudden handling stresses [8], 
+short polymer micro-fibers, like Polypropylene (PP), are introduced to form a three-
+dimensional reinforcing web [9]. These monofilament fibers serve as structural micro-
+bridges across advancing crack fronts, which helps control early-age shrinkage and 
+significantly enhances the composite's post-cracking energy absorption and toughness 
+[9, 10]. By integrating these distinct mechanisms, the resulting ternary mortar 
+capitalizes on physical coating roughening, chemical pozzolanic healing, and 
+mechanical fiber bridging to strike an optimal balance of low density, high strength, 
+and improved handling toughness ideally suited for industrial prefabrication [10]. 
+1.2.Problem Statement 
+1.2.1. The Interfacial Transition Zone (ITZ) Deficit of Raw EPS 
+The primary obstacle preventing the direct volume substitution of dense aggregates 
+with Expanded Polystyrene (EPS) beads in precast concrete elements is the 
+microstructural and chemical incompatibility at the aggregate-paste boundary. Raw 
+EPS possesses an exceptionally smooth, non-reactive, and strongly hydrophobic 
+polymer surface energy profile [6]. When introduced into a fresh, highly alkaline, and 
+hydrophilic Portland cement paste, this hydrophobicity repels the free mixing water 
+
+==================================================
+--- PAGE 21 ---
+==================================================
+ 
+4 
+ 
+and initiates a micro-fluidic phenomenon known as the "wall effect" [11]. This 
+geometric packing constraint prevents cement grains from closely adhering to the 
+aggregate perimeter, creating localized, water-rich boundary films. As hydration 
+progresses, these localized fluid pockets facilitate the preferential precipitation of 
+large, plate-like calcium hydroxide (CH) crystals oriented parallel to the EPS bead 
+surface, rather than generating dense calcium-silicate-hydrate (C-S-H) gel [11]. 
+Consequently, the hardened composite develops a highly porous, detached, and 
+structurally compromised Interfacial Transition Zone (ITZ) that is substantially 
+weaker than the surrounding bulk cement paste. Because raw EPS beads possess 
+negligible shear stiffness and zero chemical adhesion to the matrix, they behave 
+mechanically as microstructural air voids or stress-concentrating defects [7]. Under 
+external compressive or tensile loading paths, micro-cracks preferentially nucleate 
+within this porous aggregate interface and propagate rapidly across the matrix cleavage 
+planes [9, 11]. This microstructural deficit leads to poor mechanical properties and 
+brittle macroscopic shearing even under low stress levels, directly restricting the use 
+of untreated EPS in precast structural elements that must withstand lifting and 
+installation loads. 
+1.2.2. Workability-Toughness Trade-off 
+Traditional binary material adjustments systematically fail to resolve the lightweight 
+mortar paradox, as correcting a single performance liability often degrades another 
+critical property. If researchers attempt to counteract the severe strength loss caused 
+by EPS inclusions by introducing ultra-fine, porous agricultural Rice Husk Ash 
+(RHA), the high specific surface area and cellular morphology of the ash particles 
+drastically increase the physical water demand of the binder matrix [12]. This intense 
+absorption depletes the free water required for fluid lubrication, leading to extreme 
+slump loss, a rapid reduction in workability, and severe compaction difficulties during 
+factory panel casting [12]. 
+Conversely, attempting to remedy the matrix's low tensile capacity by introducing 
+high-aspect-ratio Polypropylene (PP) micro-fibers presents a major rheological 
+liability. When mixed into a fresh cementitious matrix, these fibers tend to ball, twist, 
+
+==================================================
+--- PAGE 22 ---
+==================================================
+ 
+5 
+ 
+and form dense structural clusters that trap macro-air voids within the paste [13]. 
+Without systematic, multi-phase volumetric balancing, these binary interventions 
+produce a critical trade-off: yielding either an unworkable fresh paste that cannot 
+uniformly fill precast panel molds, or a hyper-brittle hardened composite susceptible 
+to sudden cracking and failure under routine lifting, demolding, and transit stresses. 
+1.2.3. The Empirical Validation Vacuum in the Sri Lankan Ecosystem 
+The development of sustainable, lightweight prefabricated infrastructure is further 
+bottlenecked by a regional engineering limitation: the empirical validation vacuum 
+within the contemporary Sri Lankan construction ecosystem. Driven by rapid urban 
+population growth and high-rise apartment construction across major urban sectors 
+like Colombo, local developers are increasingly utilizing imported precast 
+technologies, such as extruded lightweight concrete sandwich partition panels to 
+bypass rising site labor costs and material delivery delays [4]. However, a critical 
+review of regional materials literature reveals a distinct absence of standardized, 
+published engineering datasets or predictive design models for multi-phase ternary 
+composites utilizing localized, climate-specific raw materials and waste streams. 
+Industrial precast operators attempting to produce lightweight building elements 
+within Sri Lanka rely almost exclusively on trial-and-error recipe adjustments. This 
+lack of structural optimization is highly inefficient when processing local agricultural 
+by-products like Rice Husk Ash. Sri Lanka generates immense volumes of raw rice 
+husk during seasonal milling; while a portion is used for factory boiler fuel, substantial 
+quantities are routinely open-burned or field-dumped, producing a low-value 
+byproduct with inconsistent amorphous silica quality and high carbon content [14, 15]. 
+Currently, no localized standards exist to define the precise processing limits-such as 
+the exact ball-milling critical speed durations or wet-sieving protocols required to 
+upgrade these specific regional waste streams into highly reactive pozzolans [15]. 
+Furthermore, non-load-bearing partitioning panels must withstand vertical stacking 
+and superimposed dead loads from adjacent units when installed in high-density 
+layouts. Because these structural responses are highly sensitive to regional 
+manufactured sand (M-sand) grading variations and ambient tropical curing 
+
+==================================================
+--- PAGE 23 ---
+==================================================
+ 
+6 
+ 
+temperatures, applying generic international design equations introduces significant 
+risks of either structural failure or excessive over-engineering. This information gap 
+leaves the local industry without a validated design methodology, highlighting the 
+urgent need for a structured optimization dataset derived solely from Sri Lankan raw 
+materials. 
+1.3.Objectives 
+To address the microstructural limitations of lightweight aggregates and the structural 
+self-weight challenges currently facing the industrialized precast panel sector, this 
+study investigates a ternary cementitious matrix optimized through physical surface 
+modifications, pozzolanic matrix refinement, and micro-fiber crack-bridging 
+networks. The primary objectives of this research project are as follows: 
+• To quantify the independent and synergistic effects of Coated EPS, RHA, and PP 
+fiber additions on lightweight mortar performance. 
+• To deliver a generalizable design methodology and validation dataset for the 
+lightweight mortar development industry. 
+1.4.Scope of the Study 
+The scope of this investigation is defined by specific material selections, statistical 
+design constraints, and microstructural testing methodologies. The primary focus 
+remains entirely on developing a high-performance lightweight mortar specifically 
+tailored for the mass production of non-load-bearing precast panels. 
+1.4.1. Raw Material Boundaries 
+To ensure regional economic viability and practical application within the local 
+construction sector, this research strictly utilizes raw materials sourced directly from 
+the Sri Lankan ecosystem: 
+• 
+Binder: The matrix utilizes a single, commercially available brand of Ordinary 
+Portland Cement (Tokyo Super OPC, Class 42.5 R, conforming to SLS 
+107:2015). 
+
+==================================================
+--- PAGE 24 ---
+==================================================
+ 
+7 
+ 
+• 
+Fine Aggregate: Manufactured sand (M-sand), crushed from high-grade 
+metamorphic rock and conforming to the Zone M grading envelope specified 
+by BS 882 and SLS 1397, is used exclusively. This eliminates the inherent 
+variability associated with natural river sand. 
+• 
+Pozzolanic Waste: Rice Husk Ash (RHA) is collected from regional milling 
+facilities. It is processed using a laboratory jar ball mill operating at a critical 
+speed of 96 rpm for 2 hours, which guarantees a standardized fineness of 98.1% 
+passing a 53 µm wet sieve. 
+• 
+Lightweight Aggregate: Expanded Polystyrene (EPS) beads are restricted to a 
+nominal size distribution (𝑑50 ≈5.2 mm). The physical coating optimization 
+assesses a water-insoluble polyvinyl acetate (PVAc) homopolymer emulsion, 
+which is encrusted with a thin outer shell of fine M-sand grains. 
+• 
+Reinforcement: Structural fiber inclusion is confined to 6 mm long 
+monofilament polypropylene (PP) micro-fibers with a fixed diameter of 25 µm. 
+1.4.2. Proportional and Factorial Limits 
+To accurately isolate and optimize both independent and interactive variables across 
+the five-phase experimental framework, the optimization domain employs Response 
+Surface Methodology (RSM). This is driven by a Face - Centered Central Composite 
+Design (CCF) matrix, establishing a rigorous experimental matrix confined to the 
+following structural boundaries: 
+• 
+In Phase 1, the water-to-binder (𝑤/𝑏) ratio and the sand-to-binder (𝑠/𝑏) ratio 
+are systematically varied across factorial limits using the CCF matrix to isolate 
+the optimal baseline center point for the plain mortar matrix. 
+• 
+For all subsequent experimental phases (Phase 2 through Phase 5), the global 
+matrix parameters are frozen at this established center point. The water-to-
+binder ratio is locked at a constant baseline value of 0.425, and the sand-to-
+binder aggregate ratio is maintained at an absolute volumetric constant of 2.25. 
+
+==================================================
+--- PAGE 25 ---
+==================================================
+ 
+8 
+ 
+• 
+In Phase 5, the PP fiber dosage is systematically varied across design factor 
+bounds to determine its true mathematical optimum within the precast 
+composite. To maintain statistical contour mapping accuracy, each distinct 
+phase design configuration is bounded by exactly 11 individual mix variations. 
+1.4.3. Mechanical and Analytical Testing Geometries 
+Due to the physical constraints of field-site preparations and laboratory equipment 
+processing configurations, the experimental evaluations are confined to small-scale 
+specimen geometries: 
+• 
+Macro-Physical Properties: Macroscopic mechanical performance is mapped 
+exclusively using standard 40 × 40 × 160 mm prismatic mortar geometries. 
+Destructive testing is limited to three-point flexural strength (𝑓𝑟) profiling 
+followed by axial compressive strength (𝑓𝑐) crushing. 
+• 
+Transport and Physical Volumetrics: Fluid transport and open micro-void 
+characteristics are restricted to point-in-time immersion water absorption 
+metrics and buoyancy-assisted apparent volumetric porosity calculations. 
+• 
+Microstructural Diagnostics: Microstructural and elemental mapping via 
+Scanning Electron Microscopy (SEM) coupled with Energy Dispersive X-ray 
+Spectroscopy (EDS) is utilized to visually identify the aggregate-to-paste 
+boundary. Elemental phase allocation and compositional gradients are 
+evaluated using EDS atomic line-scans and elemental mapping, specifically 
+analyzing the element-specific Calcium-to-Silicon (𝐶𝑎/𝑆𝑖) ratio as it directly 
+approaches the Interfacial Transition Zone (ITZ). Large-scale structural testing 
+of full-size precast partitioning wall assemblies falls outside the current scope 
+of this academic project. 
+ 

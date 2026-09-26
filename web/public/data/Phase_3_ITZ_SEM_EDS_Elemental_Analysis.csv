@@ -1,0 +1,9 @@
+Mix_ID,EPS_vol_pct,RHA_mass_pct,Location,Ca_at_pct,Si_at_pct,Ca_Si_Ratio,Observed_Microstructure_State
+S3M1,40,0,Location 1,37.85,1.58,23.95,"Porous ITZ, extensive boundary gaps, plate-like Ca(OH)2"
+S3M1,40,0,Location 2,40.12,1.46,27.48,"Micro-cracking along EPS perimeter, weak Portlandite cleavage"
+S3M1,40,0,Location 3,36.84,1.58,23.32,"Detached aggregate boundary, low shear cohesion"
+S3M1_Mean,40,0,Average (n=3),38.27,1.54,24.85,GLOBAL BASELINE: Ca/Si = 24.85 +/- 2.70 (Portlandite-dominated)
+S3M2,40,20,Location 1,21.42,3.79,5.65,"Dense C-S-H gel network, boundary gap bridged"
+S3M2,40,20,Location 2,22.15,3.76,5.89,Amorphous hydration products welding polymer-paste interface
+S3M2,40,20,Location 3,21.98,4.07,5.4,"High silica dissolution, refined capillary pore structure"
+S3M2_Mean,40,20,Average (n=3),21.85,3.87,5.65,POZZOLANIC C-S-H HEALED: Ca/Si = 5.65 +/- 0.39 (-77.3% reduction)
