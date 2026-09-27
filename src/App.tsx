@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import confetti from 'canvas-confetti';
+import { Analytics } from '@vercel/analytics/react';
 import { Navbar, TabKey } from './components/Navbar.tsx';
 import { Hero } from './components/Hero.tsx';
 import { OverviewParadoxSection } from './components/OverviewParadoxSection.tsx';
@@ -79,6 +80,7 @@ export function App() {
 
       {/* Institutional Academic Footer */}
       <Footer />
+      <Analytics />
     </div>
   );
 }
