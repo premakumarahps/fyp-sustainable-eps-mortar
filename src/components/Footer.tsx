@@ -1,5 +1,5 @@
 import React from 'react';
-import { GraduationCap, FileCheck2, Atom, Heart } from 'lucide-react';
+import { GraduationCap, FileCheck2, Atom, Heart, ExternalLink } from 'lucide-react';
 import { PROJECT_AUTHORS, PROJECT_METADATA } from '../core/thesisData.ts';
 
 export const Footer: React.FC = () => {
@@ -63,7 +63,27 @@ export const Footer: React.FC = () => {
           <div>
             © 2026 Department of Materials Science and Engineering, University of Moratuwa. All academic rights reserved.
           </div>
-          <div className="font-mono text-[11px] text-slate-400">
+          <div className="flex items-center gap-4 text-xs">
+            <a
+              href="https://github.com/premakumarahps/fyp-sustainable-eps-mortar"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-slate-400 hover:text-white transition-colors flex items-center gap-1"
+            >
+              <span>GitHub Repository</span>
+              <ExternalLink className="w-3.5 h-3.5" />
+            </a>
+            <a
+              href="https://premakumarahps.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-slate-400 hover:text-white transition-colors flex items-center gap-1"
+            >
+              <span>Main Portfolio</span>
+              <ExternalLink className="w-3.5 h-3.5" />
+            </a>
+          </div>
+              <div className="font-mono text-[11px] text-slate-400">
             H.P.S. Premakumara · 210494D
           </div>
         </div>
