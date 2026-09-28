@@ -5,6 +5,7 @@ import { Navbar, TabKey } from './components/Navbar.tsx';
 import { Hero } from './components/Hero.tsx';
 import { OverviewParadoxSection } from './components/OverviewParadoxSection.tsx';
 import { RawMaterialsStudio } from './components/RawMaterialsStudio.tsx';
+import { LaboratoryPhotoGallery } from './components/LaboratoryPhotoGallery.tsx';
 import { Phase1BaseMatrixStudio } from './components/Phase1BaseMatrixStudio.tsx';
 import { Phase2CompositeStudio } from './components/Phase2CompositeStudio.tsx';
 import { ThreeDResponseSurfaceStudio } from './components/ThreeDResponseSurfaceStudio.tsx';
@@ -43,6 +44,10 @@ export function App() {
 
         {activeTab === 'materials' && (
           <RawMaterialsStudio />
+        )}
+
+        {activeTab === 'gallery' && (
+          <LaboratoryPhotoGallery />
         )}
 
         {activeTab === 'phase1' && (

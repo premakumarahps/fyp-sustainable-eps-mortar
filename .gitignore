@@ -6,3 +6,4 @@ dist/
 Thumbs.db
 __pycache__/
 *.py[cod]
+project_archive/laboratory_photos/

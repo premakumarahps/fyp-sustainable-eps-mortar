@@ -7,7 +7,8 @@ import {
   Sparkles, 
   Microscope,
   FileCheck2,
-  Atom
+  Atom,
+  Camera
 } from 'lucide-react';
 import { PROJECT_AUTHORS, PROJECT_METADATA } from '../core/thesisData.ts';
 import { TabKey } from './Navbar.tsx';
@@ -93,6 +94,13 @@ export const Hero: React.FC<HeroProps> = ({ setActiveTab, triggerConfetti }) => 
               className="flex items-center gap-1.5 px-3 py-2 rounded-lg bg-slate-800 hover:bg-slate-700 text-emerald-300 border border-emerald-500/30 hover:border-emerald-500/60 text-xs font-mono transition-colors"
             >
               <span>Raw Data (7 CSVs)</span>
+            </button>
+            <button
+              onClick={() => setActiveTab('gallery')}
+              className="flex items-center gap-1.5 px-3 py-2 rounded-lg bg-emerald-500/10 hover:bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 hover:border-emerald-500/60 text-xs font-semibold transition-colors"
+            >
+              <Camera className="w-3.5 h-3.5 text-emerald-400" />
+              <span>Lab Photos (83)</span>
             </button>
           </div>
         </div>

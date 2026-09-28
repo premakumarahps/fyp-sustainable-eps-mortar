@@ -11,12 +11,14 @@ import {
   GraduationCap,
   Sparkles,
   Rotate3d,
-  Database
+  Database,
+  Camera
 } from 'lucide-react';
 
 export type TabKey = 
   | 'overview' 
   | 'materials' 
+  | 'gallery'
   | 'phase1' 
   | 'phase2' 
   | 'surfaces'
@@ -35,6 +37,7 @@ export const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab }) => {
   const tabs = [
     { key: 'overview' as TabKey, label: 'Overview', icon: Layers },
     { key: 'materials' as TabKey, label: 'Raw Materials', icon: FlaskConical },
+    { key: 'gallery' as TabKey, label: 'Lab Photos (83)', icon: Camera },
     { key: 'phase1' as TabKey, label: 'Phase 1: Base (w/b - s/b)', icon: BarChart3 },
     { key: 'phase2' as TabKey, label: 'Phase 2: RHA × EPS', icon: Activity },
     { key: 'surfaces' as TabKey, label: '3D Surfaces & Contours', icon: Rotate3d },
