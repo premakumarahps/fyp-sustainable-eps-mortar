@@ -77,3 +77,36 @@
 ::-webkit-scrollbar-thumb:hover {
   background: #334155;
 }
+
+/* Dynamic Live Animated Scanner & Radar Effects */
+@keyframes radarSweep {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  20% {
+    opacity: 0.8;
+  }
+  80% {
+    opacity: 0.8;
+  }
+  100% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+}
+
+@keyframes pulseGlow {
+  0%, 100% {
+    opacity: 0.4;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.9;
+    transform: scale(1.05);
+  }
+}
+
+.radar-sweep-animation {
+  animation: radarSweep 3.5s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+}
