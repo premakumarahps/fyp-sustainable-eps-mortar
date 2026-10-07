@@ -36,8 +36,8 @@ export function App() {
       {/* Hero Header */}
       <Hero setActiveTab={setActiveTab} triggerConfetti={triggerConfetti} />
 
-      {/* Main Dynamic Workspace Container */}
-      <main className="flex-1 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full py-4">
+      {/* Main Dynamic Workspace Container - Fluid Auto-Adapting Layout */}
+      <main className="flex-1 max-w-7xl mx-auto px-3.5 sm:px-6 lg:px-8 w-full py-4 sm:py-6">
         {activeTab === 'overview' && (
           <OverviewParadoxSection setActiveTab={setActiveTab} />
         )}

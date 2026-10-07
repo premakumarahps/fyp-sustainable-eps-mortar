@@ -334,7 +334,7 @@ export const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab }) => {
                 <span>Poster</span>
               </a>
 
-              {/* Button 4: PROFESSIONAL THREE-BAR MENU BUTTON (Placed right after the 3 existing buttons) */}
+              {/* Button 4: PROFESSIONAL THREE-BAR MENU BUTTON */}
               <button
                 onClick={() => setIsMenuOpen(true)}
                 className="flex items-center gap-2 text-xs px-3.5 py-1.5 rounded-lg bg-emerald-700 hover:bg-emerald-800 active:bg-emerald-900 text-white font-mono font-bold shadow-md shadow-emerald-700/20 transition-all duration-200 hover:scale-105 active:scale-95 cursor-pointer border border-emerald-600 select-none"
