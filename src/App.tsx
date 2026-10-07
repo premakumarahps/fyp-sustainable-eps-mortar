@@ -29,7 +29,7 @@ export function App() {
   };
 
   return (
-    <div className="min-h-screen bg-[#070b14] text-slate-100 flex flex-col font-sans selection:bg-emerald-500/30 selection:text-emerald-300">
+    <div className="min-h-screen bg-slate-50 text-slate-800 flex flex-col font-sans selection:bg-emerald-500/20 selection:text-emerald-900">
       {/* Top Sticky Navigation */}
       <Navbar activeTab={activeTab} setActiveTab={setActiveTab} />
 

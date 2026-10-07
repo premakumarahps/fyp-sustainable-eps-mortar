@@ -1,0 +1,45 @@
+{
+  "project_metadata": {
+    "title": "Synergistic Effects of Rice Husk Ash and Polypropylene Fiber on the Performance of Modified Expanded Polystyrene Cement Mortar",
+    "institution": "Department of Materials Science and Engineering, University of Moratuwa, Sri Lanka",
+    "authors": ["H.P.S. Premakumara", "K. Mayoorathan"],
+    "supervisor": "Eng. S.P. Guluwita",
+    "year": 2024,
+    "target_application": "Sustainable lightweight precast wall partition panels and masonry"
+  },
+  "raw_materials": {
+    "OPC": { "specific_gravity": 3.15, "bulk_density_kg_m3": 1440, "standard": "ASTM C150 Type 1" },
+    "RHA": { "specific_gravity": 2.11, "bulk_density_kg_m3": 520, "sio2_content_percent": 88.4 },
+    "M_Sand": { "specific_gravity": 2.62, "bulk_density_kg_m3": 1620, "max_size_mm": 4.75 },
+    "Coated_EPS": { "specific_gravity": 0.210, "bulk_density_kg_m3": 88.5, "size_range_mm": "2-4" },
+    "Uncoated_EPS": { "specific_gravity": 0.024, "bulk_density_kg_m3": 14.2, "size_range_mm": "2-4" },
+    "PP_Fiber": { "specific_gravity": 0.91, "length_mm": 12, "diameter_um": 22 }
+  },
+  "optimal_mix_design": {
+    "water_to_binder_ratio": 0.48,
+    "sand_to_binder_ratio": 2.25,
+    "RHA_cement_replacement_percent": 10.0,
+    "Coated_EPS_sand_replacement_vol_percent": 20.0,
+    "PP_fiber_volume_fraction_percent": 0.25,
+    "density_28d_kg_m3": 1970,
+    "compressive_strength_28d_MPa": 18.2,
+    "flexural_strength_28d_MPa": 5.58,
+    "fracture_toughness_N_m": 2.91,
+    "water_absorption_percent": 3.11,
+    "apparent_porosity_percent": 5.79,
+    "itz_ca_si_ratio": 0.73
+  },
+  "benchmark_comparisons": {
+    "compressive_strength": { "conventional_eps_MPa": 11.8, "upgraded_eps_MPa": 18.2, "delta_percent": 54.2 },
+    "flexural_strength": { "conventional_eps_MPa": 3.26, "upgraded_eps_MPa": 5.58, "delta_percent": 71.2 },
+    "fracture_toughness": { "conventional_eps_Nm": 1.42, "upgraded_eps_Nm": 2.91, "delta_percent": 104.9 },
+    "itz_ca_si_ratio": { "conventional_eps": 3.20, "upgraded_eps": 0.73, "delta_percent": -77.2 },
+    "carbon_footprint": { "conventional_eps_kg_co2_m3": 345, "upgraded_eps_kg_co2_m3": 207, "delta_percent": -40.0 },
+    "strength_to_cost_efficiency": { "conventional_eps_MPa_per_dollar": 0.048, "upgraded_eps_MPa_per_dollar": 0.064, "delta_percent": 33.3 }
+  },
+  "regression_models_r2": {
+    "compressive_strength_model": 0.984,
+    "flexural_strength_model": 0.971,
+    "apparent_porosity_model": 0.963
+  }
+}

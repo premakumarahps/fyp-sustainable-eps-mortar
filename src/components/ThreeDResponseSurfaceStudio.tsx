@@ -267,7 +267,7 @@ export const ThreeDResponseSurfaceStudio: React.FC = () => {
   // Plotly renderer
   useEffect(() => {
     const contourStyle = showWireframe 
-      ? { show: true, color: 'rgba(255,255,255,0.3)', width: 1.5 } 
+      ? { show: true, color: 'rgba(15, 23, 42, 0.25)', width: 1.5 } 
       : { show: false };
 
     // 1. Render 3D Surface
@@ -280,11 +280,11 @@ export const ThreeDResponseSurfaceStudio: React.FC = () => {
         colorscale: palette,
         showscale: true,
         colorbar: {
-          title: { text: `<b>${propDetails.symbol} [${propDetails.unit}]</b>`, side: 'top', font: { size: 11, color: '#e2e8f0' } },
+          title: { text: `<b>${propDetails.symbol} [${propDetails.unit}]</b>`, side: 'top', font: { size: 11, color: '#0f172a' } },
           len: 0.75,
           y: 0.5,
           thickness: 16,
-          tickfont: { color: '#94a3b8', size: 10 }
+          tickfont: { color: '#475569', size: 10 }
         },
         contours: {
           x: contourStyle,
@@ -302,11 +302,11 @@ export const ThreeDResponseSurfaceStudio: React.FC = () => {
         z: meta.points.map(p => p[property]),
         text: meta.points.map(p => p.id),
         textposition: 'top center',
-        textfont: { color: '#ffffff', size: 10, family: 'monospace' },
+        textfont: { color: '#0f172a', size: 10, family: 'monospace' },
         visible: showDataPoints,
         marker: {
           size: 5.5,
-          color: '#ef4444',
+          color: '#e11d48',
           symbol: 'circle',
           opacity: 0.95,
           line: { color: '#ffffff', width: 1.5 }
@@ -318,7 +318,7 @@ export const ThreeDResponseSurfaceStudio: React.FC = () => {
       const layout3d: any = {
         title: {
           text: `<b>3D Response Surface: ${propDetails.title} (${propDetails.symbol})</b>`,
-          font: { size: 14, color: '#f8fafc', family: 'system-ui' },
+          font: { size: 14, color: '#0f172a', family: 'system-ui' },
           x: 0.05,
           y: 0.96
         },
@@ -326,25 +326,25 @@ export const ThreeDResponseSurfaceStudio: React.FC = () => {
         plot_bgcolor: 'transparent',
         scene: {
           xaxis: {
-            title: { text: `<b>${meta.xLabel}</b>`, font: { size: 11, color: '#cbd5e1' } },
-            backgroundcolor: 'rgba(15,23,42,0.6)',
-            gridcolor: 'rgba(71,85,105,0.4)',
+            title: { text: `<b>${meta.xLabel}</b>`, font: { size: 11, color: '#1e293b' } },
+            backgroundcolor: 'rgba(241, 245, 249, 0.7)',
+            gridcolor: 'rgba(203, 213, 225, 0.7)',
             showbackground: true,
-            tickfont: { color: '#94a3b8', size: 10 }
+            tickfont: { color: '#475569', size: 10 }
           },
           yaxis: {
-            title: { text: `<b>${meta.yLabel}</b>`, font: { size: 11, color: '#cbd5e1' } },
-            backgroundcolor: 'rgba(15,23,42,0.6)',
-            gridcolor: 'rgba(71,85,105,0.4)',
+            title: { text: `<b>${meta.yLabel}</b>`, font: { size: 11, color: '#1e293b' } },
+            backgroundcolor: 'rgba(241, 245, 249, 0.7)',
+            gridcolor: 'rgba(203, 213, 225, 0.7)',
             showbackground: true,
-            tickfont: { color: '#94a3b8', size: 10 }
+            tickfont: { color: '#475569', size: 10 }
           },
           zaxis: {
-            title: { text: `<b>${propDetails.symbol} [${propDetails.unit}]</b>`, font: { size: 11, color: '#cbd5e1' } },
-            backgroundcolor: 'rgba(15,23,42,0.6)',
-            gridcolor: 'rgba(71,85,105,0.4)',
+            title: { text: `<b>${propDetails.symbol} [${propDetails.unit}]</b>`, font: { size: 11, color: '#1e293b' } },
+            backgroundcolor: 'rgba(241, 245, 249, 0.7)',
+            gridcolor: 'rgba(203, 213, 225, 0.7)',
             showbackground: true,
-            tickfont: { color: '#94a3b8', size: 10 }
+            tickfont: { color: '#475569', size: 10 }
           },
           camera: {
             eye: { x: 1.55, y: -1.45, z: 1.15 }
@@ -363,7 +363,7 @@ export const ThreeDResponseSurfaceStudio: React.FC = () => {
       Plotly.react(container3dRef.current, [surfaceTrace, scatterTrace], layout3d, config);
     }
 
-    // 2. Render 2D Contour Plot (as in contour_plotter.py)
+    // 2. Render 2D Contour Plot
     if (containerContourRef.current && (viewMode === 'contour' || viewMode === 'split')) {
       const contourTrace: any = {
         type: 'contour',
@@ -377,10 +377,10 @@ export const ThreeDResponseSurfaceStudio: React.FC = () => {
           labelfont: { size: 10, color: '#ffffff' }
         },
         colorbar: {
-          title: { text: `<b>${propDetails.symbol}</b>`, font: { size: 11, color: '#e2e8f0' } },
+          title: { text: `<b>${propDetails.symbol}</b>`, font: { size: 11, color: '#0f172a' } },
           len: 0.8,
           thickness: 16,
-          tickfont: { color: '#94a3b8', size: 10 }
+          tickfont: { color: '#475569', size: 10 }
         },
         hovertemplate: `${meta.xLabel}: %{x:.3f}<br>${meta.yLabel}: %{y:.2f}<br>Predicted ${propDetails.symbol}: %{z:.2f} ${propDetails.unit}<extra></extra>`
       };
@@ -392,11 +392,11 @@ export const ThreeDResponseSurfaceStudio: React.FC = () => {
         y: meta.points.map(p => p.y),
         text: meta.points.map(p => p.id),
         textposition: 'top center',
-        textfont: { color: '#ffffff', size: 11, family: 'monospace', weight: 'bold' },
+        textfont: { color: '#0f172a', size: 11, family: 'monospace', weight: 'bold' },
         visible: showDataPoints,
         marker: {
           size: 10,
-          color: '#ef4444',
+          color: '#e11d48',
           symbol: 'circle',
           line: { color: '#ffffff', width: 2 }
         },
@@ -407,23 +407,23 @@ export const ThreeDResponseSurfaceStudio: React.FC = () => {
       const layoutContour: any = {
         title: {
           text: `<b>2D Contour Map: ${propDetails.title} Isocurves & Mix Pins</b>`,
-          font: { size: 14, color: '#f8fafc', family: 'system-ui' },
+          font: { size: 14, color: '#0f172a', family: 'system-ui' },
           x: 0.05,
           y: 0.96
         },
         paper_bgcolor: 'transparent',
-        plot_bgcolor: 'rgba(15,23,42,0.6)',
+        plot_bgcolor: '#ffffff',
         xaxis: {
-          title: { text: `<b>${meta.xLabel} [${meta.xUnit}]</b>`, font: { size: 11, color: '#cbd5e1' } },
-          gridcolor: 'rgba(71,85,105,0.3)',
-          zerolinecolor: 'rgba(148,163,184,0.4)',
-          tickfont: { color: '#94a3b8', size: 10 }
+          title: { text: `<b>${meta.xLabel} [${meta.xUnit}]</b>`, font: { size: 11, color: '#1e293b' } },
+          gridcolor: 'rgba(226, 232, 240, 0.8)',
+          zerolinecolor: 'rgba(148, 163, 184, 0.4)',
+          tickfont: { color: '#475569', size: 10 }
         },
         yaxis: {
-          title: { text: `<b>${meta.yLabel} [${meta.yUnit}]</b>`, font: { size: 11, color: '#cbd5e1' } },
-          gridcolor: 'rgba(71,85,105,0.3)',
-          zerolinecolor: 'rgba(148,163,184,0.4)',
-          tickfont: { color: '#94a3b8', size: 10 }
+          title: { text: `<b>${meta.yLabel} [${meta.yUnit}]</b>`, font: { size: 11, color: '#1e293b' } },
+          gridcolor: 'rgba(226, 232, 240, 0.8)',
+          zerolinecolor: 'rgba(148, 163, 184, 0.4)',
+          tickfont: { color: '#475569', size: 10 }
         },
         margin: { l: 50, r: 20, b: 50, t: 40 },
         autosize: true
@@ -472,48 +472,48 @@ export const ThreeDResponseSurfaceStudio: React.FC = () => {
   return (
     <div className="space-y-6 py-4">
       {/* Studio Header & Phase Switcher */}
-      <div className="materials-glass p-6 rounded-2xl border border-slate-800">
+      <div className="materials-glass p-6 rounded-2xl border border-slate-200">
         <div className="flex flex-wrap items-center justify-between gap-4">
           <div className="flex items-center gap-3">
-            <div className="p-2.5 rounded-xl bg-gradient-to-br from-emerald-500/20 to-cyan-500/20 text-emerald-400 border border-emerald-500/30">
+            <div className="p-2.5 rounded-xl bg-emerald-50 text-emerald-800 border border-emerald-300 shadow-xs">
               <Rotate3d className="w-6 h-6 animate-pulse" />
             </div>
             <div>
               <div className="flex items-center gap-2">
-                <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-400 font-semibold border border-emerald-500/30">
+                <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-emerald-50 text-emerald-800 font-bold border border-emerald-300">
                   Interactive RSM Engine
                 </span>
-                <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-cyan-500/20 text-cyan-400 font-semibold border border-cyan-500/30">
+                <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-sky-50 text-sky-800 font-bold border border-sky-300">
                   WebGL 3D + 2D Contour
                 </span>
               </div>
-              <h2 className="text-xl sm:text-2xl font-bold text-white font-heading mt-1">
+              <h2 className="text-xl sm:text-2xl font-bold text-slate-900 font-heading mt-1">
                 3D Response Surface & 2D Contour Studio
               </h2>
-              <p className="text-xs text-slate-400">
+              <p className="text-xs text-slate-600">
                 Interactive polynomial regression spaces cross-checked against thesis ANOVA models (R² &gt; 0.96)
               </p>
             </div>
           </div>
 
           {/* Phase Selector Pills */}
-          <div className="flex items-center bg-slate-900/90 p-1.5 rounded-xl border border-slate-800 gap-1.5 text-xs font-mono">
+          <div className="flex items-center bg-slate-100 p-1.5 rounded-xl border border-slate-200 gap-1.5 text-xs font-mono">
             <button
               onClick={() => setPhase('phase1')}
-              className={`flex items-center gap-2 px-3.5 py-2 rounded-lg font-bold transition-all ${
+              className={`flex items-center gap-2 px-3.5 py-2 rounded-lg font-bold transition-all cursor-pointer ${
                 phase === 'phase1'
-                  ? 'bg-gradient-to-r from-emerald-500/30 to-emerald-600/30 text-emerald-300 border border-emerald-500/50 shadow-lg'
-                  : 'text-slate-400 hover:text-white hover:bg-slate-800/60'
+                  ? 'bg-emerald-50 text-emerald-900 border border-emerald-400 font-bold shadow-xs'
+                  : 'text-slate-600 hover:text-slate-950 hover:bg-white'
               }`}
             >
               <span>Phase 1: Base Matrix (w/b vs s/b)</span>
             </button>
             <button
               onClick={() => setPhase('phase2')}
-              className={`flex items-center gap-2 px-3.5 py-2 rounded-lg font-bold transition-all ${
+              className={`flex items-center gap-2 px-3.5 py-2 rounded-lg font-bold transition-all cursor-pointer ${
                 phase === 'phase2'
-                  ? 'bg-gradient-to-r from-cyan-500/30 to-blue-600/30 text-cyan-300 border border-cyan-500/50 shadow-lg'
-                  : 'text-slate-400 hover:text-white hover:bg-slate-800/60'
+                  ? 'bg-sky-50 text-sky-900 border border-sky-400 font-bold shadow-xs'
+                  : 'text-slate-600 hover:text-slate-950 hover:bg-white'
               }`}
             >
               <span>Phase 2: Lightweight (RHA vs EPS)</span>
@@ -532,15 +532,15 @@ export const ThreeDResponseSurfaceStudio: React.FC = () => {
             <button
               key={item.key}
               onClick={() => setProperty(item.key)}
-              className={`p-3 rounded-xl text-left border transition-all ${
+              className={`p-3 rounded-xl text-left border transition-all cursor-pointer ${
                 property === item.key
-                  ? 'bg-slate-800/90 border-emerald-500/60 shadow-[0_0_15px_rgba(16,185,129,0.2)] text-white'
-                  : 'bg-slate-900/50 border-slate-800 text-slate-400 hover:border-slate-700 hover:text-slate-200'
+                  ? 'bg-emerald-50 border-emerald-400 shadow-xs text-emerald-950'
+                  : 'bg-white border-slate-200 text-slate-600 hover:border-slate-300 hover:text-slate-900'
               }`}
             >
               <div className="flex items-center justify-between text-xs font-semibold">
-                <span className={property === item.key ? 'text-emerald-400' : 'text-slate-300'}>{item.label}</span>
-                <span className="text-[10px] font-mono px-1.5 py-0.5 rounded bg-slate-800 text-slate-400">{item.unit}</span>
+                <span className={property === item.key ? 'text-emerald-900 font-bold' : 'text-slate-800'}>{item.label}</span>
+                <span className="text-[10px] font-mono px-1.5 py-0.5 rounded bg-slate-100 text-slate-600 font-semibold">{item.unit}</span>
               </div>
               <p className="text-[11px] text-slate-500 mt-1 line-clamp-1">{item.desc}</p>
             </button>
@@ -549,34 +549,34 @@ export const ThreeDResponseSurfaceStudio: React.FC = () => {
       </div>
 
       {/* Toolbar: View Modes, Color Scales, Wireframe, Data Points */}
-      <div className="materials-glass p-4 rounded-xl border border-slate-800 flex flex-wrap items-center justify-between gap-4 text-xs font-mono">
+      <div className="materials-glass p-4 rounded-xl border border-slate-200 flex flex-wrap items-center justify-between gap-4 text-xs font-mono">
         {/* Left: View Mode Toggle */}
-        <div className="flex items-center gap-1 bg-slate-900 p-1 rounded-lg border border-slate-800">
+        <div className="flex items-center gap-1 bg-slate-100 p-1 rounded-lg border border-slate-200">
           <button
             onClick={() => setViewMode('3d')}
-            className={`flex items-center gap-1.5 px-3 py-1.5 rounded-md transition-all ${
-              viewMode === '3d' ? 'bg-emerald-500/20 text-emerald-300 font-bold border border-emerald-500/40' : 'text-slate-400 hover:text-white'
+            className={`flex items-center gap-1.5 px-3 py-1.5 rounded-md transition-all cursor-pointer ${
+              viewMode === '3d' ? 'bg-white text-emerald-900 font-bold shadow-xs border border-slate-200' : 'text-slate-600 hover:text-slate-900'
             }`}
           >
-            <Box className="w-3.5 h-3.5" />
+            <Box className="w-3.5 h-3.5 text-emerald-700" />
             <span>3D Surface</span>
           </button>
           <button
             onClick={() => setViewMode('contour')}
-            className={`flex items-center gap-1.5 px-3 py-1.5 rounded-md transition-all ${
-              viewMode === 'contour' ? 'bg-cyan-500/20 text-cyan-300 font-bold border border-cyan-500/40' : 'text-slate-400 hover:text-white'
+            className={`flex items-center gap-1.5 px-3 py-1.5 rounded-md transition-all cursor-pointer ${
+              viewMode === 'contour' ? 'bg-white text-sky-900 font-bold shadow-xs border border-slate-200' : 'text-slate-600 hover:text-slate-900'
             }`}
           >
-            <Layers className="w-3.5 h-3.5" />
+            <Layers className="w-3.5 h-3.5 text-sky-700" />
             <span>2D Contour Map</span>
           </button>
           <button
             onClick={() => setViewMode('split')}
-            className={`hidden md:flex items-center gap-1.5 px-3 py-1.5 rounded-md transition-all ${
-              viewMode === 'split' ? 'bg-amber-500/20 text-amber-300 font-bold border border-amber-500/40' : 'text-slate-400 hover:text-white'
+            className={`hidden md:flex items-center gap-1.5 px-3 py-1.5 rounded-md transition-all cursor-pointer ${
+              viewMode === 'split' ? 'bg-white text-amber-900 font-bold shadow-xs border border-slate-200' : 'text-slate-600 hover:text-slate-900'
             }`}
           >
-            <Eye className="w-3.5 h-3.5" />
+            <Eye className="w-3.5 h-3.5 text-amber-700" />
             <span>Split 3D + 2D</span>
           </button>
         </div>
@@ -584,12 +584,12 @@ export const ThreeDResponseSurfaceStudio: React.FC = () => {
         {/* Right: Controls & Presets */}
         <div className="flex flex-wrap items-center gap-3">
           {/* Palette Selector */}
-          <div className="flex items-center gap-1.5 text-slate-400">
+          <div className="flex items-center gap-1.5 text-slate-600 font-medium">
             <span>Palette:</span>
             <select
               value={palette}
               onChange={(e) => setPalette(e.target.value)}
-              className="bg-slate-900 border border-slate-700 text-slate-200 text-xs rounded-md px-2 py-1 outline-none focus:border-emerald-500"
+              className="bg-white border border-slate-300 text-slate-800 text-xs rounded-md px-2 py-1 outline-none focus:border-emerald-500 shadow-xs cursor-pointer"
             >
               <option value="Viridis">Viridis (Standard)</option>
               <option value="Plasma">Plasma (Thermal)</option>
@@ -603,27 +603,27 @@ export const ThreeDResponseSurfaceStudio: React.FC = () => {
           {/* Wireframe Toggle */}
           <button
             onClick={() => setShowWireframe(!showWireframe)}
-            className={`flex items-center gap-1.5 px-2.5 py-1 rounded-md border transition-all ${
+            className={`flex items-center gap-1.5 px-2.5 py-1 rounded-md border transition-all cursor-pointer ${
               showWireframe 
-                ? 'bg-slate-800 text-emerald-400 border-emerald-500/30' 
-                : 'bg-slate-900 text-slate-500 border-slate-800'
+                ? 'bg-emerald-50 text-emerald-900 border-emerald-300 font-semibold' 
+                : 'bg-white text-slate-600 border-slate-300'
             }`}
           >
             <span>Contour Grid Lines</span>
-            <div className={`w-2 h-2 rounded-full ${showWireframe ? 'bg-emerald-400' : 'bg-slate-600'}`} />
+            <div className={`w-2 h-2 rounded-full ${showWireframe ? 'bg-emerald-600' : 'bg-slate-400'}`} />
           </button>
 
           {/* Actual Experimental Points Toggle */}
           <button
             onClick={() => setShowDataPoints(!showDataPoints)}
-            className={`flex items-center gap-1.5 px-2.5 py-1 rounded-md border transition-all ${
+            className={`flex items-center gap-1.5 px-2.5 py-1 rounded-md border transition-all cursor-pointer ${
               showDataPoints 
-                ? 'bg-slate-800 text-red-400 border-red-500/30' 
-                : 'bg-slate-900 text-slate-500 border-slate-800'
+                ? 'bg-rose-50 text-rose-900 border-rose-300 font-semibold' 
+                : 'bg-white text-slate-600 border-slate-300'
             }`}
           >
             <span>Mix Pins ({meta.points.length})</span>
-            <div className={`w-2 h-2 rounded-full ${showDataPoints ? 'bg-red-400' : 'bg-slate-600'}`} />
+            <div className={`w-2 h-2 rounded-full ${showDataPoints ? 'bg-rose-600' : 'bg-slate-400'}`} />
           </button>
         </div>
       </div>
@@ -632,9 +632,9 @@ export const ThreeDResponseSurfaceStudio: React.FC = () => {
       <div className="grid grid-cols-1 gap-6">
         {/* 3D Surface View */}
         {(viewMode === '3d' || viewMode === 'split') && (
-          <div className="materials-glass p-4 rounded-2xl border border-slate-800 relative min-h-[520px]">
-            <div className="absolute top-4 right-4 z-10 flex items-center gap-2 bg-slate-900/80 backdrop-blur px-2.5 py-1.5 rounded-lg border border-slate-800 text-[11px] font-mono text-slate-400">
-              <Rotate3d className="w-3.5 h-3.5 text-emerald-400" />
+          <div className="materials-glass p-4 rounded-2xl border border-slate-200 relative min-h-[520px] bg-white shadow-xs">
+            <div className="absolute top-4 right-4 z-10 flex items-center gap-2 bg-white/90 backdrop-blur px-2.5 py-1.5 rounded-lg border border-slate-200 text-[11px] font-mono text-slate-600 shadow-xs">
+              <Rotate3d className="w-3.5 h-3.5 text-emerald-700" />
               <span>Left-Click Drag to Rotate · Scroll to Zoom · Right-Click to Pan</span>
             </div>
             <div ref={container3dRef} className="w-full h-[500px]" />
@@ -643,9 +643,9 @@ export const ThreeDResponseSurfaceStudio: React.FC = () => {
 
         {/* 2D Contour View */}
         {(viewMode === 'contour' || viewMode === 'split') && (
-          <div className="materials-glass p-4 rounded-2xl border border-slate-800 relative min-h-[520px]">
-            <div className="absolute top-4 right-4 z-10 flex items-center gap-2 bg-slate-900/80 backdrop-blur px-2.5 py-1.5 rounded-lg border border-slate-800 text-[11px] font-mono text-slate-400">
-              <Target className="w-3.5 h-3.5 text-cyan-400" />
+          <div className="materials-glass p-4 rounded-2xl border border-slate-200 relative min-h-[520px] bg-white shadow-xs">
+            <div className="absolute top-4 right-4 z-10 flex items-center gap-2 bg-white/90 backdrop-blur px-2.5 py-1.5 rounded-lg border border-slate-200 text-[11px] font-mono text-slate-600 shadow-xs">
+              <Target className="w-3.5 h-3.5 text-sky-700" />
               <span>Annotated Mix Pins (M1–M11) · Iso-Elevation Curves</span>
             </div>
             <div ref={containerContourRef} className="w-full h-[500px]" />
@@ -654,60 +654,60 @@ export const ThreeDResponseSurfaceStudio: React.FC = () => {
       </div>
 
       {/* Statistical Governance & True-Fit Formula Card */}
-      <div className="materials-glass p-6 rounded-2xl border border-slate-800">
-        <div className="flex flex-wrap items-center justify-between gap-4 pb-4 border-b border-slate-800/80">
+      <div className="materials-glass p-6 rounded-2xl border border-slate-200 bg-white">
+        <div className="flex flex-wrap items-center justify-between gap-4 pb-4 border-b border-slate-200">
           <div className="flex items-center gap-2.5">
-            <ShieldCheck className="w-5 h-5 text-emerald-400" />
+            <ShieldCheck className="w-5 h-5 text-emerald-700" />
             <div>
-              <h3 className="text-sm font-bold text-white font-heading">
+              <h3 className="text-sm font-bold text-slate-900 font-heading">
                 ANOVA Model Verification & True-Fit Physical Equation
               </h3>
-              <p className="text-xs text-slate-400">{meta.thesisRef}</p>
+              <p className="text-xs text-slate-600">{meta.thesisRef}</p>
             </div>
           </div>
           <div className="flex items-center gap-3 text-xs font-mono">
-            <span className="px-2.5 py-1 rounded-md bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">
+            <span className="px-2.5 py-1 rounded-md bg-emerald-50 text-emerald-800 border border-emerald-300 font-bold">
               R² = {propDetails.r2}
             </span>
-            <span className="px-2.5 py-1 rounded-md bg-cyan-500/10 text-cyan-400 border border-cyan-500/20">
+            <span className="px-2.5 py-1 rounded-md bg-sky-50 text-sky-800 border border-sky-300 font-bold">
               F-Value = {propDetails.fVal}
             </span>
-            <span className="px-2.5 py-1 rounded-md bg-purple-500/10 text-purple-400 border border-purple-500/20">
+            <span className="px-2.5 py-1 rounded-md bg-purple-50 text-purple-800 border border-purple-300 font-bold">
               p-Value: {propDetails.pVal}
             </span>
           </div>
         </div>
 
         {/* Equation Display Box */}
-        <div className="mt-4 p-4 rounded-xl bg-slate-950/70 border border-slate-800 font-mono text-sm text-emerald-300 overflow-x-auto shadow-inner">
-          <div className="text-[11px] uppercase tracking-wider text-slate-500 mb-1">
+        <div className="mt-4 p-4 rounded-xl bg-slate-50 border border-slate-200 font-mono text-sm text-emerald-900 overflow-x-auto shadow-xs">
+          <div className="text-[11px] uppercase tracking-wider text-slate-500 mb-1 font-bold">
             Empirical Physical Model:
           </div>
-          <div className="font-semibold text-emerald-300">
+          <div className="font-bold text-emerald-900">
             {propDetails.equationLatex}
           </div>
         </div>
 
         {/* Academic Interpretation */}
-        <div className="mt-4 p-3.5 rounded-xl bg-slate-900/60 border border-slate-800/80 flex items-start gap-3 text-xs text-slate-300">
-          <Info className="w-4 h-4 text-cyan-400 shrink-0 mt-0.5" />
+        <div className="mt-4 p-3.5 rounded-xl bg-sky-50/60 border border-sky-200 flex items-start gap-3 text-xs text-slate-700">
+          <Info className="w-4 h-4 text-sky-700 shrink-0 mt-0.5" />
           <div>
-            <span className="font-semibold text-white">Mechanistic Interpretation: </span>
+            <span className="font-bold text-slate-900">Mechanistic Interpretation: </span>
             <span>{propDetails.insight}</span>
           </div>
         </div>
       </div>
 
       {/* Interactive Surface Coordinate Probe */}
-      <div className="materials-glass p-6 rounded-2xl border border-slate-800">
+      <div className="materials-glass p-6 rounded-2xl border border-slate-200 bg-white">
         <div className="flex items-center justify-between gap-4 mb-4">
           <div className="flex items-center gap-2">
-            <Sliders className="w-5 h-5 text-amber-400" />
-            <h3 className="text-sm font-bold text-white font-heading">
+            <Sliders className="w-5 h-5 text-amber-700" />
+            <h3 className="text-sm font-bold text-slate-900 font-heading">
               Real-Time Mathematical Coordinate Probe
             </h3>
           </div>
-          <span className="text-xs font-mono text-slate-400">
+          <span className="text-xs font-mono text-slate-600">
             Evaluate exact response surface elevation at any arbitrary mix coordinate
           </span>
         </div>
@@ -716,8 +716,8 @@ export const ThreeDResponseSurfaceStudio: React.FC = () => {
           {/* Slider X */}
           <div className="space-y-2">
             <div className="flex justify-between text-xs font-mono">
-              <span className="text-slate-400">{meta.xLabel}:</span>
-              <span className="text-emerald-400 font-bold">{probeX.toFixed(3)} {meta.xUnit}</span>
+              <span className="text-slate-600 font-medium">{meta.xLabel}:</span>
+              <span className="text-emerald-800 font-bold">{probeX.toFixed(3)} {meta.xUnit}</span>
             </div>
             <input
               type="range"
@@ -726,7 +726,7 @@ export const ThreeDResponseSurfaceStudio: React.FC = () => {
               step={meta.xStep}
               value={probeX}
               onChange={(e) => setProbeX(parseFloat(e.target.value))}
-              className="w-full accent-emerald-500 cursor-pointer"
+              className="w-full accent-emerald-600 cursor-pointer"
             />
             <div className="flex justify-between text-[10px] text-slate-500 font-mono">
               <span>{meta.xMin}</span>
@@ -737,8 +737,8 @@ export const ThreeDResponseSurfaceStudio: React.FC = () => {
           {/* Slider Y */}
           <div className="space-y-2">
             <div className="flex justify-between text-xs font-mono">
-              <span className="text-slate-400">{meta.yLabel}:</span>
-              <span className="text-cyan-400 font-bold">{probeY.toFixed(2)} {meta.yUnit}</span>
+              <span className="text-slate-600 font-medium">{meta.yLabel}:</span>
+              <span className="text-sky-800 font-bold">{probeY.toFixed(2)} {meta.yUnit}</span>
             </div>
             <input
               type="range"
@@ -747,7 +747,7 @@ export const ThreeDResponseSurfaceStudio: React.FC = () => {
               step={meta.yStep}
               value={probeY}
               onChange={(e) => setProbeY(parseFloat(e.target.value))}
-              className="w-full accent-cyan-500 cursor-pointer"
+              className="w-full accent-sky-600 cursor-pointer"
             />
             <div className="flex justify-between text-[10px] text-slate-500 font-mono">
               <span>{meta.yMin}</span>
@@ -756,39 +756,39 @@ export const ThreeDResponseSurfaceStudio: React.FC = () => {
           </div>
 
           {/* Live Calculated Metric Tile */}
-          <div className="p-4 rounded-xl bg-gradient-to-br from-slate-900 to-slate-950 border border-emerald-500/30 flex flex-col justify-center">
-            <div className="text-[11px] font-mono text-slate-400 uppercase tracking-wider">
+          <div className="p-4 rounded-xl bg-slate-50 border border-emerald-300 flex flex-col justify-center shadow-xs">
+            <div className="text-[11px] font-mono text-slate-600 uppercase tracking-wider font-semibold">
               Predicted {propDetails.symbol} Elevation
             </div>
-            <div className="text-2xl font-bold font-mono text-white mt-1 flex items-baseline gap-1.5">
-              <span className="text-emerald-400">{probedValue.toFixed(3)}</span>
-              <span className="text-xs text-slate-400 font-normal">{propDetails.unit}</span>
+            <div className="text-2xl font-bold font-mono text-slate-900 mt-1 flex items-baseline gap-1.5">
+              <span className="text-emerald-800">{probedValue.toFixed(3)}</span>
+              <span className="text-xs text-slate-500 font-normal">{propDetails.unit}</span>
             </div>
-            <div className="text-[11px] font-mono text-slate-400 mt-2 flex items-center justify-between border-t border-slate-800 pt-2">
-              <span>Nearest Sample: <strong className="text-amber-400">{nearestPoint.id}</strong></span>
-              <span>Observed: <strong className="text-slate-200">{nearestPoint[property].toFixed(2)} {propDetails.unit}</strong></span>
+            <div className="text-[11px] font-mono text-slate-600 mt-2 flex items-center justify-between border-t border-slate-200 pt-2">
+              <span>Nearest Sample: <strong className="text-amber-900">{nearestPoint.id}</strong></span>
+              <span>Observed: <strong className="text-slate-900">{nearestPoint[property].toFixed(2)} {propDetails.unit}</strong></span>
             </div>
           </div>
         </div>
       </div>
 
       {/* Experimental Dataset Table with Residuals */}
-      <div className="materials-glass p-6 rounded-2xl border border-slate-800 space-y-4">
+      <div className="materials-glass p-6 rounded-2xl border border-slate-200 space-y-4 bg-white">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <Target className="w-5 h-5 text-cyan-400" />
-            <h3 className="text-sm font-bold text-white font-heading">
+            <Target className="w-5 h-5 text-sky-700" />
+            <h3 className="text-sm font-bold text-slate-900 font-heading">
               Experimental CCD Run Matrix & Residual Analysis ({phase === 'phase1' ? 'Table 22' : 'Table 27'})
             </h3>
           </div>
-          <span className="text-xs font-mono text-slate-400">
+          <span className="text-xs font-mono text-slate-600">
             All 11 Experimental Points vs Model Prediction
           </span>
         </div>
 
-        <div className="overflow-x-auto rounded-xl border border-slate-800">
+        <div className="overflow-x-auto rounded-xl border border-slate-200 shadow-xs">
           <table className="w-full text-xs font-mono text-left">
-            <thead className="bg-slate-900/90 text-slate-400 border-b border-slate-800">
+            <thead className="bg-slate-100 text-slate-700 border-b border-slate-200 font-bold">
               <tr>
                 <th className="px-3 py-2.5">Mix ID</th>
                 <th className="px-3 py-2.5">Run Type</th>
@@ -799,7 +799,7 @@ export const ThreeDResponseSurfaceStudio: React.FC = () => {
                 <th className="px-3 py-2.5 text-right">Residual Error</th>
               </tr>
             </thead>
-            <tbody className="divide-y divide-slate-800/60 text-slate-300">
+            <tbody className="divide-y divide-slate-200 text-slate-800 bg-white">
               {meta.points.map((pt) => {
                 const pred = evaluateModel(phase, property, pt.x, pt.y);
                 const measured = pt[property];
@@ -811,20 +811,20 @@ export const ThreeDResponseSurfaceStudio: React.FC = () => {
                   <tr 
                     key={pt.id} 
                     className={`transition-colors ${
-                      isSelected ? 'bg-emerald-500/10 text-emerald-200 font-semibold' : 'hover:bg-slate-800/40'
+                      isSelected ? 'bg-emerald-50 text-emerald-950 font-bold' : 'hover:bg-slate-50'
                     }`}
                   >
-                    <td className="px-3 py-2 font-bold text-white flex items-center gap-1.5">
-                      {isSelected && <span className="w-1.5 h-1.5 rounded-full bg-emerald-400"></span>}
+                    <td className="px-3 py-2 font-bold text-slate-900 flex items-center gap-1.5">
+                      {isSelected && <span className="w-1.5 h-1.5 rounded-full bg-emerald-600"></span>}
                       {pt.id}
                     </td>
-                    <td className="px-3 py-2 text-slate-400">{pt.type}</td>
+                    <td className="px-3 py-2 text-slate-600">{pt.type}</td>
                     <td className="px-3 py-2">{pt.x.toFixed(3)}</td>
                     <td className="px-3 py-2">{pt.y.toFixed(2)}</td>
-                    <td className="px-3 py-2 text-right font-bold text-slate-100">{measured.toFixed(3)}</td>
-                    <td className="px-3 py-2 text-right text-emerald-400">{pred.toFixed(3)}</td>
+                    <td className="px-3 py-2 text-right font-bold text-slate-900">{measured.toFixed(3)}</td>
+                    <td className="px-3 py-2 text-right text-emerald-800 font-semibold">{pred.toFixed(3)}</td>
                     <td className="px-3 py-2 text-right">
-                      <span className={Math.abs(residual) < 0.2 ? 'text-emerald-400' : 'text-amber-400'}>
+                      <span className={Math.abs(residual) < 0.2 ? 'text-emerald-800 font-semibold' : 'text-amber-800 font-semibold'}>
                         {residual > 0 ? `+${residual.toFixed(3)}` : residual.toFixed(3)} ({errPct}%)
                       </span>
                     </td>

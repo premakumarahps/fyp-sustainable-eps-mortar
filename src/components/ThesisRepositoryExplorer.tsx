@@ -1,16 +1,9 @@
 import React, { useState } from 'react';
 import { 
-  FileText, 
   Download, 
   BookOpen, 
-  Layers, 
-  ExternalLink, 
-  Maximize2,
-  Table as TableIcon,
-  Sparkles,
-  GraduationCap
+  Maximize2
 } from 'lucide-react';
-import { PROJECT_AUTHORS, PROJECT_METADATA } from '../core/thesisData.ts';
 
 export const ThesisRepositoryExplorer: React.FC = () => {
   const [selectedDoc, setSelectedDoc] = useState<'thesis' | 'abstract' | 'poster'>('poster');
@@ -29,28 +22,28 @@ export const ThesisRepositoryExplorer: React.FC = () => {
   return (
     <div className="space-y-8 py-6">
       {/* Studio Header */}
-      <div className="materials-glass p-6 rounded-2xl border border-slate-800">
+      <div className="materials-glass p-6 rounded-2xl border border-slate-200 bg-white shadow-sm">
         <div className="flex flex-wrap items-center justify-between gap-4">
           <div className="flex items-center gap-3">
-            <div className="p-2 rounded-lg bg-emerald-500/10 text-emerald-400 border border-emerald-500/30">
+            <div className="p-2.5 rounded-xl bg-emerald-100 text-emerald-700 border border-emerald-200">
               <BookOpen className="w-5 h-5" />
             </div>
             <div>
-              <h2 className="text-xl sm:text-2xl font-bold text-white font-heading">
+              <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 font-heading tracking-tight">
                 Academic Master Thesis & Research Repository
               </h2>
-              <p className="text-xs text-slate-400">
+              <p className="text-xs text-slate-600 mt-0.5">
                 Department of Materials Science & Engineering · Faculty of Engineering · University of Moratuwa
               </p>
             </div>
           </div>
 
           {/* Document Switcher Tabs */}
-          <div className="flex items-center gap-1.5 bg-slate-900 p-1 rounded-xl border border-slate-800 text-xs font-mono">
+          <div className="flex items-center gap-1.5 bg-slate-100 p-1 rounded-xl border border-slate-200 text-xs font-mono">
             <button
               onClick={() => setSelectedDoc('poster')}
               className={`px-3 py-1.5 rounded-lg transition-all ${
-                selectedDoc === 'poster' ? 'bg-amber-500/20 text-amber-300 font-bold border border-amber-500/40' : 'text-slate-400 hover:text-white'
+                selectedDoc === 'poster' ? 'bg-amber-600 text-white font-bold shadow-xs' : 'text-slate-600 hover:text-slate-900'
               }`}
             >
               Research Poster (300 DPI)
@@ -58,7 +51,7 @@ export const ThesisRepositoryExplorer: React.FC = () => {
             <button
               onClick={() => setSelectedDoc('thesis')}
               className={`px-3 py-1.5 rounded-lg transition-all ${
-                selectedDoc === 'thesis' ? 'bg-emerald-500/20 text-emerald-300 font-bold border border-emerald-500/40' : 'text-slate-400 hover:text-white'
+                selectedDoc === 'thesis' ? 'bg-emerald-600 text-white font-bold shadow-xs' : 'text-slate-600 hover:text-slate-900'
               }`}
             >
               Master Thesis (149p)
@@ -66,7 +59,7 @@ export const ThesisRepositoryExplorer: React.FC = () => {
             <button
               onClick={() => setSelectedDoc('abstract')}
               className={`px-3 py-1.5 rounded-lg transition-all ${
-                selectedDoc === 'abstract' ? 'bg-cyan-500/20 text-cyan-300 font-bold border border-cyan-500/40' : 'text-slate-400 hover:text-white'
+                selectedDoc === 'abstract' ? 'bg-sky-600 text-white font-bold shadow-xs' : 'text-slate-600 hover:text-slate-900'
               }`}
             >
               IEEE Extended Abstract (6p)
@@ -77,18 +70,18 @@ export const ThesisRepositoryExplorer: React.FC = () => {
 
       {/* Primary Display Area */}
       {selectedDoc === 'poster' && (
-        <div className="materials-glass p-6 sm:p-8 rounded-2xl border border-slate-800 space-y-4">
+        <div className="materials-glass p-6 sm:p-8 rounded-2xl border border-slate-200 bg-white shadow-sm space-y-4">
           <div className="flex flex-wrap items-center justify-between gap-3">
             <div>
               <div className="flex items-center gap-2">
-                <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-amber-500/20 text-amber-400 font-semibold border border-amber-500/30">
+                <span className="text-[10px] font-mono px-2.5 py-1 rounded-full bg-amber-50 text-amber-800 font-bold border border-amber-200">
                   Conference Grade
                 </span>
-                <h3 className="text-lg font-bold text-white font-heading">
+                <h3 className="text-lg font-bold text-slate-900 font-heading">
                   High-Resolution Research Poster (300 DPI)
                 </h3>
               </div>
-              <p className="text-xs text-slate-400 mt-0.5">
+              <p className="text-xs text-slate-600 mt-0.5">
                 Authored by Premakumara H.P.S. & Mayoorathan K. under the supervision of Eng. S.P. Guluwita
               </p>
             </div>
@@ -96,16 +89,16 @@ export const ThesisRepositoryExplorer: React.FC = () => {
             <div className="flex items-center gap-2">
               <button
                 onClick={() => setModalPoster(true)}
-                className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 text-xs font-mono transition-colors"
+                className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-white hover:bg-slate-100 text-slate-700 border border-slate-300 text-xs font-mono transition-colors shadow-xs"
               >
-                <Maximize2 className="w-3.5 h-3.5 text-cyan-400" />
+                <Maximize2 className="w-3.5 h-3.5 text-sky-700" />
                 <span>Fullscreen</span>
               </button>
               <a
                 href="/docs/Research_Poster.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-gradient-to-r from-amber-500 to-emerald-500 text-slate-950 font-bold text-xs font-mono transition-all hover:scale-105"
+                className="flex items-center gap-1.5 px-3.5 py-1.5 rounded-lg bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs font-mono transition-all shadow-sm"
               >
                 <Download className="w-3.5 h-3.5" />
                 <span>Download PDF</span>
@@ -114,7 +107,7 @@ export const ThesisRepositoryExplorer: React.FC = () => {
           </div>
 
           <div 
-            className="relative rounded-xl overflow-hidden border border-slate-800 bg-slate-950 shadow-2xl cursor-pointer group"
+            className="relative rounded-xl overflow-hidden border border-slate-300 bg-slate-950 shadow-md cursor-pointer group"
             onClick={() => setModalPoster(true)}
           >
             <img 
@@ -122,9 +115,9 @@ export const ThesisRepositoryExplorer: React.FC = () => {
               alt="Research Poster 300 DPI" 
               className="w-full h-auto object-contain transition-transform duration-300 group-hover:scale-[1.01]" 
             />
-            <div className="absolute inset-0 bg-slate-950/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
-              <span className="px-4 py-2 rounded-xl bg-slate-900/90 border border-slate-700 text-xs font-bold text-white flex items-center gap-2">
-                <Maximize2 className="w-4 h-4 text-amber-400" />
+            <div className="absolute inset-0 bg-slate-900/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+              <span className="px-4 py-2 rounded-xl bg-white border border-slate-200 text-xs font-bold text-slate-900 flex items-center gap-2 shadow-lg">
+                <Maximize2 className="w-4 h-4 text-emerald-700" />
                 <span>Click to view ultra-high-resolution scan</span>
               </span>
             </div>
@@ -133,16 +126,16 @@ export const ThesisRepositoryExplorer: React.FC = () => {
       )}
 
       {selectedDoc === 'thesis' && (
-        <div className="materials-glass p-6 sm:p-8 rounded-2xl border border-slate-800 space-y-6">
+        <div className="materials-glass p-6 sm:p-8 rounded-2xl border border-slate-200 bg-white shadow-sm space-y-6">
           <div className="flex flex-wrap items-center justify-between gap-3">
             <div>
-              <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-400 font-semibold border border-emerald-500/30">
+              <span className="text-[10px] font-mono px-2.5 py-1 rounded-full bg-emerald-50 text-emerald-800 font-bold border border-emerald-200">
                 149 Pages · 4.7 MB · Master Dissertation
               </span>
-              <h3 className="text-xl font-bold text-white mt-1 font-heading">
+              <h3 className="text-xl font-bold text-slate-900 mt-1 font-heading">
                 Comprehensive Final Year Research Dissertation (Group 24)
               </h3>
-              <p className="text-xs text-slate-400">
+              <p className="text-xs text-slate-600">
                 Degree of Bachelor of Science in Engineering (Honours) in Materials Science & Engineering
               </p>
             </div>
@@ -151,7 +144,7 @@ export const ThesisRepositoryExplorer: React.FC = () => {
               href="/docs/Group_24_Thesis.pdf"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-2 px-4 py-2 rounded-lg bg-emerald-500/20 hover:bg-emerald-500/30 text-emerald-300 border border-emerald-500/40 text-xs font-bold font-mono transition-all"
+              className="flex items-center gap-2 px-4 py-2 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-bold font-mono transition-all shadow-sm"
             >
               <Download className="w-4 h-4" />
               <span>Open / Download Master PDF</span>
@@ -161,13 +154,13 @@ export const ThesisRepositoryExplorer: React.FC = () => {
           {/* Chapter Guide Accordion / Cards */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {chapters.map((ch) => (
-              <div key={ch.num} className="materials-card p-4 border border-slate-800 space-y-2">
+              <div key={ch.num} className="materials-card p-4 border border-slate-200 bg-slate-50 rounded-xl space-y-2 shadow-xs">
                 <div className="flex items-center justify-between text-xs font-mono">
-                  <span className="font-bold text-emerald-400">Chapter {ch.num}</span>
-                  <span className="text-slate-500">pp. {ch.pages}</span>
+                  <span className="font-bold text-emerald-800">Chapter {ch.num}</span>
+                  <span className="text-slate-500 font-medium">pp. {ch.pages}</span>
                 </div>
-                <h4 className="text-sm font-bold text-white font-heading">{ch.title}</h4>
-                <p className="text-xs text-slate-400 leading-relaxed">{ch.desc}</p>
+                <h4 className="text-sm font-bold text-slate-900 font-heading">{ch.title}</h4>
+                <p className="text-xs text-slate-600 leading-relaxed">{ch.desc}</p>
               </div>
             ))}
           </div>
@@ -175,16 +168,16 @@ export const ThesisRepositoryExplorer: React.FC = () => {
       )}
 
       {selectedDoc === 'abstract' && (
-        <div className="materials-glass p-6 sm:p-8 rounded-2xl border border-slate-800 space-y-6">
+        <div className="materials-glass p-6 sm:p-8 rounded-2xl border border-slate-200 bg-white shadow-sm space-y-6">
           <div className="flex flex-wrap items-center justify-between gap-3">
             <div>
-              <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-cyan-500/20 text-cyan-400 font-semibold border border-cyan-500/30">
+              <span className="text-[10px] font-mono px-2.5 py-1 rounded-full bg-sky-50 text-sky-800 font-bold border border-sky-200">
                 6 Pages · Peer-Reviewed IEEE Style
               </span>
-              <h3 className="text-xl font-bold text-white mt-1 font-heading">
+              <h3 className="text-xl font-bold text-slate-900 mt-1 font-heading">
                 Extended Research Abstract & Paper Manuscript
               </h3>
-              <p className="text-xs text-slate-400">
+              <p className="text-xs text-slate-600">
                 Authors: H.P.S. Premakumara, K. Mayoorathan, Eng. S.P. Guluwita
               </p>
             </div>
@@ -193,15 +186,15 @@ export const ThesisRepositoryExplorer: React.FC = () => {
               href="/docs/Extended_Abstract.pdf"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-2 px-4 py-2 rounded-lg bg-cyan-500/20 hover:bg-cyan-500/30 text-cyan-300 border border-cyan-500/40 text-xs font-bold font-mono transition-all"
+              className="flex items-center gap-2 px-4 py-2 rounded-xl bg-sky-600 hover:bg-sky-700 text-white text-xs font-bold font-mono transition-all shadow-sm"
             >
               <Download className="w-4 h-4" />
               <span>Open / Download Abstract PDF</span>
             </a>
           </div>
 
-          <div className="p-5 rounded-xl bg-slate-900 border border-slate-800 text-xs text-slate-300 space-y-3 leading-relaxed">
-            <h4 className="font-bold text-white uppercase tracking-wider text-xs font-mono">
+          <div className="p-5 rounded-xl bg-slate-50 border border-slate-200 text-xs text-slate-700 space-y-3 leading-relaxed shadow-xs">
+            <h4 className="font-bold text-slate-900 uppercase tracking-wider text-xs font-mono">
               Abstract Summary
             </h4>
             <p>
@@ -217,16 +210,16 @@ export const ThesisRepositoryExplorer: React.FC = () => {
       {/* Fullscreen Poster Modal */}
       {modalPoster && (
         <div 
-          className="fixed inset-0 z-50 bg-black/90 backdrop-blur-md flex items-center justify-center p-4 cursor-pointer"
+          className="fixed inset-0 z-50 bg-slate-900/80 backdrop-blur-sm flex items-center justify-center p-4 cursor-pointer"
           onClick={() => setModalPoster(false)}
         >
-          <div className="max-w-6xl max-h-[95vh] bg-slate-900 rounded-2xl overflow-hidden border border-slate-700 p-2">
+          <div className="max-w-6xl max-h-[95vh] bg-white rounded-2xl overflow-hidden border border-slate-200 p-2 shadow-2xl">
             <img 
               src="/figures/research_poster_full_300dpi.png" 
               alt="Research Poster Fullscreen" 
               className="w-full h-full object-contain max-h-[90vh] rounded-xl" 
             />
-            <div className="text-center text-xs text-slate-400 py-2">Click anywhere to close</div>
+            <div className="text-center text-xs text-slate-500 py-2 font-mono">Click anywhere to close</div>
           </div>
         </div>
       )}

@@ -7,13 +7,8 @@ import {
   Check, 
   Copy, 
   Search, 
-  ExternalLink, 
   Table, 
   ShieldCheck, 
-  FileText,
-  Filter,
-  Sparkles,
-  Info,
   GraduationCap
 } from 'lucide-react';
 
@@ -220,33 +215,33 @@ export const RawDataRepository: React.FC = () => {
   return (
     <div className="space-y-8 py-6">
       {/* Repository Main Header & Master Bundle Download */}
-      <div className="materials-glass p-6 sm:p-8 rounded-2xl border border-slate-800 relative overflow-hidden">
-        <div className="absolute top-0 right-0 w-96 h-96 bg-emerald-500/10 rounded-full blur-3xl pointer-events-none -mr-20 -mt-20"></div>
+      <div className="materials-glass p-6 sm:p-8 rounded-2xl border border-slate-200 bg-white shadow-sm relative overflow-hidden">
+        <div className="absolute top-0 right-0 w-96 h-96 bg-emerald-100/40 rounded-full blur-3xl pointer-events-none -mr-20 -mt-20"></div>
 
         <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-6 relative z-10">
           <div className="space-y-2 max-w-2xl">
             <div className="flex flex-wrap items-center gap-2">
-              <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-400 font-semibold border border-emerald-500/30 flex items-center gap-1">
-                <Database className="w-3 h-3" />
+              <span className="text-[10px] font-mono px-2.5 py-1 rounded-full bg-emerald-50 text-emerald-800 font-bold border border-emerald-200 flex items-center gap-1">
+                <Database className="w-3 h-3 text-emerald-600" />
                 Open Science Data Repository
               </span>
-              <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-cyan-500/20 text-cyan-400 font-semibold border border-cyan-500/30">
+              <span className="text-[10px] font-mono px-2.5 py-1 rounded-full bg-sky-50 text-sky-800 font-bold border border-sky-200">
                 7 Datasets · CC-BY 4.0
               </span>
-              <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-amber-500/20 text-amber-400 font-semibold border border-amber-500/30">
+              <span className="text-[10px] font-mono px-2.5 py-1 rounded-full bg-amber-50 text-amber-800 font-bold border border-amber-200">
                 100% Thesis Cross-Checked
               </span>
             </div>
 
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-white font-heading tracking-tight">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 font-heading tracking-tight">
               Research Raw Data Publishing & Download Center
             </h2>
-            <p className="text-xs sm:text-sm text-slate-300 leading-relaxed">
+            <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
               In accordance with academic open-science standards, the complete experimental matrices, SEM-EDS micro-analytical spectra, and material characterization datasets from the 149-page master thesis are publicly hosted and freely accessible for download.
             </p>
 
-            <div className="flex items-center gap-2 text-xs text-slate-400 font-mono pt-1">
-              <GraduationCap className="w-3.5 h-3.5 text-emerald-400" />
+            <div className="flex items-center gap-2 text-xs text-slate-500 font-mono pt-1">
+              <GraduationCap className="w-3.5 h-3.5 text-emerald-600" />
               <span>Dept. of Materials Science & Engineering · University of Moratuwa · Group 24</span>
             </div>
           </div>
@@ -256,12 +251,12 @@ export const RawDataRepository: React.FC = () => {
             <a
               href="/data/Group24_Mortar_Research_Raw_Data_Full.zip"
               download="Group24_Mortar_Research_Raw_Data_Full.zip"
-              className="flex items-center justify-center gap-2.5 px-6 py-3.5 rounded-xl bg-gradient-to-r from-emerald-500 to-teal-600 hover:from-emerald-400 hover:to-teal-500 text-slate-950 font-bold text-sm shadow-[0_0_25px_rgba(16,185,129,0.35)] transition-all transform hover:-translate-y-0.5 active:translate-y-0"
+              className="flex items-center justify-center gap-2.5 px-6 py-3.5 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-sm shadow-sm transition-all"
             >
-              <Archive className="w-5 h-5 text-slate-950" />
+              <Archive className="w-5 h-5 text-white" />
               <span>Download Master Bundle (.ZIP)</span>
             </a>
-            <div className="text-[11px] font-mono text-slate-400 text-center lg:text-right">
+            <div className="text-[11px] font-mono text-slate-500 text-center lg:text-right">
               Includes all 7 CSV files + Academic Manifest
             </div>
           </div>
@@ -272,12 +267,12 @@ export const RawDataRepository: React.FC = () => {
       <div>
         <div className="flex items-center justify-between mb-4">
           <div className="flex items-center gap-2">
-            <FileSpreadsheet className="w-4 h-4 text-emerald-400" />
-            <h3 className="text-sm font-bold text-white font-heading uppercase tracking-wider">
+            <FileSpreadsheet className="w-4 h-4 text-emerald-600" />
+            <h3 className="text-sm font-bold text-slate-900 font-heading uppercase tracking-wider">
               Individual Experimental Datasets (7 CSV Files)
             </h3>
           </div>
-          <span className="text-xs font-mono text-slate-400">
+          <span className="text-xs font-mono text-slate-500">
             Click any card to inspect or download directly
           </span>
         </div>
@@ -291,27 +286,27 @@ export const RawDataRepository: React.FC = () => {
                 onClick={() => setSelectedId(ds.id)}
                 className={`p-4 rounded-xl border transition-all cursor-pointer flex flex-col justify-between ${
                   isSelected
-                    ? 'bg-slate-800/90 border-emerald-500/60 shadow-[0_0_18px_rgba(16,185,129,0.2)]'
-                    : 'bg-slate-900/60 border-slate-800 hover:border-slate-700 hover:bg-slate-800/40'
+                    ? 'bg-emerald-50/70 border-emerald-500 shadow-sm'
+                    : 'bg-white border-slate-200 hover:border-slate-300 hover:bg-slate-50 shadow-xs'
                 }`}
               >
                 <div className="space-y-2">
                   <div className="flex items-center justify-between text-[11px] font-mono">
-                    <span className="px-2 py-0.5 rounded bg-slate-800 text-slate-300 font-semibold border border-slate-700">
+                    <span className="px-2 py-0.5 rounded bg-slate-100 text-slate-700 font-semibold border border-slate-200">
                       {ds.rowsCount} Rows × {ds.colsCount} Cols
                     </span>
-                    <span className="text-emerald-400 font-mono text-[10px]">{ds.thesisRef.split(',')[0]}</span>
+                    <span className="text-emerald-800 font-mono text-[10px] font-bold">{ds.thesisRef.split(',')[0]}</span>
                   </div>
 
-                  <h4 className="text-xs sm:text-sm font-bold text-white line-clamp-1 font-heading">
+                  <h4 className="text-xs sm:text-sm font-bold text-slate-900 line-clamp-1 font-heading">
                     {ds.title}
                   </h4>
-                  <p className="text-[11px] text-slate-400 line-clamp-2 leading-relaxed">
+                  <p className="text-[11px] text-slate-600 line-clamp-2 leading-relaxed">
                     {ds.description}
                   </p>
                 </div>
 
-                <div className="mt-4 pt-3 border-t border-slate-800 flex items-center justify-between text-xs font-mono">
+                <div className="mt-4 pt-3 border-t border-slate-200 flex items-center justify-between text-xs font-mono">
                   <span className="text-[11px] text-slate-500 truncate max-w-[170px]">
                     {ds.filename}
                   </span>
@@ -319,9 +314,9 @@ export const RawDataRepository: React.FC = () => {
                     href={`/data/${ds.filename}`}
                     download={ds.filename}
                     onClick={(e) => e.stopPropagation()}
-                    className="flex items-center gap-1.5 px-2.5 py-1 rounded bg-emerald-500/20 hover:bg-emerald-500/30 text-emerald-300 border border-emerald-500/40 transition-colors"
+                    className="flex items-center gap-1.5 px-2.5 py-1 rounded bg-emerald-100 hover:bg-emerald-200 text-emerald-800 font-bold border border-emerald-300 transition-colors"
                   >
-                    <Download className="w-3.5 h-3.5" />
+                    <Download className="w-3.5 h-3.5 text-emerald-700" />
                     <span>CSV</span>
                   </a>
                 </div>
@@ -332,17 +327,17 @@ export const RawDataRepository: React.FC = () => {
       </div>
 
       {/* In-Browser Interactive Data Table Explorer */}
-      <div className="materials-glass p-6 rounded-2xl border border-slate-800 space-y-4">
+      <div className="materials-glass p-6 rounded-2xl border border-slate-200 bg-white shadow-sm space-y-4">
         {/* Table Toolbar */}
-        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-4 border-b border-slate-800">
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-4 border-b border-slate-200">
           <div>
             <div className="flex items-center gap-2">
-              <Table className="w-5 h-5 text-cyan-400" />
-              <h3 className="text-base font-bold text-white font-heading">
+              <Table className="w-5 h-5 text-sky-700" />
+              <h3 className="text-base font-bold text-slate-900 font-heading">
                 {currentDataset.title}
               </h3>
             </div>
-            <p className="text-xs text-slate-400 mt-0.5 font-mono">
+            <p className="text-xs text-slate-500 mt-0.5 font-mono">
               Source: {currentDataset.thesisRef}
             </p>
           </div>
@@ -356,23 +351,23 @@ export const RawDataRepository: React.FC = () => {
                 placeholder="Search rows..."
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
-                className="pl-8 pr-3 py-1.5 rounded-lg bg-slate-900 border border-slate-700 text-xs text-slate-200 placeholder-slate-500 focus:outline-none focus:border-cyan-500 font-mono w-44 sm:w-56"
+                className="pl-8 pr-3 py-1.5 rounded-lg bg-slate-50 border border-slate-300 text-xs text-slate-800 placeholder-slate-400 focus:outline-none focus:border-emerald-600 font-mono w-44 sm:w-56"
               />
             </div>
 
             {/* Copy CSV Button */}
             <button
               onClick={handleCopyCsv}
-              className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 text-xs font-mono transition-colors"
+              className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-white hover:bg-slate-100 text-slate-700 border border-slate-300 text-xs font-mono transition-colors shadow-xs"
             >
               {copiedStatus ? (
                 <>
-                  <Check className="w-3.5 h-3.5 text-emerald-400" />
-                  <span className="text-emerald-400 font-bold">Copied!</span>
+                  <Check className="w-3.5 h-3.5 text-emerald-600" />
+                  <span className="text-emerald-700 font-bold">Copied!</span>
                 </>
               ) : (
                 <>
-                  <Copy className="w-3.5 h-3.5 text-slate-400" />
+                  <Copy className="w-3.5 h-3.5 text-slate-500" />
                   <span>Copy CSV</span>
                 </>
               )}
@@ -382,40 +377,40 @@ export const RawDataRepository: React.FC = () => {
             <a
               href={`/data/${currentDataset.filename}`}
               download={currentDataset.filename}
-              className="flex items-center gap-1.5 px-3.5 py-1.5 rounded-lg bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-bold text-xs font-mono transition-colors"
+              className="flex items-center gap-1.5 px-3.5 py-1.5 rounded-lg bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs font-mono transition-colors shadow-xs"
             >
-              <Download className="w-3.5 h-3.5 text-slate-950" />
+              <Download className="w-3.5 h-3.5 text-white" />
               <span>Download {currentDataset.filename}</span>
             </a>
           </div>
         </div>
 
         {/* Live Table View */}
-        <div className="overflow-x-auto rounded-xl border border-slate-800 max-h-[460px] scrollbar-thin">
+        <div className="overflow-x-auto rounded-xl border border-slate-200 max-h-[460px] scrollbar-thin">
           <table className="w-full text-xs font-mono text-left whitespace-nowrap">
-            <thead className="bg-slate-900 sticky top-0 z-10 border-b border-slate-800 text-slate-400">
+            <thead className="bg-slate-100 sticky top-0 z-10 border-b border-slate-200 text-slate-700">
               <tr>
-                <th className="px-3.5 py-2.5 bg-slate-900/95 text-slate-500">#</th>
+                <th className="px-3.5 py-2.5 bg-slate-100 text-slate-500">#</th>
                 {currentDataset.headers.map((hdr, idx) => (
-                  <th key={idx} className="px-3.5 py-2.5 font-semibold text-slate-300">
+                  <th key={idx} className="px-3.5 py-2.5 font-bold text-slate-800">
                     {hdr}
                   </th>
                 ))}
               </tr>
             </thead>
-            <tbody className="divide-y divide-slate-800/60 text-slate-300">
+            <tbody className="divide-y divide-slate-200 text-slate-700">
               {filteredRows.length > 0 ? (
                 filteredRows.map((row, rIdx) => (
-                  <tr key={rIdx} className="hover:bg-slate-800/40 transition-colors">
-                    <td className="px-3.5 py-2 text-slate-500 text-[11px]">{rIdx + 1}</td>
+                  <tr key={rIdx} className="hover:bg-slate-50 transition-colors">
+                    <td className="px-3.5 py-2 text-slate-400 text-[11px]">{rIdx + 1}</td>
                     {row.map((cell, cIdx) => (
                       <td key={cIdx} className="px-3.5 py-2">
                         {typeof cell === 'number' ? (
-                          <span className={cIdx === 0 ? 'font-bold text-white' : 'text-slate-200'}>
+                          <span className={cIdx === 0 ? 'font-bold text-slate-900' : 'text-slate-800'}>
                             {cell}
                           </span>
                         ) : (
-                          <span className={cIdx === 0 ? 'font-bold text-emerald-400' : 'text-slate-300'}>
+                          <span className={cIdx === 0 ? 'font-bold text-emerald-800' : 'text-slate-700'}>
                             {cell}
                           </span>
                         )}
@@ -435,26 +430,26 @@ export const RawDataRepository: React.FC = () => {
         </div>
 
         {/* Table Footer Summary */}
-        <div className="flex flex-wrap items-center justify-between gap-3 pt-2 text-[11px] font-mono text-slate-400">
+        <div className="flex flex-wrap items-center justify-between gap-3 pt-2 text-[11px] font-mono text-slate-500">
           <span>Showing {filteredRows.length} of {currentDataset.rowsCount} total rows</span>
-          <span className="text-emerald-400 font-semibold">Checksum Verified against University of Moratuwa Master Copy</span>
+          <span className="text-emerald-700 font-semibold">Checksum Verified against University of Moratuwa Master Copy</span>
         </div>
       </div>
 
       {/* Academic Citation & Open Access Card */}
-      <div className="materials-glass p-6 rounded-2xl border border-slate-800 space-y-4">
+      <div className="materials-glass p-6 rounded-2xl border border-slate-200 bg-white shadow-sm space-y-4">
         <div className="flex items-center gap-2">
-          <ShieldCheck className="w-5 h-5 text-emerald-400" />
-          <h3 className="text-sm font-bold text-white font-heading">
+          <ShieldCheck className="w-5 h-5 text-emerald-700" />
+          <h3 className="text-sm font-bold text-slate-900 font-heading">
             Academic Attribution & BibTeX Citation
           </h3>
         </div>
-        <p className="text-xs text-slate-300 leading-relaxed">
+        <p className="text-xs text-slate-600 leading-relaxed">
           If you utilize any experimental data, regression models, or microstructural findings from this repository in your research, thesis, or publications, please cite as follows:
         </p>
 
         {/* BibTeX Code Box */}
-        <div className="p-4 rounded-xl bg-slate-950 border border-slate-800 font-mono text-xs text-slate-300 overflow-x-auto relative">
+        <div className="p-4 rounded-xl bg-slate-900 border border-slate-800 font-mono text-xs text-slate-200 overflow-x-auto relative shadow-sm">
           <pre>{`@mastersthesis{Premakumara2026Mortar,
   author       = {Premakumara, H. P. S. and Mayoorathan, K.},
   title        = {Synergistic Effects of Rice Husk Ash and Polypropylene Fiber on the Performance of Modified Expanded Polystyrene Cement Mortar},

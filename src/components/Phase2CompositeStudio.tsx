@@ -77,23 +77,23 @@ export const Phase2CompositeStudio: React.FC = () => {
   return (
     <div className="space-y-8 py-6">
       {/* Studio Header */}
-      <div className="materials-glass p-6 rounded-2xl border border-slate-800">
+      <div className="materials-glass p-6 rounded-2xl border border-slate-200">
         <div className="flex items-center gap-3 mb-2">
-          <div className="p-2 rounded-lg bg-cyan-500/10 text-cyan-400 border border-cyan-500/30">
+          <div className="p-2 rounded-lg bg-sky-50 text-sky-800 border border-sky-300 shadow-xs">
             <Activity className="w-5 h-5" />
           </div>
           <div>
-            <h2 className="text-xl sm:text-2xl font-bold text-white font-heading">
+            <h2 className="text-xl sm:text-2xl font-bold text-slate-900 font-heading">
               Phase 2: Modified Lightweight Composite (RHA × EPS)
             </h2>
-            <p className="text-xs text-slate-400">
+            <p className="text-xs text-slate-600">
               Statistical interaction modeling of chemical pozzolanic densification vs physical polymer void inclusion (Baseline locked: w/b = 0.425, s/b = 2.25)
             </p>
           </div>
         </div>
 
         {/* Response Selector */}
-        <div className="flex flex-wrap gap-2 mt-4 pt-4 border-t border-slate-800">
+        <div className="flex flex-wrap gap-2 mt-4 pt-4 border-t border-slate-200">
           {(Object.keys(meta) as Phase2Var[]).map((vKey) => {
             const isSelected = activeVar === vKey;
             const item = meta[vKey];
@@ -101,10 +101,10 @@ export const Phase2CompositeStudio: React.FC = () => {
               <button
                 key={vKey}
                 onClick={() => setActiveVar(vKey)}
-                className={`px-3 py-2 rounded-xl text-xs font-medium transition-all ${
+                className={`px-3 py-2 rounded-xl text-xs font-semibold transition-all cursor-pointer ${
                   isSelected
-                    ? 'bg-gradient-to-r from-emerald-500/20 to-cyan-500/20 text-white border border-emerald-500/50 shadow-[0_0_12px_rgba(16,185,129,0.2)]'
-                    : 'bg-slate-900/60 text-slate-400 hover:text-slate-200 border border-slate-800'
+                    ? 'bg-sky-50 text-sky-900 border border-sky-400 font-bold shadow-xs'
+                    : 'bg-white text-slate-600 hover:text-slate-950 border border-slate-200 hover:bg-slate-50'
                 }`}
               >
                 {item.name}
@@ -116,25 +116,25 @@ export const Phase2CompositeStudio: React.FC = () => {
 
       {/* Interactive Dual-Slider Predictor */}
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-        <div className="lg:col-span-2 materials-glass p-6 rounded-2xl border border-slate-800 space-y-6">
+        <div className="lg:col-span-2 materials-glass p-6 rounded-2xl border border-slate-200 space-y-6">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-2">
-              <Sliders className="w-4 h-4 text-cyan-400" />
-              <h3 className="text-sm font-bold text-white uppercase tracking-wider font-heading">
+              <Sliders className="w-4 h-4 text-sky-700" />
+              <h3 className="text-sm font-bold text-slate-900 uppercase tracking-wider font-heading">
                 Interactive Ternary Workspace Predictor
               </h3>
             </div>
-            <span className="text-[11px] font-mono text-cyan-400 px-2 py-0.5 rounded bg-cyan-500/10 border border-cyan-500/30">
+            <span className="text-[11px] font-mono text-sky-800 px-2 py-0.5 rounded bg-sky-50 border border-sky-300 font-bold">
               R² = {curMeta.r2} · F = {curMeta.fVal} (p = {curMeta.pVal})
             </span>
           </div>
 
           {/* Sliders */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 p-4 rounded-xl bg-slate-900/80 border border-slate-800">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 p-4 rounded-xl bg-slate-50 border border-slate-200">
             <div>
-              <div className="flex items-center justify-between text-xs text-slate-300 mb-1.5 font-mono">
+              <div className="flex items-center justify-between text-xs text-slate-700 mb-1.5 font-mono font-medium">
                 <span>RHA Mass Replacement</span>
-                <span className="font-bold text-amber-400">{sliderRha.toFixed(1)}%</span>
+                <span className="font-bold text-amber-800">{sliderRha.toFixed(1)}%</span>
               </div>
               <input 
                 type="range" 
@@ -143,9 +143,9 @@ export const Phase2CompositeStudio: React.FC = () => {
                 step="0.5"
                 value={sliderRha} 
                 onChange={(e) => setSliderRha(parseFloat(e.target.value))}
-                className="w-full accent-amber-500 cursor-pointer"
+                className="w-full accent-amber-600 cursor-pointer"
               />
-              <div className="flex justify-between text-[10px] text-slate-500 font-mono mt-1">
+              <div className="flex justify-between text-[10px] text-slate-500 font-mono mt-1 font-medium">
                 <span>0% (Control)</span>
                 <span>10% (Optimum)</span>
                 <span>20% (Max SCM)</span>
@@ -153,9 +153,9 @@ export const Phase2CompositeStudio: React.FC = () => {
             </div>
 
             <div>
-              <div className="flex items-center justify-between text-xs text-slate-300 mb-1.5 font-mono">
+              <div className="flex items-center justify-between text-xs text-slate-700 mb-1.5 font-mono font-medium">
                 <span>Coated EPS Volume Replacement</span>
-                <span className="font-bold text-cyan-400">{sliderEps.toFixed(1)}%</span>
+                <span className="font-bold text-sky-800">{sliderEps.toFixed(1)}%</span>
               </div>
               <input 
                 type="range" 
@@ -164,9 +164,9 @@ export const Phase2CompositeStudio: React.FC = () => {
                 step="1"
                 value={sliderEps} 
                 onChange={(e) => setSliderEps(parseFloat(e.target.value))}
-                className="w-full accent-cyan-500 cursor-pointer"
+                className="w-full accent-sky-600 cursor-pointer"
               />
-              <div className="flex justify-between text-[10px] text-slate-500 font-mono mt-1">
+              <div className="flex justify-between text-[10px] text-slate-500 font-mono mt-1 font-medium">
                 <span>0% (Dense)</span>
                 <span>20% (Optimum)</span>
                 <span>40% (Extreme LW)</span>
@@ -176,106 +176,106 @@ export const Phase2CompositeStudio: React.FC = () => {
 
           {/* Real-Time Predicted Performance Cards */}
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
-            <div className="materials-card p-3 border border-slate-800">
-              <span className="text-[10px] text-slate-400 font-mono">Compressive (fc)</span>
-              <div className="text-lg font-bold text-emerald-400 font-mono mt-0.5">
-                {predicted.fc.toFixed(2)} <span className="text-xs text-slate-400">MPa</span>
+            <div className="materials-card p-3 border border-slate-200 bg-white shadow-xs">
+              <span className="text-[10px] text-slate-500 font-mono font-medium">Compressive (fc)</span>
+              <div className="text-lg font-bold text-emerald-800 font-mono mt-0.5">
+                {predicted.fc.toFixed(2)} <span className="text-xs text-slate-500 font-normal">MPa</span>
               </div>
             </div>
 
-            <div className="materials-card p-3 border border-slate-800">
-              <span className="text-[10px] text-slate-400 font-mono">Flexural (fr)</span>
-              <div className="text-lg font-bold text-amber-400 font-mono mt-0.5">
-                {predicted.fr.toFixed(2)} <span className="text-xs text-slate-400">MPa</span>
+            <div className="materials-card p-3 border border-slate-200 bg-white shadow-xs">
+              <span className="text-[10px] text-slate-500 font-mono font-medium">Flexural (fr)</span>
+              <div className="text-lg font-bold text-amber-800 font-mono mt-0.5">
+                {predicted.fr.toFixed(2)} <span className="text-xs text-slate-500 font-normal">MPa</span>
               </div>
             </div>
 
-            <div className="materials-card p-3 border border-slate-800">
-              <span className="text-[10px] text-slate-400 font-mono">Apparent Porosity</span>
-              <div className="text-lg font-bold text-cyan-400 font-mono mt-0.5">
-                {predicted.porosity.toFixed(2)} <span className="text-xs text-slate-400">%</span>
+            <div className="materials-card p-3 border border-slate-200 bg-white shadow-xs">
+              <span className="text-[10px] text-slate-500 font-mono font-medium">Apparent Porosity</span>
+              <div className="text-lg font-bold text-sky-800 font-mono mt-0.5">
+                {predicted.porosity.toFixed(2)} <span className="text-xs text-slate-500 font-normal">%</span>
               </div>
             </div>
 
-            <div className="materials-card p-3 border border-slate-800">
-              <span className="text-[10px] text-slate-400 font-mono">Toughness (T)</span>
-              <div className="text-lg font-bold text-purple-400 font-mono mt-0.5">
-                {predicted.toughness.toFixed(2)} <span className="text-xs text-slate-400">mJ/mm³</span>
+            <div className="materials-card p-3 border border-slate-200 bg-white shadow-xs">
+              <span className="text-[10px] text-slate-500 font-mono font-medium">Toughness (T)</span>
+              <div className="text-lg font-bold text-purple-800 font-mono mt-0.5">
+                {predicted.toughness.toFixed(2)} <span className="text-xs text-slate-500 font-normal">mJ/mm³</span>
               </div>
             </div>
           </div>
 
           {/* Model Formula */}
-          <div className="p-4 rounded-xl bg-slate-900 border border-slate-800 space-y-2">
-            <div className="text-xs text-slate-400 font-mono">
+          <div className="p-4 rounded-xl bg-slate-50 border border-slate-200 space-y-2 shadow-xs">
+            <div className="text-xs text-slate-600 font-mono font-bold">
               Thesis True-Fit Response Surface Equation (Section 5.3.4):
             </div>
-            <div className="text-xs text-cyan-300 font-mono overflow-x-auto py-1">
+            <div className="text-xs text-sky-900 font-mono overflow-x-auto py-1 font-semibold">
               <MathView math={curMeta.formula} block />
             </div>
           </div>
         </div>
 
         {/* Right Col: Antagonistic Interaction Analysis */}
-        <div className="materials-glass p-6 rounded-2xl border border-slate-800 space-y-4">
-          <div className="flex items-center gap-2 text-xs font-bold text-amber-400 uppercase tracking-wider">
-            <AlertCircle className="w-4 h-4" />
+        <div className="materials-glass p-6 rounded-2xl border border-slate-200 space-y-4 bg-white">
+          <div className="flex items-center gap-2 text-xs font-bold text-amber-900 uppercase tracking-wider">
+            <AlertCircle className="w-4 h-4 text-amber-700" />
             <span>The Antagonistic (RHA × EPS) Interaction</span>
           </div>
 
-          <p className="text-xs text-slate-300 leading-relaxed">
-            In the regression equation for compressive strength, the interaction coefficient for <MathView math="(RHA \cdot EPS)" /> is negative (<strong className="text-rose-400">-0.015</strong>, p = 0.0292).
+          <p className="text-xs text-slate-700 leading-relaxed">
+            In the regression equation for compressive strength, the interaction coefficient for <MathView math="(RHA \cdot EPS)" /> is negative (<strong className="text-rose-700 font-bold">-0.015</strong>, p = 0.0292).
           </p>
 
-          <div className="p-3.5 rounded-xl bg-slate-900 border border-slate-800 space-y-2 text-xs">
-            <div className="text-slate-200 font-semibold">Microstructural Meaning:</div>
-            <ul className="list-disc list-inside space-y-1.5 text-slate-400 text-[11px] leading-relaxed">
+          <div className="p-3.5 rounded-xl bg-slate-50 border border-slate-200 space-y-2 text-xs">
+            <div className="text-slate-900 font-bold">Microstructural Meaning:</div>
+            <ul className="list-disc list-inside space-y-1.5 text-slate-700 text-[11px] leading-relaxed">
               <li>
-                <strong className="text-amber-300">At low EPS (0% - 20%):</strong> RHA aggressively densifies the continuous cement skeleton, driving strength upward (35.58 → 47.68 MPa).
+                <strong className="text-amber-800">At low EPS (0% - 20%):</strong> RHA aggressively densifies the continuous cement skeleton, driving strength upward (35.58 → 47.68 MPa).
               </li>
               <li>
-                <strong className="text-rose-400">At high EPS (40%):</strong> The mineral skeleton is physically severed by soft compressible polymer spheres. Mix S2M3 (0% RHA) collapses to 4.38 MPa, and adding 20% RHA (S2M4) yields 4.29 MPa.
+                <strong className="text-rose-700">At high EPS (40%):</strong> The mineral skeleton is physically severed by soft compressible polymer spheres. Mix S2M3 (0% RHA) collapses to 4.38 MPa, and adding 20% RHA (S2M4) yields 4.29 MPa.
               </li>
             </ul>
           </div>
 
-          <div className="p-3 rounded-lg bg-cyan-500/10 border border-cyan-500/30 text-[11px] text-cyan-300">
+          <div className="p-3 rounded-lg bg-sky-50 border border-sky-300 text-[11px] text-sky-950 font-medium shadow-xs">
             <strong>Key Conclusion:</strong> Pozzolanic healing is structurally powerless if the mineral skeleton is physically broken by excessive voids. <strong>20% EPS is the absolute boundary limit.</strong>
           </div>
         </div>
       </div>
 
       {/* Complete Phase 2 CCF Data Table (Table 27 & 28) */}
-      <div className="materials-glass p-6 sm:p-8 rounded-2xl border border-slate-800 space-y-4">
+      <div className="materials-glass p-6 sm:p-8 rounded-2xl border border-slate-200 space-y-4">
         <div className="flex flex-wrap items-center justify-between gap-3">
           <div className="flex items-center gap-2">
-            <TableIcon className="w-5 h-5 text-cyan-400" />
-            <h3 className="text-lg font-bold text-white font-heading">
+            <TableIcon className="w-5 h-5 text-sky-700" />
+            <h3 className="text-lg font-bold text-slate-900 font-heading">
               Table 27 & 28: Phase 2 CCF Consolidated Experimental Results
             </h3>
           </div>
-          <span className="text-xs text-slate-400 font-mono">11 Modified Lightweight Formulations</span>
+          <span className="text-xs text-slate-600 font-mono">11 Modified Lightweight Formulations</span>
         </div>
 
         <div className="overflow-x-auto">
-          <table className="w-full text-left text-xs border border-slate-800 rounded-xl overflow-hidden font-mono">
-            <thead className="bg-slate-900/90 text-slate-300 text-[11px] uppercase">
+          <table className="w-full text-left text-xs border border-slate-200 rounded-xl overflow-hidden font-mono shadow-xs">
+            <thead className="bg-slate-100 text-slate-700 text-[11px] uppercase font-bold border-b border-slate-200">
               <tr>
-                <th className="p-2.5 border-b border-slate-800">Mix ID</th>
-                <th className="p-2.5 border-b border-slate-800">Run Type</th>
-                <th className="p-2.5 border-b border-slate-800 text-amber-300">RHA (%)</th>
-                <th className="p-2.5 border-b border-slate-800 text-cyan-300">EPS,c (%)</th>
-                <th className="p-2.5 border-b border-slate-800 text-amber-300">fr (MPa)</th>
-                <th className="p-2.5 border-b border-slate-800 text-emerald-300">fc (MPa)</th>
-                <th className="p-2.5 border-b border-slate-800 text-slate-400">Theo ρ</th>
-                <th className="p-2.5 border-b border-slate-800 text-slate-300">Fresh ρ</th>
-                <th className="p-2.5 border-b border-slate-800 text-white">28d ρ</th>
-                <th className="p-2.5 border-b border-slate-800 text-cyan-300">WA (%)</th>
-                <th className="p-2.5 border-b border-slate-800 text-cyan-400">Porosity (%)</th>
-                <th className="p-2.5 border-b border-slate-800 text-purple-300">Toughness</th>
+                <th className="p-2.5">Mix ID</th>
+                <th className="p-2.5">Run Type</th>
+                <th className="p-2.5 text-amber-800">RHA (%)</th>
+                <th className="p-2.5 text-sky-800">EPS,c (%)</th>
+                <th className="p-2.5 text-amber-800">fr (MPa)</th>
+                <th className="p-2.5 text-emerald-800">fc (MPa)</th>
+                <th className="p-2.5 text-slate-600">Theo ρ</th>
+                <th className="p-2.5 text-slate-600">Fresh ρ</th>
+                <th className="p-2.5 text-slate-900">28d ρ</th>
+                <th className="p-2.5 text-sky-800">WA (%)</th>
+                <th className="p-2.5 text-sky-800">Porosity (%)</th>
+                <th className="p-2.5 text-purple-800">Toughness</th>
               </tr>
             </thead>
-            <tbody className="divide-y divide-slate-800/60 text-slate-300">
+            <tbody className="divide-y divide-slate-200 text-slate-800 bg-white">
               {PHASE_2_DATA.map((row) => {
                 const isCenter = row.type.includes('Center');
                 const isExtreme = row.eps === 40;
@@ -289,26 +289,26 @@ export const Phase2CompositeStudio: React.FC = () => {
                     }}
                     className={`cursor-pointer transition-colors ${
                       selectedRun.id === row.id 
-                        ? 'bg-cyan-500/15 font-semibold text-white' 
+                        ? 'bg-sky-50 text-sky-950 font-bold' 
                         : isCenter 
-                        ? 'bg-emerald-500/10 hover:bg-emerald-500/15 text-emerald-300' 
+                        ? 'bg-emerald-50/50 hover:bg-emerald-100/60' 
                         : isExtreme 
-                        ? 'bg-rose-500/5 hover:bg-rose-500/10 text-rose-300' 
-                        : 'hover:bg-slate-800/30'
+                        ? 'bg-rose-50/40 hover:bg-rose-100/50' 
+                        : 'hover:bg-slate-50'
                     }`}
                   >
-                    <td className="p-2.5 font-bold text-white">{row.id}</td>
-                    <td className="p-2.5 text-[10px] text-slate-400">{row.type}</td>
-                    <td className="p-2.5 text-amber-300 font-bold">{row.rha}%</td>
-                    <td className="p-2.5 text-cyan-300 font-bold">{row.eps}%</td>
-                    <td className="p-2.5 text-amber-300 font-bold">{row.fr.toFixed(2)}</td>
-                    <td className="p-2.5 text-emerald-400 font-bold">{row.fc.toFixed(2)}</td>
-                    <td className="p-2.5 text-slate-400">{row.theoRho}</td>
-                    <td className="p-2.5 text-slate-300">{row.freshRho}</td>
-                    <td className="p-2.5 text-white font-bold">{row.rho28d}</td>
-                    <td className="p-2.5 text-cyan-300">{row.wa.toFixed(2)}%</td>
-                    <td className="p-2.5 text-cyan-400 font-bold">{row.porosity.toFixed(2)}%</td>
-                    <td className="p-2.5 text-purple-300">{row.toughness.toFixed(2)}</td>
+                    <td className="p-2.5 font-bold text-slate-900">{row.id}</td>
+                    <td className="p-2.5 text-[10px] text-slate-600">{row.type}</td>
+                    <td className="p-2.5 text-amber-800 font-bold">{row.rha}%</td>
+                    <td className="p-2.5 text-sky-800 font-bold">{row.eps}%</td>
+                    <td className="p-2.5 text-amber-800 font-bold">{row.fr.toFixed(2)}</td>
+                    <td className="p-2.5 text-emerald-800 font-bold">{row.fc.toFixed(2)}</td>
+                    <td className="p-2.5 text-slate-600">{row.theoRho}</td>
+                    <td className="p-2.5 text-slate-600">{row.freshRho}</td>
+                    <td className="p-2.5 text-slate-900 font-bold">{row.rho28d}</td>
+                    <td className="p-2.5 text-sky-800">{row.wa.toFixed(2)}%</td>
+                    <td className="p-2.5 text-sky-800 font-bold">{row.porosity.toFixed(2)}%</td>
+                    <td className="p-2.5 text-purple-800">{row.toughness.toFixed(2)}</td>
                   </tr>
                 );
               })}

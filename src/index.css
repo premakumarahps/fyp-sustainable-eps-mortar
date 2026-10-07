@@ -9,13 +9,14 @@
 
   body {
     font-family: var(--font-body);
-    background-color: #070b14;
-    color: #e2e8f0;
+    background-color: #f8fafc;
+    color: #1e293b;
     overflow-x: hidden;
   }
 
   h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-heading);
+    color: #0f172a;
   }
 
   code, pre, .font-mono {
@@ -23,59 +24,61 @@
   }
 }
 
-/* Custom Materials Science Glass & Elevation Classes */
+/* Custom Materials Science Glass & Elevation Classes for Professional Light Theme */
 .materials-glass {
-  background: rgba(15, 23, 42, 0.75);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  border: 1px solid rgba(51, 65, 85, 0.5);
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 4px 20px -4px rgba(0, 0, 0, 0.05);
 }
 
 .materials-card {
-  background: #0d1527;
-  border: 1px solid #1e293b;
-  border-radius: 0.75rem;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.875rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.04), 0 1px 2px -1px rgba(0, 0, 0, 0.04);
   transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .materials-card:hover {
-  border-color: rgba(16, 185, 129, 0.4);
-  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.5), 0 0 15px 0 rgba(16, 185, 129, 0.15);
+  border-color: rgba(5, 150, 105, 0.45);
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.08), 0 0 15px 0 rgba(5, 150, 105, 0.08);
 }
 
 .csh-glow {
-  box-shadow: 0 0 20px -2px rgba(16, 185, 129, 0.3);
+  box-shadow: 0 0 20px -2px rgba(16, 185, 129, 0.2);
 }
 
 .rha-glow {
-  box-shadow: 0 0 20px -2px rgba(245, 158, 11, 0.3);
+  box-shadow: 0 0 20px -2px rgba(245, 158, 11, 0.2);
 }
 
 .eps-glow {
-  box-shadow: 0 0 20px -2px rgba(6, 182, 212, 0.3);
+  box-shadow: 0 0 20px -2px rgba(6, 182, 212, 0.2);
 }
 
 .fiber-glow {
-  box-shadow: 0 0 20px -2px rgba(168, 85, 247, 0.3);
+  box-shadow: 0 0 20px -2px rgba(168, 85, 247, 0.2);
 }
 
-/* Smooth Custom Scrollbar */
+/* Smooth Custom Scrollbar for Light Theme */
 ::-webkit-scrollbar {
   width: 8px;
   height: 8px;
 }
 
 ::-webkit-scrollbar-track {
-  background: #070b14;
+  background: #f1f5f9;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #1e293b;
+  background: #cbd5e1;
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #334155;
+  background: #94a3b8;
 }
 
 /* Dynamic Live Animated Scanner & Radar Effects */
@@ -85,10 +88,10 @@
     opacity: 0;
   }
   20% {
-    opacity: 0.8;
+    opacity: 0.85;
   }
   80% {
-    opacity: 0.8;
+    opacity: 0.85;
   }
   100% {
     transform: translateY(100%);
@@ -110,3 +113,61 @@
 .radar-sweep-animation {
   animation: radarSweep 3.5s cubic-bezier(0.4, 0, 0.2, 1) infinite;
 }
+
+/* Professional Academic Hero Animations */
+@keyframes titleShimmer {
+  0% {
+    background-position: 0% 50%;
+    filter: drop-shadow(0 2px 16px rgba(16, 185, 129, 0.20));
+  }
+  50% {
+    background-position: 100% 50%;
+    filter: drop-shadow(0 3px 22px rgba(6, 182, 212, 0.32));
+  }
+  100% {
+    background-position: 0% 50%;
+    filter: drop-shadow(0 2px 16px rgba(16, 185, 129, 0.20));
+  }
+}
+
+.animate-title-gradient {
+  background-size: 250% 250%;
+  animation: titleShimmer 7s ease-in-out infinite;
+}
+
+@keyframes heroFadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-hero-fade {
+  animation: heroFadeInUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.text-justify-academic {
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
+}
+
+@keyframes cursorBlink {
+  0%, 100% {
+    opacity: 1;
+    box-shadow: 0 0 14px rgba(16, 185, 129, 0.85);
+  }
+  50% {
+    opacity: 0.15;
+    box-shadow: none;
+  }
+}
+
+.animate-typewriter-cursor {
+  animation: cursorBlink 0.85s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
